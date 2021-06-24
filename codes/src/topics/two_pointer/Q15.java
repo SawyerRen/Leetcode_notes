@@ -32,11 +32,17 @@ Constraints:
  */
 public class Q15 {
     public List<List<Integer>> threeSum(int[] nums) {
+        // 首先对数组进行排序
         Arrays.sort(nums);
         List<List<Integer>> res = new ArrayList<>();
         for (int i = 0; i < nums.length; i++) {
+            // 由于数组是排序过的，如果第一个数已经大于0了，后面的数加上的和一定不可能等于0，直接结束循环
             if (nums[i] > 0) break;
+            // 跳过重复的数
+            if (i > 0 && nums[i] == nums[i - 1]) continue;
+            // 此时的目标值就是-nums[i]
             int target = -nums[i];
+            // 用双指针找剩下的两个数
             int l = i + 1, r = nums.length - 1;
             while (l < r) {
                 if (nums[l] + nums[r] == target) {

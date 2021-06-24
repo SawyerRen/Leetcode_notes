@@ -2,7 +2,8 @@ package topics.dp;
 
 public class Q10 {
     public boolean isMatch(String s, String p) {
-        int m = s.length(), n = p.length();
+        int m = s.length();
+        int n = p.length();
         boolean[][] dp = new boolean[m + 1][n + 1];
         dp[0][0] = true;
         for (int j = 1; j < n + 1; j++) {
@@ -14,10 +15,7 @@ public class Q10 {
                     dp[i][j] = dp[i - 1][j - 1];
                 } else if (p.charAt(j - 1) == '*') {
                     if (s.charAt(i - 1) == p.charAt(j - 2) || p.charAt(j - 2) == '.') {
-                        //* 代表0个字符时，i - 1和j - 3匹配
-                        //* 代表1个字符时，i - 1和j - 2匹配
-                        //* 代表多个字符时，i - 2和j - 1匹配
-                        dp[i][j] = dp[i][j - 1] || dp[i][j - 2] || dp[i - 1][j];
+                        dp[i][j] = dp[i][j - 2] || dp[i][j - 1] || dp[i - 1][j];
                     } else {
                         dp[i][j] = dp[i][j - 2];
                     }
