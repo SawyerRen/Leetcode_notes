@@ -23,45 +23,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Leetcode_notes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/codes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q128.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/backtracking/Q131.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/bfs/Q127.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/binarysearch/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q136.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dfs/Q130.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dfs/Q133.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q123.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q139.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/greedy/Q134.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q138.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q141.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q142.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q143.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q146.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q147.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q148.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/stack/Q150.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q124.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q129.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q144.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q145.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q125.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/topics/Binary Search/两个数组的中位数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/topics/Dynamic Programming/字符串匹配问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/topics/Hash Table/n-sum问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/topics/Math/数字变换问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/topics/Math/相加求和问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/topics/Sliding Window/子串问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/topics/Two Pointer/回文字符串问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q157.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q163.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/binarysearch/Q153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/binarysearch/Q154.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/binarysearch/Q162.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q152.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q160.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q166.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q168.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/stack/Q155.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/strings/Q151.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/strings/Q161.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/strings/Q165.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q156.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q159.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q167.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/topics/Backtracking/回溯问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/topics/Two Pointer/数组双指针问题.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/topics/dp/Q10.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q15.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/topics/Math/数字变换问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/topics/Math/数字变换问题.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,27 +90,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/codes/src" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -142,7 +109,10 @@
       <workItem from="1624353939970" duration="4822000" />
       <workItem from="1624428620876" duration="448000" />
       <workItem from="1624440346872" duration="3901000" />
-      <workItem from="1624513933244" duration="3902000" />
+      <workItem from="1624513933244" duration="4175000" />
+      <workItem from="1624582643648" duration="3764000" />
+      <workItem from="1624671290068" duration="3674000" />
+      <workItem from="1624694792565" duration="1085000" />
     </task>
     <servers />
   </component>
@@ -166,10 +136,14 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="928" y="462" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1624444228600" />
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1624522473538">
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1624584547894">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1624522473538" />
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1624584547894" />
+    <state x="561" y="151" key="SettingsEditor" timestamp="1624583303655">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="561" y="151" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1624583303655" />
     <state x="1471" y="115" key="new project wizard" timestamp="1624267345925">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
