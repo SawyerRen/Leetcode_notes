@@ -6,10 +6,9 @@ public class Q20 {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         for (char c : s.toCharArray()) {
-            if (!stack.isEmpty() && match(stack.peek(), c)) {
+            if (stack.isEmpty() || c == '(' || c == '{' || c == '[') stack.push(c);
+            else if (match(stack.peek(), c)) {
                 stack.pop();
-            } else {
-                stack.push(c);
             }
         }
         return stack.isEmpty();
