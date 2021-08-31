@@ -23,141 +23,180 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/eat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q189.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q228.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q240.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q243.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q244.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q245.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q251.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q252.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q253.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q289.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q296.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/backtracking/Q216.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/backtracking/Q254.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/backtracking/Q282.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/backtracking/Q291.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/backtracking/Q301.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/backtracking/Q306.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/backtracking/Q320.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/bfs/Q286.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/bfs/Q317.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/binarysearch/Q278.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/binarysearch/Q287.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q187.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q190.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q191.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q201.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q231.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q260.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q268.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q318.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/design/Q284.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/design/Q295.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/design/Q303.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/design/Q304.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/design/Q307.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dfs/Q200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dfs/Q302.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dfs/Q329.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q174.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q188.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q198.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q213.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q221.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q256.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q265.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q276.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q279.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q300.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q309.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q312.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/graph/Q207.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/graph/Q210.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/graph/Q269.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/graph/Q310.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/greedy/Q277.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/greedy/Q280.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/greedy/Q330.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q205.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q217.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q219.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q242.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q266.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q267.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q288.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q290.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q299.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q325.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q203.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q206.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q234.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q237.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q328.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q171.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q172.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q204.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q229.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q263.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q264.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q292.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q319.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q326.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/recursion/Q202.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/recursion/Q241.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/recursion/Q258.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/sliding_window/Q209.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/sorting/Q179.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/sorting/Q215.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/sorting/Q324.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/stack/Q224.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/stack/Q225.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/stack/Q227.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/stack/Q232.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/stack/Q316.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/strings/Q249.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/strings/Q293.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/strings/Q294.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q173.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q199.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q222.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q226.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q230.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q235.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q236.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q250.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q255.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q257.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q270.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q272.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q285.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q297.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q298.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q314.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/trie/Q208.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/trie/Q211.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/trie/Q212.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q186.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q246.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q247.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q248.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q259.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q283.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/union_find/Q261.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/union_find/Q305.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/topics/union_find/Q323.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/topics/Backtracking/回溯之括号问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/topics/Sort/归并排序问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/topics/栈与队列/栈问题.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/topics/链表/链表问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q44.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q48.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q50.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q51.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q54.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q55.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q57.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q58.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q59.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q60.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/Q9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q414.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q435.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q442.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q448.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q457.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q485.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q495.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/array/Q498.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/backtracking/Q473.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/backtracking/Q491.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/bfs/Q433.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/binarysearch/Q374.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/binarysearch/Q378.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/binarysearch/Q410.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/binarysearch/Q436.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/binarysearch/Q475.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q338.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q371.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q405.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q421.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q461.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q476.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q477.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/design/Q341.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/design/Q355.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/design/Q380.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/design/Q381.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/design/Q460.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dfs/Q386.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dfs/Q417.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dfs/Q419.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dfs/Q463.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q337.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q343.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q354.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q363.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q368.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q375.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q376.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q397.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q403.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q413.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q416.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q446.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q464.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q467.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q472.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q474.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q486.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q494.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/greedy/Q334.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/greedy/Q406.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/greedy/Q455.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q350.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q383.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q387.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q409.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q454.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/hashtable/Q500.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q382.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q430.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q445.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q342.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q357.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q367.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q372.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q396.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q412.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q415.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q441.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q453.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q470.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/math/Q492.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/sliding_window/Q395.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/sliding_window/Q424.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/sliding_window/Q438.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/sliding_window/Q480.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/sorting/Q347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/sorting/Q373.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/sorting/Q451.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/sorting/Q452.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/sorting/Q462.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/stack/Q394.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/stack/Q402.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/stack/Q456.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/stack/Q496.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/strings/Q389.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/strings/Q434.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/strings/Q443.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/strings/Q459.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/strings/Q482.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q331.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q404.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q429.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q437.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q449.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q450.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q501.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q345.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/topics/two_pointer/Q392.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/topics/Binary Search/二分查找问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/topics/Binary Search/旋转数组找值.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/topics/Math/特定算法问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/topics/Two Pointer/双指针在修改数组中的应用.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/topics/Two Pointer/双指针字符串匹配.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/topics/栈与队列/括号问题.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q19.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q23.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/linkedlist/Q23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/topics/stack/Q20.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/stack/Q20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/topics/design/Q303.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/design/Q303.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/topics/栈与队列/栈问题.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes/topics/链表/链表问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes/topics/链表/链表问题.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/topics/linkedlist/Q23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/topics/linkedlist/Q23.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +206,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -204,9 +244,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notes/topics/Math" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/codes/src" />
     </key>
@@ -279,7 +325,44 @@
       <workItem from="1626145735815" duration="1481000" />
       <workItem from="1626227637919" duration="8592000" />
       <workItem from="1626317033429" duration="7504000" />
-      <workItem from="1626400256761" duration="4764000" />
+      <workItem from="1626400256761" duration="5733000" />
+      <workItem from="1626423448979" duration="911000" />
+      <workItem from="1626578775733" duration="2841000" />
+      <workItem from="1626658996951" duration="8915000" />
+      <workItem from="1626749323597" duration="1057000" />
+      <workItem from="1626788744751" duration="741000" />
+      <workItem from="1626829684552" duration="2261000" />
+      <workItem from="1626912889360" duration="2061000" />
+      <workItem from="1626949424716" duration="2375000" />
+      <workItem from="1627040374630" duration="2800000" />
+      <workItem from="1627092627813" duration="2062000" />
+      <workItem from="1627265022471" duration="3312000" />
+      <workItem from="1627366250726" duration="5767000" />
+      <workItem from="1627447284443" duration="6516000" />
+      <workItem from="1627543865558" duration="4941000" />
+      <workItem from="1627626255764" duration="107000" />
+      <workItem from="1627635299479" duration="1939000" />
+      <workItem from="1627973121778" duration="1079000" />
+      <workItem from="1628053957493" duration="1688000" />
+      <workItem from="1628147112652" duration="3912000" />
+      <workItem from="1628214720943" duration="5050000" />
+      <workItem from="1628242314224" duration="2117000" />
+      <workItem from="1628576307990" duration="4397000" />
+      <workItem from="1628650099416" duration="7265000" />
+      <workItem from="1628738777061" duration="260000" />
+      <workItem from="1628754514258" duration="850000" />
+      <workItem from="1628837312979" duration="5602000" />
+      <workItem from="1628924797110" duration="3334000" />
+      <workItem from="1629015115385" duration="6503000" />
+      <workItem from="1629197977061" duration="1409000" />
+      <workItem from="1629210255785" duration="2039000" />
+      <workItem from="1629554835355" duration="4425000" />
+      <workItem from="1629637532185" duration="200000" />
+      <workItem from="1630021452117" duration="5972000" />
+      <workItem from="1630121452989" duration="9664000" />
+      <workItem from="1630263206336" duration="7199000" />
+      <workItem from="1630333758434" duration="5458000" />
+      <workItem from="1630380205947" duration="945000" />
     </task>
     <servers />
   </component>
@@ -299,49 +382,65 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="928" y="462" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626339230596">
-      <screen x="0" y="25" width="2560" height="1330" />
+    <state x="650" y="357" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629578484561">
+      <screen x="0" y="25" width="1792" height="1010" />
     </state>
+    <state x="650" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1010@0.25.1792.1010" timestamp="1629578484561" />
     <state x="928" y="462" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1626339230596" />
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1626402822918">
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1628663029575">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1626402822918" />
-    <state width="2498" height="383" key="GridCell.Tab.0.bottom" timestamp="1625838815867">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1628663029575" />
+    <state x="587" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1629017677574">
+      <screen x="0" y="25" width="1792" height="1010" />
+    </state>
+    <state x="587" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.25.1792.1010@0.25.1792.1010" timestamp="1629017677574" />
+    <state x="887" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627089117883">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="887" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1627089117883" />
+    <state width="2498" height="382" key="GridCell.Tab.0.bottom" timestamp="1627003444257">
+      <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
-    <state width="2498" height="270" key="GridCell.Tab.0.bottom/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1625283733655" />
+    <state width="2498" height="382" key="GridCell.Tab.0.bottom/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
     <state width="2498" height="383" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1625827852168" />
-    <state width="2498" height="383" key="GridCell.Tab.0.center" timestamp="1625838815867">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="2498" height="383" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
-    <state width="2498" height="270" key="GridCell.Tab.0.center/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1625283733655" />
-    <state width="2498" height="383" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1625827852167" />
-    <state width="2498" height="383" key="GridCell.Tab.0.left" timestamp="1625838815867">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="2498" height="383" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
-    <state width="2498" height="270" key="GridCell.Tab.0.left/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1625283733654" />
-    <state width="2498" height="383" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1625827852166" />
-    <state width="2498" height="383" key="GridCell.Tab.0.right" timestamp="1625838815867">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="2498" height="383" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
-    <state width="2498" height="270" key="GridCell.Tab.0.right/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1625283733655" />
-    <state width="2498" height="383" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1625827852167" />
-    <state x="561" y="151" key="SettingsEditor" timestamp="1624583303655">
+    <state width="2498" height="382" key="GridCell.Tab.0.center" timestamp="1627003444257">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
+    <state width="2498" height="383" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
+    <state width="2498" height="382" key="GridCell.Tab.0.center/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
+    <state width="2498" height="383" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1625827852167" />
+    <state width="2498" height="382" key="GridCell.Tab.0.left" timestamp="1627003444257">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="2498" height="383" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
+    <state width="2498" height="382" key="GridCell.Tab.0.left/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
+    <state width="2498" height="383" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1625827852166" />
+    <state width="2498" height="382" key="GridCell.Tab.0.right" timestamp="1627003444257">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="2498" height="383" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
+    <state width="2498" height="382" key="GridCell.Tab.0.right/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
+    <state width="2498" height="383" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1625827852167" />
+    <state x="256" y="25" key="SettingsEditor" timestamp="1630034386276">
+      <screen x="0" y="25" width="1792" height="1017" />
+    </state>
+    <state x="256" y="25" key="SettingsEditor/0.25.1792.1017@0.25.1792.1017" timestamp="1630034386276" />
     <state x="561" y="151" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1624583303655" />
     <state x="1471" y="115" key="new project wizard" timestamp="1624267345925">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1471" y="115" key="new project wizard/0.25.2560.1330@0.25.2560.1330" timestamp="1624267345925" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1626405309546">
+    <state x="958" y="402" key="refactoring.ChangeSignatureDialog" timestamp="1630334810208">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1626405309546" />
+    <state x="958" y="402" key="refactoring.ChangeSignatureDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1630334810208" />
+    <state x="544" y="25" width="1005" height="1120" key="search.everywhere.popup" timestamp="1630166661551">
+      <screen x="0" y="25" width="1792" height="1015" />
+    </state>
+    <state x="544" y="25" width="1005" height="1114" key="search.everywhere.popup/0.25.1792.1010@0.25.1792.1010" timestamp="1629017910279" />
+    <state x="544" y="25" width="1005" height="1120" key="search.everywhere.popup/0.25.1792.1015@0.25.1792.1015" timestamp="1630166661551" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1626418548536" />
   </component>
 </project>
