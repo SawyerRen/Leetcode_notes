@@ -1,3 +1,1 @@
-# Leetcode_notes
-
-刷题中
+# NOTES
