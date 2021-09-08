@@ -23,25 +23,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q127.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q128.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q129.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q130.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q131.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q133.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q134.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q135.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q136.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q137.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q138.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q139.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q140.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q141.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q142.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q143.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q144.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q145.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q147.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q148.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q150.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q151.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q152.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q154.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q155.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q156.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q157.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q158.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q159.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q160.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q161.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q162.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q163.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q164.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q165.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q167.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q168.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q170.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q171.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q172.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q173.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q174.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q179.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q186.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q187.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q189.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q190.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q191.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q198.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q199.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/topics/array/Q157.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/array/Q157.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,13 +129,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,7 +236,12 @@
       <workItem from="1630789270605" duration="4296000" />
       <workItem from="1630849834197" duration="7080000" />
       <workItem from="1630881528321" duration="381000" />
-      <workItem from="1630895124222" duration="9770000" />
+      <workItem from="1630895124222" duration="9937000" />
+      <workItem from="1630955914163" duration="2950000" />
+      <workItem from="1630981536313" duration="5250000" />
+      <workItem from="1631044594538" duration="407000" />
+      <workItem from="1631069963228" duration="2277000" />
+      <workItem from="1631115571985" duration="4657000" />
     </task>
     <servers />
   </component>
@@ -241,10 +266,10 @@
     </state>
     <state x="650" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1010@0.25.1792.1010" timestamp="1629578484561" />
     <state x="928" y="462" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1626339230596" />
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1628663029575">
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1630983216607">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1628663029575" />
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1630983216607" />
     <state x="587" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1629017677574">
       <screen x="0" y="25" width="1792" height="1010" />
     </state>
@@ -294,11 +319,11 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="958" y="402" key="refactoring.ChangeSignatureDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1630334810208" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1630946758796">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1631073241504">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="544" y="25" width="1005" height="1114" key="search.everywhere.popup/0.25.1792.1010@0.25.1792.1010" timestamp="1629017910279" />
     <state x="544" y="25" width="1005" height="1120" key="search.everywhere.popup/0.25.1792.1015@0.25.1792.1015" timestamp="1630166661551" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1630946758796" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1631073241504" />
   </component>
 </project>

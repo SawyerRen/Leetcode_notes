@@ -9,7 +9,7 @@ public class Q157 {
         char[] buffer = new char[4];
         int len = 0;
         while (len < n) {
-            int size = read4(buf);
+            int size = read4(buffer);
             if (size == 0) break;
             System.arraycopy(buf, len, buffer, 0, size);
             len += size;

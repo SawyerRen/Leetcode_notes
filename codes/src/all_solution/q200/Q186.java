@@ -1,0 +1,26 @@
+package all_solution.q200;
+
+public class Q186 {
+    public void reverseWords(char[] s) {
+        int i = 0, j = 0;
+        while (j < s.length) {
+            while (j < s.length && s[j] != ' ') {
+                j++;
+            }
+            reverse(s, i, j - 1);
+            j++;
+            i = j;
+        }
+        reverse(s, 0, s.length - 1);
+    }
+
+    private void reverse(char[] s, int i, int j) {
+        while (i < j) {
+            char c = s[i];
+            s[i] = s[j];
+            s[j] = c;
+            i++;
+            j--;
+        }
+    }
+}
