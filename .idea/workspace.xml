@@ -23,43 +23,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q146.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q147.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q148.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q150.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q151.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q152.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q153.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q154.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q155.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q156.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q157.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q158.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q159.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q160.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q161.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q162.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q163.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q164.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q165.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q167.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q168.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q169.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q170.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q171.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q172.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q173.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q174.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q179.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q186.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q187.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q189.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q190.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q191.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q198.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q199.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q201.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q202.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q203.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q204.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q205.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q206.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q207.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q208.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q209.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q210.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q211.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q212.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q213.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q215.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q216.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q219.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q220.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/topics/array/Q157.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/array/Q157.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,15 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -241,7 +221,9 @@
       <workItem from="1630981536313" duration="5250000" />
       <workItem from="1631044594538" duration="407000" />
       <workItem from="1631069963228" duration="2277000" />
-      <workItem from="1631115571985" duration="4657000" />
+      <workItem from="1631115571985" duration="5934000" />
+      <workItem from="1631150207485" duration="148000" />
+      <workItem from="1631243150234" duration="5888000" />
     </task>
     <servers />
   </component>
