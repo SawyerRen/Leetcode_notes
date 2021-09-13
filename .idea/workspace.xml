@@ -23,10 +23,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1000/Q901.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1100/Q1019.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q503.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q739.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q279.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q300.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q303.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q304.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q309.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q312.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q322.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q343.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q376.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q413.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q416.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q474.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q494.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q518.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q576.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q583.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q646.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q650.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q673.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q688.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q712.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q714.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q740.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q746.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,11 +103,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/notes/topics/Math" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/codes/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notes/topics/Math" />
     </key>
   </component>
   <component name="RunManager">
@@ -97,15 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -212,7 +231,8 @@
       <workItem from="1631115571985" duration="5934000" />
       <workItem from="1631150207485" duration="148000" />
       <workItem from="1631243150234" duration="15491000" />
-      <workItem from="1631308636151" duration="4440000" />
+      <workItem from="1631308636151" duration="13522000" />
+      <workItem from="1631483627897" duration="2975000" />
     </task>
     <servers />
   </component>
@@ -241,10 +261,15 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1631317286931" />
-    <state x="587" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1629017677574">
-      <screen x="0" y="25" width="1792" height="1010" />
+    <state x="971" y="556" width="618" height="280" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1631319860296">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="971" y="556" width="618" height="280" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.25.2560.1330@0.25.2560.1330" timestamp="1631319860296" />
+    <state x="839" y="536" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1631319948462">
+      <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="587" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.25.1792.1010@0.25.1792.1010" timestamp="1629017677574" />
+    <state x="839" y="536" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.25.2560.1330@0.25.2560.1330" timestamp="1631319948462" />
     <state x="887" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627089117883">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
