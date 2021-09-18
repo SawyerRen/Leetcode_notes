@@ -23,31 +23,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q279.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q300.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q303.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q304.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q309.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q312.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q343.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q376.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q413.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q416.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q474.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q494.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q518.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q576.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q583.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q646.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q650.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q673.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q688.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q712.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q714.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q740.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q746.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1000/Q1039.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1100/Q1010.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1100/Q1143.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q259.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q278.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q287.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q350.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q367.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q378.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q438.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q540.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q594.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q668.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q698.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q704.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q742.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q744.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q801.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q813.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q931.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q935.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q981.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -232,7 +229,11 @@
       <workItem from="1631150207485" duration="148000" />
       <workItem from="1631243150234" duration="15491000" />
       <workItem from="1631308636151" duration="13522000" />
-      <workItem from="1631483627897" duration="2975000" />
+      <workItem from="1631483627897" duration="5677000" />
+      <workItem from="1631570303934" duration="2591000" />
+      <workItem from="1631822672084" duration="2268000" />
+      <workItem from="1631890052016" duration="3637000" />
+      <workItem from="1631972831473" duration="2070000" />
     </task>
     <servers />
   </component>
@@ -257,10 +258,10 @@
     </state>
     <state x="650" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1010@0.25.1792.1010" timestamp="1629578484561" />
     <state x="928" y="462" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1626339230596" />
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1631317286931">
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1631939547734">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1631317286931" />
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1631939547734" />
     <state x="971" y="556" width="618" height="280" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1631319860296">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
