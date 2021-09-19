@@ -23,29 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1000/Q1039.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1100/Q1010.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1100/Q1143.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q259.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q278.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q287.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q350.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q367.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q378.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q438.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q540.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q594.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q668.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q698.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q704.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q742.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q744.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q801.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q813.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q931.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q935.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q981.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q328.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q445.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q725.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q842.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q700/Q784.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q784.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +216,7 @@
       <workItem from="1631570303934" duration="2591000" />
       <workItem from="1631822672084" duration="2268000" />
       <workItem from="1631890052016" duration="3637000" />
-      <workItem from="1631972831473" duration="2070000" />
+      <workItem from="1631972831473" duration="5605000" />
     </task>
     <servers />
   </component>
