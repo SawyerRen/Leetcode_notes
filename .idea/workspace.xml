@@ -23,12 +23,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q328.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q445.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q725.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q842.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1200/Q1222.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1600/Q1604.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q257.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q297.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q337.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q404.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q429.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q468.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q539.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q867.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q890.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/q.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/access/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/access/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/ancestor/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/ancestor/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/ancestor/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/calculator/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/calculator/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/calculator/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/calculator/Q4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/course/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/course/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/course/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/doll/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/domain/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/domain/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/domain/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/meeting/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/meeting/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/meeting/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/other/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/other/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/other/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/other/Q4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/other/Q5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/other/Q6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/rectangle/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/rectangle/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/rectangle/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/resource/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/resource/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/resource/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/treasures/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/treasures/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/treasures/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/validmatrix/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/validmatrix/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/wordprocessor/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/karat/wordprocessor/Q2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q700/Q784.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q784.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/eat.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/eat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q371.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q371.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/topics/dp/Q397.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q397.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/topics/tree/Q449.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q449.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q24.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/eat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/eat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/topics/array/Q157.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/topics/array/Q157.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +162,59 @@
       <recent name="$PROJECT_DIR$/notes/topics/Math" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Q8">
+    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.pimco.Q2" />
+      <module name="codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.pimco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="karat.other.Q5" />
+      <module name="codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="karat.other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.pimco.Q8" />
+      <module name="codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.pimco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.pimco.Q9" />
+      <module name="codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.pimco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="eat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="eat" />
       <module name="codes" />
@@ -98,19 +222,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q8" />
+        <item itemvalue="Application.Q9" />
+        <item itemvalue="Application.Q2" />
+        <item itemvalue="Application.Q5" />
         <item itemvalue="Application.eat" />
       </list>
     </recent_temporary>
@@ -217,6 +347,18 @@
       <workItem from="1631822672084" duration="2268000" />
       <workItem from="1631890052016" duration="3637000" />
       <workItem from="1631972831473" duration="5605000" />
+      <workItem from="1632063562549" duration="1101000" />
+      <workItem from="1632089808004" duration="598000" />
+      <workItem from="1632098657965" duration="941000" />
+      <workItem from="1632149935777" duration="5822000" />
+      <workItem from="1632322302782" duration="28424000" />
+      <workItem from="1632409889560" duration="543000" />
+      <workItem from="1632423298791" duration="7295000" />
+      <workItem from="1632507397293" duration="10297000" />
+      <workItem from="1632618520194" duration="10572000" />
+      <workItem from="1632666221524" duration="751000" />
+      <workItem from="1632884021455" duration="1808000" />
+      <workItem from="1632926813766" duration="9453000" />
     </task>
     <servers />
   </component>
@@ -236,6 +378,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="940" y="448" key="#SQL_Dialects" timestamp="1632931161441">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="940" y="448" key="#SQL_Dialects/0.25.2560.1330@0.25.2560.1330" timestamp="1632931161440" />
+    <state x="1520" y="340" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632931165131">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1520" y="340" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1632931165131" />
     <state x="650" y="357" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629578484561">
       <screen x="0" y="25" width="1792" height="1010" />
     </state>
@@ -258,52 +408,48 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="887" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1627089117883" />
-    <state width="2498" height="382" key="GridCell.Tab.0.bottom" timestamp="1627003444257">
+    <state width="1218" height="381" key="GridCell.Tab.0.bottom" timestamp="1632940902776">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
     <state width="2498" height="382" key="GridCell.Tab.0.bottom/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="2498" height="383" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1625827852168" />
-    <state width="2498" height="382" key="GridCell.Tab.0.center" timestamp="1627003444257">
+    <state width="1218" height="381" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1632940902776" />
+    <state width="1218" height="381" key="GridCell.Tab.0.center" timestamp="1632940902775">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
     <state width="2498" height="382" key="GridCell.Tab.0.center/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="2498" height="383" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1625827852167" />
-    <state width="2498" height="382" key="GridCell.Tab.0.left" timestamp="1627003444257">
+    <state width="1218" height="381" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1632940902775" />
+    <state width="1218" height="381" key="GridCell.Tab.0.left" timestamp="1632940902774">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
     <state width="2498" height="382" key="GridCell.Tab.0.left/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="2498" height="383" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1625827852166" />
-    <state width="2498" height="382" key="GridCell.Tab.0.right" timestamp="1627003444257">
+    <state width="1218" height="381" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1632940902774" />
+    <state width="1218" height="381" key="GridCell.Tab.0.right" timestamp="1632940902775">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
     <state width="2498" height="382" key="GridCell.Tab.0.right/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="2498" height="383" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1625827852167" />
+    <state width="1218" height="381" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1632940902775" />
     <state x="942" y="256" key="RollbackChangesDialog" timestamp="1630856980721">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="942" y="256" key="RollbackChangesDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1630856980721" />
-    <state x="256" y="25" key="SettingsEditor" timestamp="1630034386276">
-      <screen x="0" y="25" width="1792" height="1017" />
-    </state>
-    <state x="256" y="25" key="SettingsEditor/0.25.1792.1017@0.25.1792.1017" timestamp="1630034386276" />
-    <state x="561" y="151" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1624583303655" />
-    <state x="1471" y="115" key="new project wizard" timestamp="1624267345925">
+    <state x="561" y="103" key="SettingsEditor" timestamp="1632329935344">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1471" y="115" key="new project wizard/0.25.2560.1330@0.25.2560.1330" timestamp="1624267345925" />
+    <state x="256" y="25" key="SettingsEditor/0.25.1792.1017@0.25.1792.1017" timestamp="1630034386276" />
+    <state x="561" y="103" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1632329935344" />
     <state x="958" y="402" key="refactoring.ChangeSignatureDialog" timestamp="1630334810208">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="958" y="402" key="refactoring.ChangeSignatureDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1630334810208" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1631312504989">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1632428558737">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="544" y="25" width="1005" height="1114" key="search.everywhere.popup/0.25.1792.1010@0.25.1792.1010" timestamp="1629017910279" />
     <state x="544" y="25" width="1005" height="1120" key="search.everywhere.popup/0.25.1792.1015@0.25.1792.1015" timestamp="1630166661551" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1631312504989" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1632428558737" />
   </component>
 </project>
