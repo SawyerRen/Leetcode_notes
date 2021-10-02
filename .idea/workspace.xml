@@ -23,84 +23,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1200/Q1222.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1600/Q1604.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q257.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q297.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q337.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q404.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q429.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q468.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q539.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q867.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q890.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/Q9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/pimco/q.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/access/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/access/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/ancestor/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/ancestor/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/ancestor/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/calculator/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/calculator/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/calculator/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/calculator/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/course/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/course/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/course/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/doll/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/domain/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/domain/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/domain/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/meeting/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/meeting/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/meeting/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/other/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/other/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/other/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/other/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/other/Q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/other/Q6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/rectangle/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/rectangle/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/rectangle/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/resource/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/resource/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/resource/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/treasures/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/treasures/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/treasures/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/validmatrix/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/validmatrix/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/wordprocessor/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/karat/wordprocessor/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1000/Q1004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1000/Q1099.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1100/Q1153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1100/Q1155.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1200/Q1235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1200/Q1249.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1353.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1416.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q253.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q286.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q317.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q334.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q349.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q490.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q543.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q735.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q863.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/BinaryTreeRightSideView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/ExchangeToMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/CityAttractions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/DecodeWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/FlattenBinaryTreeToLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/IntersectionofTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/LogAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/MaximumNumberOfEventsThatCanBeAttended.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/MemoryLeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/MergeIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/MinRemoveToMakeValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/PalindromePartitioning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/RealProgrammerGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/ScheduleShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/StringTransformsIntoAnotherString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/eat.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/eat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q371.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/bit_manipulation/Q371.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/topics/dp/Q397.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/dp/Q397.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/topics/tree/Q449.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/topics/tree/Q449.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q24.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/Q9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/eat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/eat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/topics/array/Q157.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/topics/array/Q157.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/company/bytedance/Q1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,13 +139,13 @@
       <recent name="$PROJECT_DIR$/notes/topics/Math" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q8">
-    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.pimco.Q2" />
+  <component name="RunManager" selected="Application.ExchangeToMax">
+    <configuration name="ExchangeToMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bytedance.interview.ExchangeToMax" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.pimco.*" />
+          <option name="PATTERN" value="company.bytedance.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="karat.other.Q5" />
+    <configuration name="MemoryLeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bytedance.oa.MemoryLeak" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="karat.other.*" />
+          <option name="PATTERN" value="company.bytedance.oa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.pimco.Q8" />
+    <configuration name="Q13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bytedance.interview.Q13" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.pimco.*" />
+          <option name="PATTERN" value="company.bytedance.oa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.pimco.Q9" />
+    <configuration name="Q18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bytedance.interview.Q18" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.pimco.*" />
+          <option name="PATTERN" value="company.bytedance.oa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,9 +192,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="eat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eat" />
+    <configuration name="Q20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bytedance.interview.Q20" />
       <module name="codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.bytedance.oa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -237,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q8" />
-        <item itemvalue="Application.Q9" />
-        <item itemvalue="Application.Q2" />
-        <item itemvalue="Application.Q5" />
-        <item itemvalue="Application.eat" />
+        <item itemvalue="Application.ExchangeToMax" />
+        <item itemvalue="Application.Q20" />
+        <item itemvalue="Application.Q18" />
+        <item itemvalue="Application.Q13" />
+        <item itemvalue="Application.MemoryLeak" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +341,9 @@
       <workItem from="1632618520194" duration="10572000" />
       <workItem from="1632666221524" duration="751000" />
       <workItem from="1632884021455" duration="1808000" />
-      <workItem from="1632926813766" duration="9453000" />
+      <workItem from="1632926813766" duration="25492000" />
+      <workItem from="1633012423609" duration="2243000" />
+      <workItem from="1633099164640" duration="18914000" />
     </task>
     <servers />
   </component>
@@ -408,30 +393,46 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="887" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1627089117883" />
-    <state width="1218" height="381" key="GridCell.Tab.0.bottom" timestamp="1632940902776">
+    <state width="2498" height="380" key="GridCell.Tab.0.bottom" timestamp="1633143812663">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
     <state width="2498" height="382" key="GridCell.Tab.0.bottom/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="1218" height="381" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1632940902776" />
-    <state width="1218" height="381" key="GridCell.Tab.0.center" timestamp="1632940902775">
+    <state width="2498" height="380" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1633143812663" />
+    <state width="2498" height="380" key="GridCell.Tab.0.center" timestamp="1633143812663">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
     <state width="2498" height="382" key="GridCell.Tab.0.center/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="1218" height="381" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1632940902775" />
-    <state width="1218" height="381" key="GridCell.Tab.0.left" timestamp="1632940902774">
+    <state width="2498" height="380" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1633143812663" />
+    <state width="2498" height="380" key="GridCell.Tab.0.left" timestamp="1633143812662">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
     <state width="2498" height="382" key="GridCell.Tab.0.left/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="1218" height="381" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1632940902774" />
-    <state width="1218" height="381" key="GridCell.Tab.0.right" timestamp="1632940902775">
+    <state width="2498" height="380" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1633143812662" />
+    <state width="2498" height="380" key="GridCell.Tab.0.right" timestamp="1633143812663">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
     <state width="2498" height="382" key="GridCell.Tab.0.right/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="1218" height="381" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1632940902775" />
+    <state width="2498" height="380" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1633143812663" />
+    <state width="2498" height="436" key="GridCell.Tab.1.bottom" timestamp="1633143750779">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="2498" height="436" key="GridCell.Tab.1.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1633143750779" />
+    <state width="2498" height="436" key="GridCell.Tab.1.center" timestamp="1633143750778">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="2498" height="436" key="GridCell.Tab.1.center/0.25.2560.1330@0.25.2560.1330" timestamp="1633143750778" />
+    <state width="2498" height="436" key="GridCell.Tab.1.left" timestamp="1633143750777">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="2498" height="436" key="GridCell.Tab.1.left/0.25.2560.1330@0.25.2560.1330" timestamp="1633143750777" />
+    <state width="2498" height="436" key="GridCell.Tab.1.right" timestamp="1633143750778">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state width="2498" height="436" key="GridCell.Tab.1.right/0.25.2560.1330@0.25.2560.1330" timestamp="1633143750778" />
     <state x="942" y="256" key="RollbackChangesDialog" timestamp="1630856980721">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -441,15 +442,15 @@
     </state>
     <state x="256" y="25" key="SettingsEditor/0.25.1792.1017@0.25.1792.1017" timestamp="1630034386276" />
     <state x="561" y="103" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1632329935344" />
-    <state x="958" y="402" key="refactoring.ChangeSignatureDialog" timestamp="1630334810208">
+    <state x="958" y="402" key="refactoring.ChangeSignatureDialog" timestamp="1633138134530">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="958" y="402" key="refactoring.ChangeSignatureDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1630334810208" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1632428558737">
+    <state x="958" y="402" key="refactoring.ChangeSignatureDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1633138134530" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1633128961078">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="544" y="25" width="1005" height="1114" key="search.everywhere.popup/0.25.1792.1010@0.25.1792.1010" timestamp="1629017910279" />
     <state x="544" y="25" width="1005" height="1120" key="search.everywhere.popup/0.25.1792.1015@0.25.1792.1015" timestamp="1630166661551" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1632428558737" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1633128961078" />
   </component>
 </project>
