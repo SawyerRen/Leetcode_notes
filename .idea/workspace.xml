@@ -23,61 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1000/Q1004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1000/Q1099.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1100/Q1153.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1100/Q1155.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1200/Q1235.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1200/Q1249.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1353.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1416.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q253.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q286.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q317.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q334.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q349.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q490.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q543.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q735.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q863.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/BinaryTreeRightSideView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/ExchangeToMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/interview/Q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/CityAttractions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/DecodeWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/FlattenBinaryTreeToLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/IntersectionofTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/LogAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/MaximumNumberOfEventsThatCanBeAttended.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/MemoryLeak.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/MinRemoveToMakeValid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/PalindromePartitioning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/RealProgrammerGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/ScheduleShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa/StringTransformsIntoAnotherString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q679.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/Aladdin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/ChanceToGet24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/CountBinarySubstrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/CountingAnalogousArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/ExchangeToSame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/IsItTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/JumpToTheFlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/MaximumProductOfSumComponents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/MinimumJumps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/ReversePreSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/StringChains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/TensorIteration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/bytedance/Q1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/company/pimco/Q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/Q2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/pimco/Q2.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,13 +101,13 @@
       <recent name="$PROJECT_DIR$/notes/topics/Math" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExchangeToMax">
-    <configuration name="ExchangeToMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.bytedance.interview.ExchangeToMax" />
+  <component name="RunManager" selected="Application.CountingAnalogousArrays">
+    <configuration name="CountingAnalogousArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bytedance.oa2022.CountingAnalogousArrays" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.bytedance.interview.*" />
+          <option name="PATTERN" value="company.bytedance.oa2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryLeak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.bytedance.oa.MemoryLeak" />
+    <configuration name="ExchangeToSame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bytedance.oa2022.ExchangeToSame" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.bytedance.oa.*" />
+          <option name="PATTERN" value="company.bytedance.oa2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.bytedance.interview.Q13" />
+    <configuration name="IsItTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bytedance.oa2022.IsItTree" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.bytedance.oa.*" />
+          <option name="PATTERN" value="company.bytedance.oa2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.bytedance.interview.Q18" />
+    <configuration name="ReversePreSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bytedance.oa2022.ReversePreSum" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.bytedance.oa.*" />
+          <option name="PATTERN" value="company.bytedance.oa2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.bytedance.interview.Q20" />
+    <configuration name="StringChains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.bytedance.oa2022.StringChains" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.bytedance.oa.*" />
+          <option name="PATTERN" value="company.bytedance.oa2022.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,26 +167,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExchangeToMax" />
-        <item itemvalue="Application.Q20" />
-        <item itemvalue="Application.Q18" />
-        <item itemvalue="Application.Q13" />
-        <item itemvalue="Application.MemoryLeak" />
+        <item itemvalue="Application.CountingAnalogousArrays" />
+        <item itemvalue="Application.IsItTree" />
+        <item itemvalue="Application.StringChains" />
+        <item itemvalue="Application.ExchangeToSame" />
+        <item itemvalue="Application.ReversePreSum" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +303,8 @@
       <workItem from="1632884021455" duration="1808000" />
       <workItem from="1632926813766" duration="25492000" />
       <workItem from="1633012423609" duration="2243000" />
-      <workItem from="1633099164640" duration="18914000" />
+      <workItem from="1633099164640" duration="19657000" />
+      <workItem from="1633185340003" duration="15255000" />
     </task>
     <servers />
   </component>
@@ -393,46 +354,46 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="887" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1627089117883" />
-    <state width="2498" height="380" key="GridCell.Tab.0.bottom" timestamp="1633143812663">
+    <state width="1218" height="392" key="GridCell.Tab.0.bottom" timestamp="1633229550948">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
     <state width="2498" height="382" key="GridCell.Tab.0.bottom/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="2498" height="380" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1633143812663" />
-    <state width="2498" height="380" key="GridCell.Tab.0.center" timestamp="1633143812663">
+    <state width="1218" height="392" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1633229550948" />
+    <state width="1218" height="392" key="GridCell.Tab.0.center" timestamp="1633229550947">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
     <state width="2498" height="382" key="GridCell.Tab.0.center/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="2498" height="380" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1633143812663" />
-    <state width="2498" height="380" key="GridCell.Tab.0.left" timestamp="1633143812662">
+    <state width="1218" height="392" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1633229550947" />
+    <state width="1218" height="392" key="GridCell.Tab.0.left" timestamp="1633229550947">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
     <state width="2498" height="382" key="GridCell.Tab.0.left/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="2498" height="380" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1633143812662" />
-    <state width="2498" height="380" key="GridCell.Tab.0.right" timestamp="1633143812663">
+    <state width="1218" height="392" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1633229550947" />
+    <state width="1218" height="392" key="GridCell.Tab.0.right" timestamp="1633229550948">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
     <state width="2498" height="382" key="GridCell.Tab.0.right/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="2498" height="380" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1633143812663" />
-    <state width="2498" height="436" key="GridCell.Tab.1.bottom" timestamp="1633143750779">
+    <state width="1218" height="392" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1633229550948" />
+    <state width="1218" height="436" key="GridCell.Tab.1.bottom" timestamp="1633218043796">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="2498" height="436" key="GridCell.Tab.1.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1633143750779" />
-    <state width="2498" height="436" key="GridCell.Tab.1.center" timestamp="1633143750778">
+    <state width="1218" height="436" key="GridCell.Tab.1.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1633218043796" />
+    <state width="1218" height="436" key="GridCell.Tab.1.center" timestamp="1633218043795">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="2498" height="436" key="GridCell.Tab.1.center/0.25.2560.1330@0.25.2560.1330" timestamp="1633143750778" />
-    <state width="2498" height="436" key="GridCell.Tab.1.left" timestamp="1633143750777">
+    <state width="1218" height="436" key="GridCell.Tab.1.center/0.25.2560.1330@0.25.2560.1330" timestamp="1633218043795" />
+    <state width="1218" height="436" key="GridCell.Tab.1.left" timestamp="1633218043795">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="2498" height="436" key="GridCell.Tab.1.left/0.25.2560.1330@0.25.2560.1330" timestamp="1633143750777" />
-    <state width="2498" height="436" key="GridCell.Tab.1.right" timestamp="1633143750778">
+    <state width="1218" height="436" key="GridCell.Tab.1.left/0.25.2560.1330@0.25.2560.1330" timestamp="1633218043795" />
+    <state width="1218" height="436" key="GridCell.Tab.1.right" timestamp="1633218043795">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="2498" height="436" key="GridCell.Tab.1.right/0.25.2560.1330@0.25.2560.1330" timestamp="1633143750778" />
+    <state width="1218" height="436" key="GridCell.Tab.1.right/0.25.2560.1330@0.25.2560.1330" timestamp="1633218043795" />
     <state x="942" y="256" key="RollbackChangesDialog" timestamp="1630856980721">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
