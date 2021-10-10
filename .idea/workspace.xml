@@ -23,23 +23,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q679.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/Aladdin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/ChanceToGet24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/CountBinarySubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/CountingAnalogousArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/ExchangeToSame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/IsItTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/JumpToTheFlag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/MaximumProductOfSumComponents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/MinimumJumps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/ReversePreSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/StringChains.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/TensorIteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/codesignal/ChangeMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/codesignal/LongestHouseLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/codesignal/MinDiffOfArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/codesignal/ReduceTheNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/codesignal/quora/ExchangeStringIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/codesignal/quora/FindOddZeroNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/codesignal/quora/RemoveHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/codesignal/quora/UniqueKElementsCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1249.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1428.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1570.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1650.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1762.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q199.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q215.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q301.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q415.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q426.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q528.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q560.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q680.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q721.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q827.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q921.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q938.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q953.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q973.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/题库.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Leetcode_notes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Leetcode_notes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/pimco/Q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/bytedance/oa2022/Q2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/pimco/Q2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/codes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codes/codes.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,9 +105,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -101,13 +117,13 @@
       <recent name="$PROJECT_DIR$/notes/topics/Math" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountingAnalogousArrays">
-    <configuration name="CountingAnalogousArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.bytedance.oa2022.CountingAnalogousArrays" />
+  <component name="RunManager" selected="Application.FindOddZeroNumber">
+    <configuration name="ExchangeStringIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.codesignal.quora.ExchangeStringIndex" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.bytedance.oa2022.*" />
+          <option name="PATTERN" value="company.codesignal.quora.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExchangeToSame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.bytedance.oa2022.ExchangeToSame" />
+    <configuration name="FindOddZeroNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.codesignal.quora.FindOddZeroNumber" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.bytedance.oa2022.*" />
+          <option name="PATTERN" value="company.codesignal.quora.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsItTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.bytedance.oa2022.IsItTree" />
+    <configuration name="LongestHouseLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.codesignal.LongestHouseLength" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.bytedance.oa2022.*" />
+          <option name="PATTERN" value="company.codesignal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReversePreSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.bytedance.oa2022.ReversePreSum" />
+    <configuration name="ReduceTheNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.codesignal.ReduceTheNumber" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.bytedance.oa2022.*" />
+          <option name="PATTERN" value="company.codesignal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringChains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.bytedance.oa2022.StringChains" />
+    <configuration name="RemoveHouse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.codesignal.quora.RemoveHouse" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.bytedance.oa2022.*" />
+          <option name="PATTERN" value="company.codesignal.quora.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,24 +183,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountingAnalogousArrays" />
-        <item itemvalue="Application.IsItTree" />
-        <item itemvalue="Application.StringChains" />
-        <item itemvalue="Application.ExchangeToSame" />
-        <item itemvalue="Application.ReversePreSum" />
+        <item itemvalue="Application.FindOddZeroNumber" />
+        <item itemvalue="Application.RemoveHouse" />
+        <item itemvalue="Application.ExchangeStringIndex" />
+        <item itemvalue="Application.ReduceTheNumber" />
+        <item itemvalue="Application.LongestHouseLength" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +322,16 @@
       <workItem from="1632926813766" duration="25492000" />
       <workItem from="1633012423609" duration="2243000" />
       <workItem from="1633099164640" duration="19657000" />
-      <workItem from="1633185340003" duration="15255000" />
+      <workItem from="1633185340003" duration="15559000" />
+      <workItem from="1633313135581" duration="6320000" />
+      <workItem from="1633459163833" duration="2330000" />
+      <workItem from="1633538203263" duration="85000" />
+      <workItem from="1633566620951" duration="6000" />
+      <workItem from="1633578322253" duration="1279000" />
+      <workItem from="1633616655850" duration="919000" />
+      <workItem from="1633748718478" duration="607000" />
+      <workItem from="1633794015572" duration="12523000" />
+      <workItem from="1633876427288" duration="6503000" />
     </task>
     <servers />
   </component>
@@ -324,6 +351,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1024" y="64" key="#Project_Structure" timestamp="1633579885244">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1024" y="64" key="#Project_Structure/0.25.2560.1330@0.25.2560.1330" timestamp="1633579885244" />
     <state x="940" y="448" key="#SQL_Dialects" timestamp="1632931161441">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -332,15 +363,15 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1520" y="340" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1632931165131" />
-    <state x="650" y="357" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629578484561">
-      <screen x="0" y="25" width="1792" height="1010" />
-    </state>
-    <state x="650" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1010@0.25.1792.1010" timestamp="1629578484561" />
-    <state x="928" y="462" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1626339230596" />
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1631939547734">
+    <state x="928" y="462" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1633482325319">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1631939547734" />
+    <state x="650" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1010@0.25.1792.1010" timestamp="1629578484561" />
+    <state x="928" y="462" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1633482325319" />
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1633892157445">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1633892157445" />
     <state x="971" y="556" width="618" height="280" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1631319860296">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -354,64 +385,72 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="887" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1627089117883" />
-    <state width="1218" height="392" key="GridCell.Tab.0.bottom" timestamp="1633229550948">
-      <screen x="0" y="25" width="2560" height="1330" />
+    <state width="1218" height="436" key="GridCell.Tab.0.bottom" timestamp="1633841133401">
+      <screen x="0" y="25" width="1792" height="1019" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
+    <state width="1218" height="436" key="GridCell.Tab.0.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133401" />
     <state width="2498" height="382" key="GridCell.Tab.0.bottom/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="1218" height="392" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1633229550948" />
-    <state width="1218" height="392" key="GridCell.Tab.0.center" timestamp="1633229550947">
-      <screen x="0" y="25" width="2560" height="1330" />
+    <state width="1218" height="392" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1633805307500" />
+    <state width="1218" height="436" key="GridCell.Tab.0.center" timestamp="1633841133400">
+      <screen x="0" y="25" width="1792" height="1019" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
+    <state width="1218" height="436" key="GridCell.Tab.0.center/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133400" />
     <state width="2498" height="382" key="GridCell.Tab.0.center/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="1218" height="392" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1633229550947" />
-    <state width="1218" height="392" key="GridCell.Tab.0.left" timestamp="1633229550947">
-      <screen x="0" y="25" width="2560" height="1330" />
+    <state width="1218" height="392" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1633805307499" />
+    <state width="1218" height="436" key="GridCell.Tab.0.left" timestamp="1633841133400">
+      <screen x="0" y="25" width="1792" height="1019" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
+    <state width="1218" height="436" key="GridCell.Tab.0.left/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133400" />
     <state width="2498" height="382" key="GridCell.Tab.0.left/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="1218" height="392" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1633229550947" />
-    <state width="1218" height="392" key="GridCell.Tab.0.right" timestamp="1633229550948">
-      <screen x="0" y="25" width="2560" height="1330" />
+    <state width="1218" height="392" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1633805307499" />
+    <state width="1218" height="436" key="GridCell.Tab.0.right" timestamp="1633841133401">
+      <screen x="0" y="25" width="1792" height="1019" />
     </state>
     <state width="2498" height="383" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1625838815867" />
+    <state width="1218" height="436" key="GridCell.Tab.0.right/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133401" />
     <state width="2498" height="382" key="GridCell.Tab.0.right/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="1218" height="392" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1633229550948" />
-    <state width="1218" height="436" key="GridCell.Tab.1.bottom" timestamp="1633218043796">
-      <screen x="0" y="25" width="2560" height="1330" />
+    <state width="1218" height="392" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1633805307500" />
+    <state width="1218" height="436" key="GridCell.Tab.1.bottom" timestamp="1633841133402">
+      <screen x="0" y="25" width="1792" height="1019" />
     </state>
-    <state width="1218" height="436" key="GridCell.Tab.1.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1633218043796" />
-    <state width="1218" height="436" key="GridCell.Tab.1.center" timestamp="1633218043795">
-      <screen x="0" y="25" width="2560" height="1330" />
+    <state width="1218" height="436" key="GridCell.Tab.1.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133402" />
+    <state width="1218" height="436" key="GridCell.Tab.1.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1633802415213" />
+    <state width="1218" height="436" key="GridCell.Tab.1.center" timestamp="1633841133401">
+      <screen x="0" y="25" width="1792" height="1019" />
     </state>
-    <state width="1218" height="436" key="GridCell.Tab.1.center/0.25.2560.1330@0.25.2560.1330" timestamp="1633218043795" />
-    <state width="1218" height="436" key="GridCell.Tab.1.left" timestamp="1633218043795">
-      <screen x="0" y="25" width="2560" height="1330" />
+    <state width="1218" height="436" key="GridCell.Tab.1.center/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133401" />
+    <state width="1218" height="436" key="GridCell.Tab.1.center/0.25.2560.1330@0.25.2560.1330" timestamp="1633802415212" />
+    <state width="1218" height="436" key="GridCell.Tab.1.left" timestamp="1633841133401">
+      <screen x="0" y="25" width="1792" height="1019" />
     </state>
-    <state width="1218" height="436" key="GridCell.Tab.1.left/0.25.2560.1330@0.25.2560.1330" timestamp="1633218043795" />
-    <state width="1218" height="436" key="GridCell.Tab.1.right" timestamp="1633218043795">
-      <screen x="0" y="25" width="2560" height="1330" />
+    <state width="1218" height="436" key="GridCell.Tab.1.left/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133401" />
+    <state width="1218" height="436" key="GridCell.Tab.1.left/0.25.2560.1330@0.25.2560.1330" timestamp="1633802415212" />
+    <state width="1218" height="436" key="GridCell.Tab.1.right" timestamp="1633841133401">
+      <screen x="0" y="25" width="1792" height="1019" />
     </state>
-    <state width="1218" height="436" key="GridCell.Tab.1.right/0.25.2560.1330@0.25.2560.1330" timestamp="1633218043795" />
+    <state width="1218" height="436" key="GridCell.Tab.1.right/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133401" />
+    <state width="1218" height="436" key="GridCell.Tab.1.right/0.25.2560.1330@0.25.2560.1330" timestamp="1633802415212" />
     <state x="942" y="256" key="RollbackChangesDialog" timestamp="1630856980721">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="942" y="256" key="RollbackChangesDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1630856980721" />
-    <state x="561" y="103" key="SettingsEditor" timestamp="1632329935344">
+    <state x="561" y="103" key="SettingsEditor" timestamp="1633580055551">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="256" y="25" key="SettingsEditor/0.25.1792.1017@0.25.1792.1017" timestamp="1630034386276" />
-    <state x="561" y="103" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1632329935344" />
+    <state x="561" y="103" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1633580055551" />
     <state x="958" y="402" key="refactoring.ChangeSignatureDialog" timestamp="1633138134530">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="958" y="402" key="refactoring.ChangeSignatureDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1633138134530" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1633128961078">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1633891600616">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="544" y="25" width="1005" height="1114" key="search.everywhere.popup/0.25.1792.1010@0.25.1792.1010" timestamp="1629017910279" />
     <state x="544" y="25" width="1005" height="1120" key="search.everywhere.popup/0.25.1792.1015@0.25.1792.1015" timestamp="1630166661551" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1633128961078" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1633891600616" />
   </component>
 </project>
