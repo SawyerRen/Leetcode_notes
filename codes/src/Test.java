@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.PriorityQueue;
 
 public class Test {
     static int solution(int[] nums1, int[] nums2) {
@@ -38,15 +39,51 @@ public class Test {
         return res;
     }
 
+    static public int[] visitingCities(int[] red, int[] blue, int blueCost) {
+        int n = red.length;
+        int[] res = new int[n + 1];
+        res[0] = 0;
+        int[][] dp = new int[n + 1][2];
+        dp[0][0] = 0;
+        dp[0][1] = blueCost;
+        for (int i = 1; i < n + 1; i++) {
+            dp[i][0] = Math.min(dp[i - 1][0] + red[i - 1], dp[i - 1][1] + red[i - 1]);
+            dp[i][1] = Math.min(dp[i - 1][1] + blue[i - 1], dp[i - 1][0] + blueCost + blue[i - 1]);
+            res[i] = Math.min(dp[i][0], dp[i][1]);
+        }
+        return res;
+    }
+
+    static public int productSales(long[] inventory, int order) {
+        Arrays.sort(inventory);
+        long ans = 0;
+        int n = inventory.length - 1;
+        long count = 1;
+        while (order > 0) {
+            if (n > 0 && inventory[n] - inventory[n - 1] > 0 && order >= count * (inventory[n] - inventory[n - 1])) {
+                ans += count * sumFromNtoX(inventory[n], inventory[n - 1]);
+                order -= count * (inventory[n] - inventory[n - 1]);
+            } else if (n == 0 || inventory[n] - inventory[n - 1] > 0) {
+                long a = order / count;
+                ans += count * sumFromNtoX(inventory[n], inventory[n] - a);
+                long b = order % count;
+                ans += b * (inventory[n] - a);
+                order = 0;
+            }
+            ans %= 1000000007;
+            n--;
+            count++;
+        }
+        return (int) ans;
+    }
+
+    private static long sumFromNtoX(long n, long x) {
+        return (n * (n + 1)) / 2 - (x * (x + 1)) / 2;
+    }
+
     public static void main(String[] args) {
-        int[] nums1 = {1, 2, 3, 1, 2};
-        int[] nums2 = {1, 2};
-        System.out.println(solution1(nums1, nums2));
-        int[] nums3 = {1, 2, 2, 1, 1, 2};
-        int[] nums4 = {1, 1, 2};
-        System.out.println(solution1(nums3, nums4));
-        int[] nums5 = {1, 2, 1, 2, 1, 2};
-        int[] nums6 = {1, 1, 2};
-        System.out.println(solution1(nums5, nums6));
+        long[] inventory = {6, 4};
+        int order = 4;
+        System.out.println(productSales(inventory, order));
     }
 }
