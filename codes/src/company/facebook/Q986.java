@@ -3,6 +3,7 @@ package company.facebook;
 import java.util.ArrayList;
 import java.util.List;
 
+// 求并集
 public class Q986 {
     public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
         List<int[]> list = new ArrayList<>();

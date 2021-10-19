@@ -1,19 +1,20 @@
 package company.facebook;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
-public class Q76 {
-    public String minWindow(String s, String t) {
-        if (s.length() == 0 || t.length() == 0 || s.length() < t.length()) return "";
+public class Q438 {
+    public List<Integer> findAnagrams(String s, String p) {
+        List<Integer> res = new ArrayList<>();
+        if (s.length() < p.length()) return res;
+        int i = 0, j = 0;
         Map<Character, Integer> map = new HashMap<>();
-        for (char c : t.toCharArray()) {
+        for (char c : p.toCharArray()) {
             map.put(c, map.getOrDefault(c, 0) + 1);
         }
-        int count = t.length();
-        int i = 0, j = 0;
-        int minLen = s.length(), left = 0, right = 0;
-        boolean found = false;
+        int count = p.length();
         while (j < s.length()) {
             char rc = s.charAt(j);
             if (map.containsKey(rc)) {
@@ -21,13 +22,7 @@ public class Q76 {
                 if (map.get(rc) >= 0) count--;
             }
             while (i <= j && count == 0) {
-                found = true;
-                int curLen = j - i + 1;
-                if (curLen <= minLen) {
-                    minLen = curLen;
-                    left = i;
-                    right = j;
-                }
+                if (j - i + 1 == p.length()) res.add(i);
                 char lc = s.charAt(i);
                 if (map.containsKey(lc)) {
                     map.put(lc, map.get(lc) + 1);
@@ -37,7 +32,6 @@ public class Q76 {
             }
             j++;
         }
-        if (!found) return "";
-        return s.substring(left, right + 1);
+        return res;
     }
 }

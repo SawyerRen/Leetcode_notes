@@ -32,9 +32,6 @@ public class Q827 {
                             area += areaMap.get(index);
                             visited.add(index);
                         }
-
-
-
                     }
                     res = Math.max(res, area);
                 }
