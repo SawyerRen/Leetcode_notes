@@ -10,7 +10,7 @@ public class Q39 {
         return res;
     }
 
-    private void helper(List<List<Integer>> res, List<Integer> list, int[] candidates, int target, int start) {
+    private void helper(List<List<Integer>> res, ArrayList<Integer> list, int[] candidates, int target, int start) {
         if (target < 0) return;
         if (target == 0) {
             res.add(new ArrayList<>(list));

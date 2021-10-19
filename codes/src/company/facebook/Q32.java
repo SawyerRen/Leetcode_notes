@@ -9,11 +9,14 @@ public class Q32 {
         int res = 0;
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            if (c == ')' && stack.size() > 1 && s.charAt(stack.peek()) == '(') {
-                stack.pop();
-                res = Math.max(res, i - stack.peek());
-            } else {
-                stack.push(i);
+            if (c == '(') stack.push(i);
+            else {
+                if (stack.peek() != -1 && s.charAt(stack.peek()) == '(') {
+                    stack.pop();
+                    res = Math.max(res, i - stack.peek());
+                } else {
+                    stack.push(i);
+                }
             }
         }
         return res;

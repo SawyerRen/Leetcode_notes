@@ -8,11 +8,11 @@ public class Q40 {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
         List<List<Integer>> res = new ArrayList<>();
-        helper(res, new ArrayList<Integer>(), candidates, target, 0);
+        helper(res, new ArrayList<>(), candidates, target, 0);
         return res;
     }
 
-    private void helper(List<List<Integer>> res, ArrayList<Integer> list, int[] candidates, int target, int start) {
+    private void helper(List<List<Integer>> res, List<Integer> list, int[] candidates, int target, int start) {
         if (target < 0) return;
         if (target == 0) {
             res.add(new ArrayList<>(list));

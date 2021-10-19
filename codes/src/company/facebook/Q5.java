@@ -1,8 +1,7 @@
 package company.facebook;
 
 public class Q5 {
-    int maxLen = 0;
-    int left = -1, right = -1;
+    int left = 0, right = 0, maxLen = 0;
 
     public String longestPalindrome(String s) {
         for (int i = 0; i < s.length(); i++) {
@@ -12,15 +11,15 @@ public class Q5 {
         return s.substring(left, right);
     }
 
-    private void helper(String s, int i, int j) {
-        while (i >= 0 && j < s.length() && s.charAt(i) == s.charAt(j)) {
-            i--;
-            j++;
+    private void helper(String s, int left, int right) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
         }
-        if (j - i - 1 > maxLen) {
-            maxLen = j - i - 1;
-            left = i + 1;
-            right = j;
+        if (maxLen < right - left - 1) {
+            maxLen = right - left - 1;
+            this.left = left + 1;
+            this.right = right;
         }
     }
 }

@@ -6,23 +6,22 @@ import java.util.List;
 public class Q57 {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> list = new ArrayList<>();
-        int index = 0;
-        while (index < intervals.length && intervals[index][1] < newInterval[0]) {
-            list.add(intervals[index++]);
+        int i = 0;
+        while (i < intervals.length && intervals[i][1] < newInterval[0]) {
+            list.add(intervals[i++]);
         }
         int start = newInterval[0], end = newInterval[1];
-        while (index < intervals.length && intervals[index][0] <= newInterval[1]) {
-            start = Math.min(start, intervals[index][0]);
-            end = Math.max(end, intervals[index][1]);
-            index++;
+        while (i < intervals.length && end >= intervals[i][0]) {
+            start = Math.min(start, intervals[i][0]);
+            end = Math.max(end, intervals[i++][1]);
         }
         list.add(new int[]{start, end});
-        while (index < intervals.length) {
-            list.add(intervals[index++]);
+        while (i < intervals.length) {
+            list.add(intervals[i++]);
         }
         int[][] res = new int[list.size()][2];
-        for (int i = 0; i < list.size(); i++) {
-            res[i] = list.get(i);
+        for (int j = 0; j < list.size(); j++) {
+            res[j] = list.get(j);
         }
         return res;
     }

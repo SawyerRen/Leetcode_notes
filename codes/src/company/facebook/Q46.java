@@ -20,8 +20,8 @@ public class Q46 {
             visited[i] = true;
             list.add(nums[i]);
             helper(res, list, nums, visited);
-            list.remove(list.size() - 1);
             visited[i] = false;
+            list.remove(list.size() - 1);
         }
     }
 }
