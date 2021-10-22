@@ -2,24 +2,25 @@ package company.facebook;
 
 public class Q408 {
     public boolean validWordAbbreviation(String word, String abbr) {
-        int index = 0;
-        for (int i = 0; i < abbr.length(); i++) {
-            if (index >= word.length()) return false;
-            char c = abbr.charAt(i);
-            if (c == '0') return false;
-            if ('0' <= c && c <= '9') {
-                int num = c - '0';
-                while (i + 1 < abbr.length() && Character.isDigit(abbr.charAt(i + 1))) {
-                    num = num * 10 + abbr.charAt(i + 1) - '0';
-                    i++;
+        int i = 0, j = 0;
+        while (i < word.length() && j < abbr.length()) {
+            char c1 = word.charAt(i);
+            char c2 = abbr.charAt(j);
+            if (c1 == c2) {
+                i++;
+                j++;
+            } else if (Character.isDigit(c2)) {
+                if (c2 == '0') return false;
+                int length = 0;
+                while (j < abbr.length() && Character.isDigit(abbr.charAt(j))) {
+                    length = length * 10 + abbr.charAt(j) - '0';
+                    j++;
                 }
-                index += num;
-                if (index > word.length()) return false;
+                i += length;
             } else {
-                if (word.charAt(index) != abbr.charAt(i)) return false;
-                index++;
+                return false;
             }
         }
-        return index == word.length();
+        return i == word.length() && j == abbr.length();
     }
 }

@@ -2,8 +2,7 @@ package company.facebook;
 
 public class Q1011 {
     public int shipWithinDays(int[] weights, int days) {
-        int right = 0;
-        int left = 0;
+        int left = 0, right = 0;
         for (int weight : weights) {
             left = Math.max(left, weight);
             right += weight;
@@ -13,8 +12,8 @@ public class Q1011 {
             int need = 1, load = 0;
             for (int weight : weights) {
                 if (load + weight > mid) {
-                    load = 0;
                     need++;
+                    load = 0;
                 }
                 load += weight;
             }

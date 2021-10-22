@@ -9,8 +9,8 @@ public class Q919 {
 }
 
 class CBTInserter {
-    Queue<TreeNode> queue;
     TreeNode root;
+    Queue<TreeNode> queue;
 
     public CBTInserter(TreeNode root) {
         this.root = root;
@@ -29,11 +29,12 @@ class CBTInserter {
     }
 
     public int insert(int val) {
+        TreeNode node = new TreeNode(val);
         TreeNode peek = queue.peek();
         if (peek.left == null) {
-            peek.left = new TreeNode(val);
+            peek.left = node;
         } else {
-            peek.right = new TreeNode(val);
+            peek.right = node;
             queue.add(peek.left);
             queue.add(peek.right);
             queue.poll();

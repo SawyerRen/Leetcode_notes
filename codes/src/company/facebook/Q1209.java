@@ -7,33 +7,32 @@ public class Q1209 {
     public String removeDuplicates(String s, int k) {
         Stack<Node> stack = new Stack<>();
         for (char c : s.toCharArray()) {
-            if (!stack.isEmpty() && c == stack.peek().ch) {
-                Node pop = stack.pop();
-                if (pop.count < k - 1) {
-                    pop.count++;
-                    stack.push(pop);
+            if (!stack.isEmpty() && stack.peek().c == c) {
+                stack.peek().count++;
+                if (stack.peek().count == k) {
+                    stack.pop();
                 }
             } else {
-                stack.push(new Node(c, 1));
+                stack.push(new Node(1, c));
             }
         }
         StringBuilder builder = new StringBuilder();
         while (!stack.isEmpty()) {
-            Node pop = stack.pop();
-            for (int i = 0; i < pop.count; i++) {
-                builder.append(pop.ch);
+            Node node = stack.pop();
+            for (int i = 0; i < node.count; i++) {
+                builder.append(node.c);
             }
         }
         return builder.reverse().toString();
     }
 
     class Node {
-        char ch;
         int count;
+        char c;
 
-        public Node(char ch, int count) {
-            this.ch = ch;
+        public Node(int count, char c) {
             this.count = count;
+            this.c = c;
         }
     }
 }

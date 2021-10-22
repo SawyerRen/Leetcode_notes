@@ -6,8 +6,8 @@ import java.util.List;
 
 public class Q234 {
     public boolean isPalindrome(ListNode head) {
-        if (head == null || head.next == null) return true;
-        ListNode slow = head, fast = head, pre = head;
+        if (head == null) return true;
+        ListNode fast = head, slow = head, pre = head;
         while (fast != null && fast.next != null) {
             pre = slow;
             slow = slow.next;
@@ -24,11 +24,14 @@ public class Q234 {
     }
 
     private ListNode reverse(ListNode head) {
-        if (head == null || head.next == null) return head;
-        ListNode next = head.next;
-        ListNode newHead = reverse(next);
-        head.next = null;
-        next.next = head;
-        return newHead;
+        ListNode dummy = new ListNode();
+        ListNode cur = head;
+        while (cur != null) {
+            ListNode next = cur.next;
+            cur.next = dummy.next;
+            dummy.next = cur;
+            cur = next;
+        }
+        return dummy.next;
     }
 }

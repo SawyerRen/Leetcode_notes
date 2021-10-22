@@ -6,8 +6,8 @@ public class Q1644 {
     int count = 0;
 
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        TreeNode node = helper(root, p, q);
-        if (count == 2) return node;
+        TreeNode res = helper(root, p, q);
+        if (count == 2) return res;
         else return null;
     }
 
@@ -19,7 +19,9 @@ public class Q1644 {
             count++;
             return root;
         }
-        if (left != null && right != null) return root;
+        if (left != null && right != null) {
+            return root;
+        }
         if (left != null) return left;
         return right;
     }

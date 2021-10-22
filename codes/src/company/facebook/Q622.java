@@ -5,27 +5,29 @@ public class Q622 {
 
 class MyCircularQueue {
     int[] nums;
-    int start, end, len;
+    int start;
+    int end;
+    int length;
 
     public MyCircularQueue(int k) {
         nums = new int[k];
         start = 0;
         end = -1;
-        len = 0;
+        length = 0;
     }
 
     public boolean enQueue(int value) {
         if (isFull()) return false;
         end = (end + 1) % nums.length;
         nums[end] = value;
-        len++;
+        length++;
         return true;
     }
 
     public boolean deQueue() {
         if (isEmpty()) return false;
         start = (start + 1) % nums.length;
-        len--;
+        length--;
         return true;
     }
 
@@ -40,10 +42,10 @@ class MyCircularQueue {
     }
 
     public boolean isEmpty() {
-        return len == 0;
+        return length == 0;
     }
 
     public boolean isFull() {
-        return len == nums.length;
+        return length == nums.length;
     }
 }

@@ -13,8 +13,8 @@ public class Q109 {
             slow = slow.next;
             fast = fast.next.next;
         }
-        TreeNode root = new TreeNode(slow.val);
         pre.next = null;
+        TreeNode root = new TreeNode(slow.val);
         root.left = sortedListToBST(head);
         root.right = sortedListToBST(slow.next);
         return root;

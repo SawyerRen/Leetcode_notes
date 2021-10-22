@@ -5,15 +5,16 @@ import java.util.PriorityQueue;
 
 public class Q1353 {
     public int maxEvents(int[][] events) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
         Arrays.sort(events, (a, b) -> (a[0] - b[0]));
-        int i = 0, res = 0;
-        for (int d = 1; d <= 100000; d++) {
-            while (!pq.isEmpty() && pq.peek() < d) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        int index = 0;
+        int res = 0;
+        for (int d = 0; d < 100001; d++) {
+            while (!pq.isEmpty() && d > pq.peek()) {
                 pq.poll();
             }
-            while (i < events.length && events[i][0] == d) {
-                pq.add(events[i++][1]);
+            while (index < events.length && events[index][0] == d) {
+                pq.add(events[index++][1]);
             }
             if (!pq.isEmpty()) {
                 pq.poll();

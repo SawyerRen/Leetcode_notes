@@ -3,23 +3,23 @@ package company.facebook;
 import model.TreeNode;
 
 public class Q1373 {
+    class Result {
+        int min;
+        int max;
+        int sum;
+
+        public Result(int min, int max, int sum) {
+            this.min = min;
+            this.max = max;
+            this.sum = sum;
+        }
+    }
+
     int res = 0;
 
     public int maxSumBST(TreeNode root) {
-        helper(root);
+        Result result = helper(root);
         return res;
-    }
-
-    class Result {
-        int lower;
-        int higher;
-        int sum;
-
-        public Result(int lower, int higher, int sum) {
-            this.lower = lower;
-            this.higher = higher;
-            this.sum = sum;
-        }
     }
 
     private Result helper(TreeNode root) {
@@ -28,10 +28,14 @@ public class Q1373 {
         }
         Result left = helper(root.left);
         Result right = helper(root.right);
-        if (left == null || right == null) return null;
-        if (root.val <= left.higher || root.val >= right.lower) return null;
-        int sum = left.sum + right.sum + root.val;
-        res = Math.max(res, sum);
-        return new Result(Math.min(left.lower, root.val), Math.max(right.higher, root.val), sum);
+        if (root.val <= left.max || root.val >= right.min) {
+            return new Result(Integer.MIN_VALUE, Integer.MAX_VALUE, Math.max(left.sum, right.sum));
+        } else {
+            int min = Math.min(left.min, root.val);
+            int max = Math.max(right.max, root.val);
+            int sum = left.sum + right.sum + root.val;
+            res = Math.max(res, sum);
+            return new Result(min, max, sum);
+        }
     }
 }

@@ -6,19 +6,21 @@ public class Q785 {
         int[] colors = new int[n];
         for (int i = 0; i < n; i++) {
             if (colors[i] == 0) {
-                if (!dfs(graph, colors, i, 1)) return false;
+                if (!helper(graph, colors, i, 1)) {
+                    return false;
+                }
             }
         }
         return true;
     }
 
-    private boolean dfs(int[][] graph, int[] colors, int i, int color) {
+    private boolean helper(int[][] graph, int[] colors, int i, int color) {
         if (colors[i] != 0) {
-            return colors[i] == color;
+            return color == colors[i];
         }
         colors[i] = color;
         for (int next : graph[i]) {
-            if (!dfs(graph, colors, next, -color)) return false;
+            if (!helper(graph, colors, next, -color)) return false;
         }
         return true;
     }

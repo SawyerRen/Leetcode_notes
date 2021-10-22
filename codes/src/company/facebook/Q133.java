@@ -23,12 +23,25 @@ public class Q133 {
         }
     }
 
+    Map<Node, Node> map = new HashMap<>();
+
     public Node cloneGraph(Node node) {
+        if (node == null) return null;
+        if (map.containsKey(node)) return map.get(node);
+        Node newNode = new Node(node.val, new ArrayList<>());
+        map.put(node, newNode);
+        for (Node neighbor : node.neighbors) {
+            newNode.neighbors.add(cloneGraph(neighbor));
+        }
+        return newNode;
+    }
+
+    public Node cloneGraph1(Node node) {
         Map<Node, Node> map = new HashMap<>();
         if (node == null) return null;
         Queue<Node> queue = new LinkedList<>();
         queue.add(node);
-        map.put(node, new Node(node.val, new ArrayList<>()));
+        map.putIfAbsent(node, new Node(node.val, new ArrayList<>()));
         while (!queue.isEmpty()) {
             Node poll = queue.poll();
             for (Node neighbor : poll.neighbors) {

@@ -13,10 +13,10 @@ public class Q494 {
 
     private int helper(int[][] memo, int[] nums, int target, int sum, int i) {
         if (i == nums.length) {
-            if (target == sum) return 1;
+            if (sum == target) return 1;
             return 0;
         }
-        if (memo[i][sum + total] != 0) return memo[i][sum + total];
+        if (memo[i][total + sum] != 0) return memo[i][sum + total];
         int res = 0;
         res += helper(memo, nums, target, sum + nums[i], i + 1);
         res += helper(memo, nums, target, sum - nums[i], i + 1);

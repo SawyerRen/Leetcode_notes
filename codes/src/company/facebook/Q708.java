@@ -30,11 +30,11 @@ public class Q708 {
         }
         Node minNode = maxNode.next;
         if (insertVal <= minNode.val || insertVal >= maxNode.val) {
-            node.next = minNode;
             maxNode.next = node;
+            node.next = minNode;
         } else {
             Node cur = minNode;
-            while (cur.next != null && cur.next.val < insertVal) {
+            while (cur.next != null && insertVal > cur.next.val) {
                 cur = cur.next;
             }
             node.next = cur.next;

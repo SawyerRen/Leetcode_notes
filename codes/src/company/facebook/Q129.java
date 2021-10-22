@@ -4,22 +4,16 @@ import model.TreeNode;
 
 // 不用global variable怎么办？
 public class Q129 {
-    int res = 0;
-
     public int sumNumbers(TreeNode root) {
-        if (root == null) return 0;
-        helper(root, 0);
-        return res;
+        return helper(root, 0);
     }
 
-    private void helper(TreeNode root, int val) {
-        if (root == null) return;
+    private int helper(TreeNode root, int sum) {
+        if (root == null) return 0;
+        sum = sum * 10 + root.val;
         if (root.left == null && root.right == null) {
-            res += val * 10 + root.val;
-            return;
+            return sum;
         }
-        val = val * 10 + root.val;
-        helper(root.left, val);
-        helper(root.right, val);
+        return helper(root.left, sum) + helper(root.right, sum);
     }
 }

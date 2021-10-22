@@ -2,15 +2,15 @@ package company.facebook;
 
 public class Q767 {
     public String reorganizeString(String s) {
+        int max = 0;
+        int maxIndex = -1;
         int[] count = new int[26];
-        for (char c : s.toCharArray()) {
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
             count[c - 'a']++;
-        }
-        int max = 0, maxIndex = 0;
-        for (int i = 0; i < 26; i++) {
-            if (max < count[i]) {
-                max = count[i];
-                maxIndex = i;
+            if (count[c - 'a'] > max) {
+                max = count[c - 'a'];
+                maxIndex = c - 'a';
             }
         }
         if (max > (s.length() + 1) / 2) return "";

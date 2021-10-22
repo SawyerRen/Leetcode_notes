@@ -17,6 +17,7 @@ public class Q230 {
         count++;
         if (count == k) {
             res = root.val;
+            return;
         }
         helper(root.right, k);
     }

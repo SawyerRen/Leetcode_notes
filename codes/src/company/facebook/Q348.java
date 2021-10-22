@@ -8,13 +8,11 @@ class TicTacToe {
     int[] cols;
     int diagonal;
     int antiDiagonal;
-    int n = 0;
+    int n;
 
     public TicTacToe(int n) {
         rows = new int[n];
         cols = new int[n];
-        diagonal = 0;
-        antiDiagonal = 0;
         this.n = n;
     }
 
@@ -24,14 +22,10 @@ class TicTacToe {
         if (Math.abs(rows[row]) == n) return player;
         cols[col] += val;
         if (Math.abs(cols[col]) == n) return player;
-        if (row == col) {
-            diagonal += val;
-            if (Math.abs(diagonal) == n) return player;
-        }
-        if (row == n - 1 - col) {
-            antiDiagonal += val;
-            if (Math.abs(antiDiagonal) == n) return player;
-        }
+        if (col == row) diagonal += val;
+        if (Math.abs(diagonal) == n) return player;
+        if (col == n - 1 - row) antiDiagonal += val;
+        if (Math.abs(antiDiagonal) == n) return player;
         return 0;
     }
 }

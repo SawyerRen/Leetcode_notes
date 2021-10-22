@@ -15,9 +15,13 @@ public class Q1213 {
                 i++;
                 j++;
                 k++;
-            } else if (arr1[i] < arr2[j]) i++;
-            else if (arr2[j] < arr3[k]) j++;
-            else k++;
+            } else if (arr1[i] < arr2[j]) {
+                i++;
+            } else if (arr2[j] < arr3[k]) {
+                j++;
+            } else {
+                k++;
+            }
         }
         return res;
     }

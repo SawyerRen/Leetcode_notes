@@ -6,11 +6,11 @@ public class Q266 {
         for (char c : s.toCharArray()) {
             count[c - 'a']++;
         }
-        boolean odd = false;
+        boolean foundOne = false;
         for (int i = 0; i < 26; i++) {
             if (count[i] % 2 != 0) {
-                if (odd) return false;
-                odd = true;
+                if (foundOne) return false;
+                foundOne = true;
             }
         }
         return true;

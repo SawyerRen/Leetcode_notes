@@ -5,13 +5,13 @@ public class Q155 {
 
 class MinStack {
     class Node {
-        int min;
         int val;
+        int min;
         Node next;
 
-        public Node(int min, int val, Node next) {
-            this.min = min;
+        public Node(int val, int min, Node next) {
             this.val = val;
+            this.min = min;
             this.next = next;
         }
     }
@@ -24,7 +24,7 @@ class MinStack {
 
     public void push(int val) {
         if (head == null) head = new Node(val, val, null);
-        else head = new Node(Math.min(val, head.min), val, head);
+        else head = new Node(val, Math.min(head.min, val), head);
     }
 
     public void pop() {

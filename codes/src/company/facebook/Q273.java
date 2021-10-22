@@ -7,16 +7,16 @@ public class Q273 {
 
     public String numberToWords(int num) {
         if (num == 0) return "Zero";
+        StringBuilder builder = new StringBuilder();
         int i = 0;
-        StringBuilder s = new StringBuilder();
         while (num != 0) {
             if (num % 1000 != 0) {
-                s.insert(0, helper(num % 1000) + THOUSANDS[i] + " ");
+                builder.insert(0, helper(num % 1000) + THOUSANDS[i] + " ");
             }
             num /= 1000;
             i++;
         }
-        return s.toString().trim();
+        return builder.toString().trim();
     }
 
     private String helper(int num) {

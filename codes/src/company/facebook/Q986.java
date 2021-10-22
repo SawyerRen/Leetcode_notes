@@ -6,17 +6,15 @@ import java.util.List;
 // 求并集
 public class Q986 {
     public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
-        List<int[]> list = new ArrayList<>();
-        int m = firstList.length, n = secondList.length;
         int i = 0, j = 0;
-        while (i < m && j < n) {
-            int startMax = Math.max(firstList[i][0], secondList[j][0]);
-            int endMin = Math.min(firstList[i][1], secondList[j][1]);
-
-            if (endMin >= startMax) {
-                list.add(new int[]{startMax, endMin});
+        List<int[]> list = new ArrayList<>();
+        while (i < firstList.length && j < secondList.length) {
+            int start = Math.max(firstList[i][0], secondList[j][0]);
+            int end = Math.min(firstList[i][1], secondList[j][1]);
+            if (end >= start) {
+                list.add(new int[]{start, end});
             }
-            if (endMin == firstList[i][1]) {
+            if (end == firstList[i][1]) {
                 i++;
             } else {
                 j++;

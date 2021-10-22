@@ -9,12 +9,13 @@ public class Q1331 {
         int[] temp = Arrays.copyOf(arr, arr.length);
         Arrays.sort(temp);
         Map<Integer, Integer> map = new HashMap<>();
-        for (int j : temp) {
-            map.putIfAbsent(j, map.size() + 1);
+        for (int i = 0; i < temp.length; i++) {
+            map.putIfAbsent(temp[i], map.size() + 1);
         }
+        int[] res = new int[arr.length];
         for (int i = 0; i < arr.length; i++) {
-            temp[i] = map.get(arr[i]);
+            res[i] = map.get(arr[i]);
         }
-        return temp;
+        return res;
     }
 }

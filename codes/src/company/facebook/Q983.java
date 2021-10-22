@@ -8,7 +8,7 @@ public class Q983 {
         for (int day : days) {
             travelDay[day] = true;
         }
-        for (int i = 1; i < dp.length; i++) {
+        for (int i = 1; i < maxDay + 1; i++) {
             if (!travelDay[i]) {
                 dp[i] = dp[i - 1];
                 continue;

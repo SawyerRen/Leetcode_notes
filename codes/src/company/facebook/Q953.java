@@ -5,22 +5,28 @@ import java.util.Map;
 
 public class Q953 {
     public boolean isAlienSorted(String[] words, String order) {
-        Map<Character, Integer> map = new HashMap<>();
+        int[] index = new int[26];
         for (int i = 0; i < order.length(); i++) {
-            map.put(order.charAt(i), i);
+            index[order.charAt(i) - 'a'] = i;
         }
-        for (int i = 0; i < words.length - 1; i++) {
-            if (!valid(words[i], words[i + 1], map)) return false;
+        for (int i = 1; i < words.length; i++) {
+            if (!sorted(index, words[i - 1], words[i])) return false;
         }
         return true;
     }
 
-    private boolean valid(String s1, String s2, Map<Character, Integer> map) {
-        int minLen = Math.min(s1.length(), s2.length());
-        for (int i = 0; i < minLen; i++) {
-            if (s1.charAt(i) == s2.charAt(i)) continue;
-            return map.get(s1.charAt(i)) < map.get(s2.charAt(i));
+    private boolean sorted(int[] index, String s1, String s2) {
+        if (s1.equals(s2)) return true;
+        int i = 0, j = 0;
+        while (i < s1.length() && j < s2.length()) {
+            char c1 = s1.charAt(i);
+            char c2 = s2.charAt(j);
+            if (c1 != c2) {
+                return index[c1 - 'a'] < index[c2 - 'a'];
+            }
+            i++;
+            j++;
         }
-        return s1.length() <= s2.length();
+        return s1.length() < s2.length();
     }
 }

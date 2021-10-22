@@ -36,15 +36,15 @@ public class Q1522 {
         if (root == null) return 0;
         int max1 = 0, max2 = 0;
         for (Node child : root.children) {
-            int depth = helper(child) + 1;
-            if (depth > max1) {
+            int n = helper(child);
+            if (n > max1) {
                 max2 = max1;
-                max1 = depth;
-            } else if (depth > max2) {
-                max2 = depth;
+                max1 = n;
+            } else if (n > max2) {
+                max2 = n;
             }
         }
         res = Math.max(res, max1 + max2);
-        return max1;
+        return max1 + 1;
     }
 }

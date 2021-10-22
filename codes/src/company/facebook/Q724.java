@@ -2,14 +2,14 @@ package company.facebook;
 
 public class Q724 {
     public int pivotIndex(int[] nums) {
-        int sum = 0;
+        int total = 0;
         for (int num : nums) {
-            sum += num;
+            total += num;
         }
-        int preSum = 0;
+        int sum = 0;
         for (int i = 0; i < nums.length; i++) {
-            if (preSum * 2 == sum - nums[i]) return i;
-            preSum += nums[i];
+            if (sum * 2 == total - nums[i]) return i;
+            sum += nums[i];
         }
         return -1;
     }

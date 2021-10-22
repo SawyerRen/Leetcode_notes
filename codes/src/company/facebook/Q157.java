@@ -2,19 +2,19 @@ package company.facebook;
 
 public class Q157 {
     public int read(char[] buf, int n) {
-        int total = 0;
-        char[] temp = new char[4];
-        while (total < n) {
-            int len = read4(temp);
-            if (total + len >= n) {
-                len = n - total;
+        int totalLength = 0;
+        char[] buf4 = new char[4];
+        while (totalLength < n ) {
+            int readLength = read4(buf4);
+            if (totalLength + readLength > n) {
+                readLength = n - totalLength;
             }
-            for (int i = 0; i < len; i++) {
-                buf[total++] = temp[i];
+            for (int i = 0; i < readLength; i++) {
+                buf[totalLength++] = buf4[i];
             }
-            if (len < 4) break;
+            if (readLength < 4) break;
         }
-        return total;
+        return totalLength;
     }
 
     int read4(char[] buf4) {

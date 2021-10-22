@@ -4,18 +4,14 @@ import java.util.Stack;
 
 public class Q1047 {
     public String removeDuplicates(String s) {
-        Stack<Character> stack = new Stack<>();
+        StringBuilder builder = new StringBuilder();
         for (char c : s.toCharArray()) {
-            if (!stack.isEmpty() && c == stack.peek()) {
-                stack.pop();
+            if (builder.length() != 0 && c == builder.charAt(builder.length() - 1)) {
+                builder.setLength(builder.length() - 1);
             } else {
-                stack.push(c);
+                builder.append(c);
             }
         }
-        StringBuilder builder = new StringBuilder();
-        while (!stack.isEmpty()) {
-            builder.append(stack.pop());
-        }
-        return builder.reverse().toString();
+        return builder.toString();
     }
 }

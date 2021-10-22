@@ -2,15 +2,13 @@ package company.facebook;
 
 public class Q152 {
     public int maxProduct(int[] nums) {
-        if (nums.length == 0) return 0;
         int res = nums[0];
-        int min = nums[0];
-        int max = nums[0];
+        int curMax = nums[0], curMin = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            int tempMax = Math.max(nums[i], Math.max(nums[i] * max, nums[i] * min));
-            min = Math.min(nums[i], Math.min(nums[i] * max, nums[i] * min));
-            max = tempMax;
-            res = Math.max(res, max);
+            int max = Math.max(nums[i], Math.max(curMax * nums[i], curMin * nums[i]));
+            curMin = Math.min(nums[i], Math.min(curMin * nums[i], curMax * nums[i]));
+            curMax = max;
+            res = Math.max(res, curMax);
         }
         return res;
     }

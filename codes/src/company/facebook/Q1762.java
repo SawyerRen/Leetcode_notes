@@ -1,23 +1,22 @@
 package company.facebook;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Q1762 {
     public int[] findBuildings(int[] heights) {
-        if (heights.length == 0) return new int[0];
         List<Integer> list = new ArrayList<>();
-        int rightMax = heights[heights.length - 1];
-        list.add(heights.length - 1);
-        for (int i = heights.length - 2; i >= 0; i--) {
-            if (heights[i] > rightMax) {
+        int max = 0;
+        for (int i = heights.length - 1; i >= 0; i--) {
+            if (heights[i] > max) {
                 list.add(i);
-                rightMax = heights[i];
+                max = heights[i];
             }
         }
         int[] res = new int[list.size()];
         for (int i = 0; i < res.length; i++) {
-            res[i] = list.get(list.size() - i - 1);
+            res[i] = list.get(list.size() - 1 - i);
         }
         return res;
     }

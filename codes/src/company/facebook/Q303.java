@@ -9,8 +9,8 @@ class NumArray {
     public NumArray(int[] nums) {
         int n = nums.length;
         preSum = new int[n + 1];
-        for (int i = 1; i < n + 1; i++) {
-            preSum[i] = nums[i - 1] + preSum[i - 1];
+        for (int i = 0; i < n; i++) {
+            preSum[i + 1] = preSum[i] + nums[i];
         }
     }
 

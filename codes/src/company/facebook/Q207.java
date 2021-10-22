@@ -7,13 +7,12 @@ public class Q207 {
         int[] preCount = new int[numCourses];
         Map<Integer, List<Integer>> graph = new HashMap<>();
         for (int[] prerequisite : prerequisites) {
-            List<Integer> list = graph.getOrDefault(prerequisite[1], new ArrayList<>());
-            list.add(prerequisite[0]);
-            graph.put(prerequisite[1], list);
             preCount[prerequisite[0]]++;
+            graph.putIfAbsent(prerequisite[1], new ArrayList<>());
+            graph.get(prerequisite[1]).add(prerequisite[0]);
         }
-        Queue<Integer> queue = new LinkedList<>();
         int count = 0;
+        Queue<Integer> queue = new LinkedList<>();
         for (int i = 0; i < preCount.length; i++) {
             if (preCount[i] == 0) {
                 count++;
@@ -23,10 +22,10 @@ public class Q207 {
         while (!queue.isEmpty()) {
             Integer course = queue.poll();
             if (!graph.containsKey(course)) continue;
-            for (Integer c : graph.get(course)) {
-                preCount[c]--;
-                if (preCount[c] == 0) {
-                    queue.add(c);
+            for (Integer i : graph.get(course)) {
+                preCount[i]--;
+                if (preCount[i] == 0) {
+                    queue.add(i);
                     count++;
                 }
             }

@@ -10,8 +10,7 @@ public class Q794 {
         }
         int countX = count(gameBoard, 'X');
         int countO = count(gameBoard, 'O');
-        if (countX < countO) return false;
-        if (countX > countO + 1) return false;
+        if (countX < countO || countX > countO + 1) return false;
         boolean winX = win(gameBoard, 'X');
         boolean winO = win(gameBoard, 'O');
         if (winX && winO) return false;
@@ -20,23 +19,21 @@ public class Q794 {
         return true;
     }
 
-    private boolean win(char[][] gameBoard, char c) {
+    private boolean win(char[][] gameBoard, char x) {
         for (int i = 0; i < 3; i++) {
-            if (gameBoard[i][0] == c && gameBoard[i][1] == c && gameBoard[i][2] == c) return true;
+            if (gameBoard[i][0] == x && gameBoard[i][1] == x && gameBoard[i][2] == x) return true;
+            if (gameBoard[0][i] == x && gameBoard[1][i] == x && gameBoard[2][i] == x) return true;
         }
-        for (int i = 0; i < 3; i++) {
-            if (gameBoard[0][i] == c && gameBoard[1][i] == c && gameBoard[2][i] == c) return true;
-        }
-        if (gameBoard[0][0] == c && gameBoard[1][1] == c && gameBoard[2][2] == c) return true;
-        if (gameBoard[0][2] == c && gameBoard[1][1] == c && gameBoard[2][0] == c) return true;
+        if (gameBoard[0][0] == x && gameBoard[1][1] == x && gameBoard[2][2] == x) return true;
+        if (gameBoard[1][1] == x && gameBoard[2][0] == x && gameBoard[0][2] == x) return true;
         return false;
     }
 
-    private int count(char[][] gameBoard, char c) {
+    private int count(char[][] gameBoard, char x) {
         int count = 0;
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                if (gameBoard[i][j] == c) count++;
+                if (gameBoard[i][j] == x) count++;
             }
         }
         return count;

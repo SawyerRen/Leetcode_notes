@@ -5,7 +5,7 @@ public class Q240 {
         int m = matrix.length, n = matrix[0].length;
         int i = m - 1, j = 0;
         while (i >= 0 && j < n) {
-            if (matrix[i][j] == target) return true;
+            if (target == matrix[i][j]) return true;
             if (matrix[i][j] < target) j++;
             else i--;
         }

@@ -9,20 +9,19 @@ public class Q987 {
         Queue<TreeNode> queue = new LinkedList<>();
         Queue<Integer> cols = new LinkedList<>();
         Map<Integer, List<Node>> map = new HashMap<>();
+        int min = 0, max = 0;
         queue.add(root);
         cols.add(0);
-        int level = 0;
-        int min = 0, max = 0;
+        int row = 0;
         while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 TreeNode poll = queue.poll();
-                int col = cols.poll();
+                Integer col = cols.poll();
                 min = Math.min(min, col);
                 max = Math.max(max, col);
-                List<Node> list = map.getOrDefault(col, new ArrayList<>());
-                list.add(new Node(level, col, poll.val));
-                map.put(col, list);
+                map.putIfAbsent(col, new ArrayList<>());
+                map.get(col).add(new Node(row, col, poll.val));
                 if (poll.left != null) {
                     queue.add(poll.left);
                     cols.add(col - 1);
@@ -32,17 +31,20 @@ public class Q987 {
                     cols.add(col + 1);
                 }
             }
-            level++;
+            row++;
         }
         List<List<Integer>> res = new ArrayList<>();
         for (int i = min; i <= max; i++) {
             List<Node> nodes = map.get(i);
-            nodes.sort((a, b) -> (a.row == b.row ? a.val - b.val : a.row - b.row));
-            List<Integer> vals = new ArrayList<>();
+            nodes.sort((a, b) -> {
+                if (a.row == b.row) return a.val - b.val;
+                return a.row - b.row;
+            });
+            List<Integer> list = new ArrayList<>();
             for (Node node : nodes) {
-                vals.add(node.val);
+                list.add(node.val);
             }
-            res.add(vals);
+            res.add(list);
         }
         return res;
     }

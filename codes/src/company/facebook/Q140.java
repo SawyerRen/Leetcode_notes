@@ -17,10 +17,14 @@ public class Q140 {
         }
         for (String word : wordDict) {
             if (s.startsWith(word)) {
-                List<String> nextList = wordBreak(s.substring(word.length()), wordDict);
+                String sub = s.substring(word.length());
+                List<String> nextList = wordBreak(sub, wordDict);
                 for (String next : nextList) {
-                    if (next.equals("")) res.add(word);
-                    else res.add(word + " " + next);
+                    if (next.length() == 0) {
+                        res.add(word);
+                    } else {
+                        res.add(word + " " + next);
+                    }
                 }
             }
         }

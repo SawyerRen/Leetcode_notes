@@ -7,7 +7,7 @@ public class Q329 {
         int res = 0;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                res = Math.max(res, dfs(matrix, i, j, m, n, memo));
+                res = Math.max(res, helper(matrix, memo, i, j, m, n));
             }
         }
         return res;
@@ -15,16 +15,15 @@ public class Q329 {
 
     int[][] dirs = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
 
-    private int dfs(int[][] matrix, int i, int j, int m, int n, int[][] memo) {
+    private int helper(int[][] matrix, int[][] memo, int i, int j, int m, int n) {
         if (memo[i][j] != 0) return memo[i][j];
-        int max = 1;
+        int res = 1;
         for (int[] dir : dirs) {
             int x = i + dir[0], y = j + dir[1];
-            if (x < 0 || x >= m || y < 0 || y >= n || matrix[i][j] >= matrix[x][y]) continue;
-            int len = 1 + dfs(matrix, x, y, m, n, memo);
-            max = Math.max(max, len);
+            if (x < 0 || x >= m || y < 0 || y >= n || matrix[x][y] <= matrix[i][j]) continue;
+            res = Math.max(res, helper(matrix, memo, x, y, m, n) + 1);
         }
-        memo[i][j] = max;
-        return max;
+        memo[i][j] = res;
+        return res;
     }
 }

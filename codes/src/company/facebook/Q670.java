@@ -10,9 +10,8 @@ public class Q670 {
         for (int i = 0; i < chars.length; i++) {
             for (int k = 9; k > chars[i] - '0'; k--) {
                 if (index[k] > i) {
-                    char c = chars[index[k]];
                     chars[index[k]] = chars[i];
-                    chars[i] = c;
+                    chars[i] = (char) (k + '0');
                     return Integer.parseInt(new String(chars));
                 }
             }

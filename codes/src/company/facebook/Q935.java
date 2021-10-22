@@ -7,10 +7,7 @@ public class Q935 {
     int mod = 1000000000 + 7;
 
     public int knightDialer(int n) {
-        int[][] memo = new int[n + 1][10];
-        for (int[] ints : memo) {
-            Arrays.fill(ints, -1);
-        }
+        int[][] memo = new int[10][n + 1];
         int res = 0;
         for (int i = 0; i < 10; i++) {
             res = (res + helper(memo, i, n)) % mod;
@@ -19,13 +16,13 @@ public class Q935 {
     }
 
     private int helper(int[][] memo, int i, int n) {
-        if (memo[n][i] != -1) return memo[n][i];
         if (n == 1) return 1;
+        if (memo[i][n] != 0) return memo[i][n];
         int res = 0;
         for (int next : nums[i]) {
             res = (res + helper(memo, next, n - 1)) % mod;
         }
-        memo[n][i] = res;
+        memo[i][n] = res;
         return res;
     }
 }

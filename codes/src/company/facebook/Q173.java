@@ -10,25 +10,26 @@ public class Q173 {
 }
 
 class BSTIterator {
-    Stack<TreeNode> stack = new Stack<>();
+    Stack<TreeNode> stack;
 
     public BSTIterator(TreeNode root) {
-        TreeNode cur = root;
-        while (cur != null) {
-            stack.push(cur);
-            cur = cur.left;
+        stack = new Stack<>();
+        buildStack(root);
+    }
+
+    private void buildStack(TreeNode root) {
+        while (root != null) {
+            stack.push(root);
+            root = root.left;
         }
     }
 
     public int next() {
-        TreeNode cur = stack.pop();
-        int next = cur.val;
-        cur = cur.right;
-        while (cur != null) {
-            stack.push(cur);
-            cur = cur.left;
+        TreeNode pop = stack.pop();
+        if (pop.right != null) {
+            buildStack(pop.right);
         }
-        return next;
+        return pop.val;
     }
 
     public boolean hasNext() {

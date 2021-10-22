@@ -35,8 +35,8 @@ class LRUCache {
                 map.remove(last);
             }
         }
-        cache.addFirst(node);
         map.put(key, node);
+        cache.addFirst(node);
     }
 }
 

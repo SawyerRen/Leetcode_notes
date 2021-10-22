@@ -12,28 +12,28 @@ public class Q282 {
     }
 
     private void helper(List<String> res, StringBuilder builder, String num, int target, long cur, long pre) {
-        if (num.length() == 0) {
+        if (0 == num.length()) {
             if (cur == target) res.add(builder.toString());
             return;
         }
-        int length = builder.length();
-        for (int i = 0; i < num.length(); i++) {
-            if (i > 0 && num.charAt(i) == '0') break;
-            long sub = Long.parseLong(num.substring(0, i + 1));
-            if (length == 0) {
-                builder.append(sub);
-                helper(res, builder, num.substring(i + 1), target, sub, sub);
-                builder.setLength(length);
+        int len = builder.length();
+        for (int j = 0; j < num.length(); j++) {
+            if (j > 0 && num.charAt(0) == '0') break;
+            long n = Long.parseLong(num.substring(0, j + 1));
+            if (len == 0) {
+                builder.append(n);
+                helper(res, builder, num.substring(j + 1), target, n, n);
+                builder.setLength(len);
             } else {
-                builder.append("+").append(sub);
-                helper(res, builder, num.substring(i + 1), target, cur + sub, sub);
-                builder.setLength(length);
-                builder.append("-").append(sub);
-                helper(res, builder, num.substring(i + 1), target, cur - sub, -sub);
-                builder.setLength(length);
-                builder.append("*").append(sub);
-                helper(res, builder, num.substring(i + 1), target, cur - pre + pre * sub, pre * sub);
-                builder.setLength(length);
+                builder.append("+").append(n);
+                helper(res, builder, num.substring(j + 1), target, cur + n, n);
+                builder.setLength(len);
+                builder.append("-").append(n);
+                helper(res, builder, num.substring(j + 1), target, cur - n, -n);
+                builder.setLength(len);
+                builder.append("*").append(n);
+                helper(res, builder, num.substring(j + 1), target, cur - pre + pre * n, pre * n);
+                builder.setLength(len);
             }
         }
     }

@@ -5,16 +5,16 @@ import java.util.Map;
 
 public class Q560 {
     public int subarraySum(int[] nums, int k) {
-        Map<Integer, Integer> preSumMap = new HashMap<>();
-        int preSum = 0;
         int res = 0;
+        Map<Integer, Integer> map = new HashMap<>();
+        map.put(0, 1);
+        int sum = 0;
         for (int num : nums) {
-            preSum += num;
-            if (preSum == k) res++;
-            if (preSumMap.containsKey(preSum - k)) {
-                res += preSumMap.get(preSum - k);
+            sum += num;
+            if (map.containsKey(sum - k)) {
+                res += map.get(sum - k);
             }
-            preSumMap.put(preSum, preSumMap.getOrDefault(preSum, 0) + 1);
+            map.put(sum, map.getOrDefault(sum, 0) + 1);
         }
         return res;
     }
