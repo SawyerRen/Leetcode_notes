@@ -9,11 +9,11 @@ public class Q1011 {
         }
         while (left < right) {
             int mid = left + (right - left) / 2;
-            int need = 1, load = 0;
+            int load = 0, need = 1;
             for (int weight : weights) {
                 if (load + weight > mid) {
-                    need++;
                     load = 0;
+                    need++;
                 }
                 load += weight;
             }

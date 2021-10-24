@@ -11,7 +11,9 @@ public class Q523 {
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
             int mod = k == 0 ? sum : sum % k;
-            if (map.containsKey(mod) && i - map.get(mod) + 1 > 2) return true;
+            if (map.containsKey(mod)) {
+                if (i - map.get(mod) > 1) return true;
+            }
             map.putIfAbsent(mod, i);
         }
         return false;

@@ -3,27 +3,28 @@ package company.facebook;
 public class Q65 {
     public boolean isNumber(String s) {
         s = s.toLowerCase().trim();
-        boolean dotSeen = false;
-        boolean eSeen = false;
         boolean numberBeforeE = false;
         boolean numberAfterE = false;
+        boolean seenE = false;
+        boolean seenDot = false;
         for (int i = 0; i < s.length(); i++) {
-            char cur = s.charAt(i);
-            if ('0' <= cur && cur <= '9') {
-                if (!eSeen) numberBeforeE = true;
-                if (eSeen) numberAfterE = true;
-            } else if (cur == '-' || cur == '+') {
-                if (i != 0 && s.charAt(i - 1) != 'e') return false;
-            } else if (cur == '.') {
-                if (eSeen || dotSeen) return false;
-                dotSeen = true;
-            } else if (cur == 'e') {
-                if (eSeen) return false;
-                eSeen = true;
-            } else { // invalid chars
+            char c = s.charAt(i);
+            if (Character.isDigit(c)) {
+                if (seenE) numberAfterE = true;
+                else numberBeforeE = true;
+            } else if (c == '-' || c == '+') {
+                if (i > 0 && s.charAt(i - 1) != 'e') return false;
+            } else if (c == 'e') {
+                if (seenE) return false;
+                seenE = true;
+            } else if (c == '.') {
+                if (seenDot || seenE) return false;
+                seenDot = true;
+            } else {
                 return false;
             }
         }
-        return eSeen ? (numberBeforeE && numberAfterE) : numberBeforeE;
+        if (seenE) return numberAfterE && numberBeforeE;
+        return numberBeforeE;
     }
 }

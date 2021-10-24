@@ -2,9 +2,9 @@ package company.facebook;
 
 public class Q1891 {
     public int maxLength(int[] ribbons, int k) {
-        int left = 1, right = 1;
+        int left = 1, right = 0;
         for (int ribbon : ribbons) {
-            right = Math.max(right, ribbon) + 1;
+            right = Math.max(ribbon, right) + 1;
         }
         while (left < right) {
             int mid = left + (right - left) / 2;

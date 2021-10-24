@@ -7,14 +7,13 @@ public class Q443 {
             char c = chars[index];
             int count = 0;
             while (index < chars.length && chars[index] == c) {
-                count++;
                 index++;
+                count++;
             }
             chars[resIndex++] = c;
             if (count > 1) {
-                String s = String.valueOf(count);
-                for (int j = 0; j < s.length(); j++) {
-                    chars[resIndex++] = s.charAt(j);
+                for (char c1 : String.valueOf(count).toCharArray()) {
+                    chars[resIndex++] = c1;
                 }
             }
         }

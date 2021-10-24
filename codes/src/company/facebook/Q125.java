@@ -5,9 +5,9 @@ public class Q125 {
         String s1 = s.toLowerCase();
         int i = 0, j = s.length() - 1;
         while (i < j) {
-            while (i < j && !Character.isLetterOrDigit(s.charAt(i))) i++;
-            while (i < j && !Character.isLetterOrDigit(s.charAt(j))) j--;
-            if (i < j && s1.charAt(i) != s1.charAt(j)) return false;
+            while (i < j && (s1.charAt(i) == ' ' || !Character.isLetterOrDigit(s1.charAt(i)))) i++;
+            while (i < j && (s1.charAt(j) == ' ' || !Character.isLetterOrDigit(s1.charAt(j)))) j--;
+            if (s1.charAt(i) != s1.charAt(j)) return false;
             i++;
             j--;
         }

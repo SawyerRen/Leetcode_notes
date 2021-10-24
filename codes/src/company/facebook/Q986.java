@@ -9,16 +9,13 @@ public class Q986 {
         int i = 0, j = 0;
         List<int[]> list = new ArrayList<>();
         while (i < firstList.length && j < secondList.length) {
-            int start = Math.max(firstList[i][0], secondList[j][0]);
-            int end = Math.min(firstList[i][1], secondList[j][1]);
-            if (end >= start) {
-                list.add(new int[]{start, end});
+            int maxStart = Math.max(firstList[i][0], secondList[j][0]);
+            int minEnd = Math.min(firstList[i][1], secondList[j][1]);
+            if (maxStart <= minEnd) {
+                list.add(new int[]{maxStart, minEnd});
             }
-            if (end == firstList[i][1]) {
-                i++;
-            } else {
-                j++;
-            }
+            if (minEnd == firstList[i][1]) i++;
+            if (minEnd == secondList[j][1]) j++;
         }
         int[][] res = new int[list.size()][2];
         for (int k = 0; k < list.size(); k++) {

@@ -7,22 +7,22 @@ public class Q935 {
     int mod = 1000000000 + 7;
 
     public int knightDialer(int n) {
-        int[][] memo = new int[10][n + 1];
         int res = 0;
+        int[][] memo = new int[n + 1][10];
         for (int i = 0; i < 10; i++) {
-            res = (res + helper(memo, i, n)) % mod;
+            res = (res + helper(memo, n, i)) % mod;
         }
         return res;
     }
 
-    private int helper(int[][] memo, int i, int n) {
+    private int helper(int[][] memo, int n, int i) {
         if (n == 1) return 1;
-        if (memo[i][n] != 0) return memo[i][n];
+        if (memo[n][i] != 0) return memo[n][i];
         int res = 0;
         for (int next : nums[i]) {
-            res = (res + helper(memo, next, n - 1)) % mod;
+            res = (res + helper(memo, n - 1, next)) % mod;
         }
-        memo[i][n] = res;
+        memo[n][i] = res;
         return res;
     }
 }

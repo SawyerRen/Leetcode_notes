@@ -34,7 +34,7 @@ public class Q138 {
         }
         cur = head;
         Node copyHead = head.next;
-        Node copy = copyHead;
+        Node copy = head.next;
         while (copy.next != null) {
             cur.next = cur.next.next;
             cur = cur.next;
@@ -49,13 +49,11 @@ public class Q138 {
         Map<Node, Node> map = new HashMap<>();
         Node cur = head;
         while (cur != null) {
-            map.putIfAbsent(cur, new Node(cur.val));
-            if (cur.next != null && !map.containsKey(cur.next)) {
-                map.put(cur.next, new Node(cur.next.val));
-            }
-            if (cur.random != null && !map.containsKey(cur.random)) {
-                map.put(cur.random, new Node(cur.random.val));
-            }
+            map.put(cur, new Node(cur.val));
+            cur = cur.next;
+        }
+        cur = head;
+        while (cur != null) {
             map.get(cur).next = map.get(cur.next);
             map.get(cur).random = map.get(cur.random);
             cur = cur.next;

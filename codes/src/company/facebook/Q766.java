@@ -1,13 +1,14 @@
 package company.facebook;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
 public class Q766 {
     public boolean isToeplitzMatrix(int[][] matrix) {
+        LinkedList<Integer> list = new LinkedList<>();
         int m = matrix.length, n = matrix[0].length;
-        List<Integer> list = new ArrayList<>();
         for (int j = 0; j < n; j++) {
             list.add(matrix[0][j]);
         }
@@ -15,8 +16,8 @@ public class Q766 {
             for (int j = 1; j < n; j++) {
                 if (list.get(j - 1) != matrix[i][j]) return false;
             }
-            list.remove(list.size() - 1);
-            list.add(0, matrix[i][0]);
+            list.removeLast();
+            list.addFirst(matrix[i][0]);
         }
         return true;
     }

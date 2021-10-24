@@ -11,15 +11,19 @@ interface BinaryMatrix {
 
 public class Q1428 {
     public int leftMostColumnWithOne(BinaryMatrix binaryMatrix) {
-        int m = binaryMatrix.dimensions().get(0);
-        int n = binaryMatrix.dimensions().get(1);
-        int res = n;
+        List<Integer> dimensions = binaryMatrix.dimensions();
+        int m = dimensions.get(0), n = dimensions.get(1);
         int i = 0, j = n - 1;
+        int res = Integer.MAX_VALUE;
         while (i < m && j >= 0) {
-            while (j >= 0 && binaryMatrix.get(i, j) == 1) j--;
-            res = Math.min(res, j + 1);
-            i++;
+            if (binaryMatrix.get(i, j) == 1) {
+                res = Math.min(res, j);
+                j--;
+            } else {
+                i++;
+            }
         }
-        return res == n ? -1 : res;
+        if (res == Integer.MAX_VALUE) return -1;
+        return res;
     }
 }

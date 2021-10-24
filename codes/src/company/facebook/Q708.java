@@ -19,26 +19,26 @@ public class Q708 {
     }
 
     public Node insert(Node head, int insertVal) {
-        Node node = new Node(insertVal);
+        Node newNode = new Node(insertVal);
         if (head == null) {
-            node.next = node;
-            return node;
+            newNode.next = newNode;
+            return newNode;
         }
         Node maxNode = head;
-        while (maxNode.next.val >= maxNode.val && maxNode.next != head) {
+        while (maxNode.next != head && maxNode.next.val >= maxNode.val) {
             maxNode = maxNode.next;
         }
         Node minNode = maxNode.next;
-        if (insertVal <= minNode.val || insertVal >= maxNode.val) {
-            maxNode.next = node;
-            node.next = minNode;
+        if (minNode.val >= insertVal || maxNode.val <= insertVal) {
+            maxNode.next = newNode;
+            newNode.next = minNode;
         } else {
             Node cur = minNode;
-            while (cur.next != null && insertVal > cur.next.val) {
+            while (cur.next.val < insertVal) {
                 cur = cur.next;
             }
-            node.next = cur.next;
-            cur.next = node;
+            newNode.next = cur.next;
+            cur.next = newNode;
         }
         return head;
     }

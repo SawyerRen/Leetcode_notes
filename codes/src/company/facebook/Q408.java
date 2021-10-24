@@ -4,21 +4,18 @@ public class Q408 {
     public boolean validWordAbbreviation(String word, String abbr) {
         int i = 0, j = 0;
         while (i < word.length() && j < abbr.length()) {
-            char c1 = word.charAt(i);
-            char c2 = abbr.charAt(j);
-            if (c1 == c2) {
-                i++;
-                j++;
-            } else if (Character.isDigit(c2)) {
-                if (c2 == '0') return false;
-                int length = 0;
+            if (Character.isDigit(abbr.charAt(j))) {
+                if (abbr.charAt(j) == '0') return false;
+                int count = 0;
                 while (j < abbr.length() && Character.isDigit(abbr.charAt(j))) {
-                    length = length * 10 + abbr.charAt(j) - '0';
+                    count = count * 10 + abbr.charAt(j) - '0';
                     j++;
                 }
-                i += length;
+                i += count;
             } else {
-                return false;
+                if (word.charAt(i) != abbr.charAt(j)) return false;
+                i++;
+                j++;
             }
         }
         return i == word.length() && j == abbr.length();

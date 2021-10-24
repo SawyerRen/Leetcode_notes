@@ -4,14 +4,15 @@ import java.util.*;
 
 public class Q721 {
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
-        UnionFind uf = new UnionFind(accounts.size());
         Map<String, Integer> mailIndexMap = new HashMap<>();
-        for (int i = 0; i < accounts.size(); i++) {
+        int n = accounts.size();
+        UnionFind uf = new UnionFind(n);
+        for (int i = 0; i < n; i++) {
             for (int j = 1; j < accounts.get(i).size(); j++) {
                 String mail = accounts.get(i).get(j);
                 if (mailIndexMap.containsKey(mail)) {
-                    Integer preIndex = mailIndexMap.get(mail);
-                    uf.union(preIndex, i);
+                    int index = mailIndexMap.get(mail);
+                    uf.union(index, i);
                 } else {
                     mailIndexMap.put(mail, i);
                 }
@@ -25,10 +26,11 @@ public class Q721 {
         }
         List<List<String>> res = new ArrayList<>();
         for (Integer index : indexMailMap.keySet()) {
-            List<String> mails = new ArrayList<>(indexMailMap.get(index));
-            Collections.sort(mails);
-            mails.add(0, accounts.get(index).get(0));
-            res.add(mails);
+            Set<String> mails = indexMailMap.get(index);
+            List<String> list = new ArrayList<>(mails);
+            Collections.sort(list);
+            list.add(0, accounts.get(index).get(0));
+            res.add(list);
         }
         return res;
     }
@@ -48,25 +50,25 @@ public class Q721 {
             }
         }
 
-        void union(int a, int b) {
-            int pa = find(a);
-            int pb = find(b);
-            if (pa == pb) return;
-            if (size[pa] > size[pb]) {
-                parents[pb] = pa;
-                size[pa] += size[pb];
-            } else {
-                parents[pa] = pb;
-                size[pb] += size[pa];
-            }
-        }
-
         int find(int a) {
             while (a != parents[a]) {
                 parents[a] = parents[parents[a]];
                 a = parents[a];
             }
             return a;
+        }
+
+        void union(int i, int j) {
+            int p1 = find(i);
+            int p2 = find(j);
+            if (p1 == p2) return;
+            if (size[p1] > size[p2]) {
+                parents[p2] = p1;
+                size[p1] += size[p2];
+            } else {
+                parents[p1] = p2;
+                size[p2] += p1;
+            }
         }
     }
 }

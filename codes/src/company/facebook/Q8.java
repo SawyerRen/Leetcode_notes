@@ -6,13 +6,13 @@ public class Q8 {
         while (index < s.length() && s.charAt(index) == ' ') index++;
         if (index == s.length()) return 0;
         boolean negative = false;
-        if (s.charAt(index) == '-') {
+        if (s.charAt(index) == '+') {
+            index++;
+        } else if (s.charAt(index) == '-') {
             negative = true;
             index++;
-        } else if (s.charAt(index) == '+') {
-            index++;
         }
-        long res = 0;
+        long res = 0L;
         while (index < s.length()) {
             if (!Character.isDigit(s.charAt(index))) break;
             res = res * 10 + s.charAt(index) - '0';
@@ -23,6 +23,6 @@ public class Q8 {
             index++;
         }
         if (negative) return -(int) res;
-        else return (int) res;
+        return (int) res;
     }
 }

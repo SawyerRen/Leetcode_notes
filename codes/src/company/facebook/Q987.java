@@ -8,8 +8,8 @@ public class Q987 {
     public List<List<Integer>> verticalTraversal(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
         Queue<Integer> cols = new LinkedList<>();
+        int max = 0, min = 0;
         Map<Integer, List<Node>> map = new HashMap<>();
-        int min = 0, max = 0;
         queue.add(root);
         cols.add(0);
         int row = 0;
@@ -18,8 +18,8 @@ public class Q987 {
             for (int i = 0; i < size; i++) {
                 TreeNode poll = queue.poll();
                 Integer col = cols.poll();
-                min = Math.min(min, col);
-                max = Math.max(max, col);
+                max = Math.max(col, max);
+                min = Math.min(col, min);
                 map.putIfAbsent(col, new ArrayList<>());
                 map.get(col).add(new Node(row, col, poll.val));
                 if (poll.left != null) {
@@ -40,7 +40,7 @@ public class Q987 {
                 if (a.row == b.row) return a.val - b.val;
                 return a.row - b.row;
             });
-            List<Integer> list = new ArrayList<>();
+            ArrayList<Integer> list = new ArrayList<>();
             for (Node node : nodes) {
                 list.add(node.val);
             }

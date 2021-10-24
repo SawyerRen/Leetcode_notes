@@ -5,10 +5,10 @@ import java.util.*;
 public class Q207 {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[] preCount = new int[numCourses];
-        Map<Integer, List<Integer>> graph = new HashMap<>();
+        Map<Integer, Set<Integer>> graph = new HashMap<>();
         for (int[] prerequisite : prerequisites) {
             preCount[prerequisite[0]]++;
-            graph.putIfAbsent(prerequisite[1], new ArrayList<>());
+            graph.putIfAbsent(prerequisite[1], new HashSet<>());
             graph.get(prerequisite[1]).add(prerequisite[0]);
         }
         int count = 0;
@@ -20,13 +20,13 @@ public class Q207 {
             }
         }
         while (!queue.isEmpty()) {
-            Integer course = queue.poll();
-            if (!graph.containsKey(course)) continue;
-            for (Integer i : graph.get(course)) {
-                preCount[i]--;
-                if (preCount[i] == 0) {
-                    queue.add(i);
+            Integer poll = queue.poll();
+            if (!graph.containsKey(poll)) continue;
+            for (Integer course : graph.get(poll)) {
+                preCount[course]--;
+                if (preCount[course] == 0) {
                     count++;
+                    queue.add(course);
                 }
             }
         }

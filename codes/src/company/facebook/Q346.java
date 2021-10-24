@@ -7,18 +7,19 @@ public class Q346 {
 }
 
 class MovingAverage {
-    Queue<Integer> queue = new LinkedList<>();
-    double sum = 0;
-    int size = 0;
+    int size;
+    Queue<Integer> queue;
+    double sum;
 
     public MovingAverage(int size) {
+        queue = new LinkedList<>();
         this.size = size;
+        sum = 0;
     }
 
     public double next(int val) {
-        if (queue.size() == size) {
-            Integer poll = queue.poll();
-            sum -= poll;
+        if (this.size == queue.size()) {
+            sum -= queue.poll();
         }
         queue.add(val);
         sum += val;

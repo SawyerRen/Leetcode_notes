@@ -3,11 +3,11 @@ package company.facebook;
 public class Q896 {
     public boolean isMonotonic(int[] nums) {
         Boolean increase = null;
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i + 1] > nums[i]) {
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] > nums[i - 1]) {
                 if (increase != null && !increase) return false;
                 increase = true;
-            } else if (nums[i + 1] < nums[i]) {
+            } else if (nums[i] < nums[i - 1]) {
                 if (increase != null && increase) return false;
                 increase = false;
             }

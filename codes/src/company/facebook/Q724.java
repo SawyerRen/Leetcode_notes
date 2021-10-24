@@ -6,10 +6,10 @@ public class Q724 {
         for (int num : nums) {
             total += num;
         }
-        int sum = 0;
+        int preSum = 0;
         for (int i = 0; i < nums.length; i++) {
-            if (sum * 2 == total - nums[i]) return i;
-            sum += nums[i];
+            if (preSum * 2 == total - nums[i]) return i;
+            preSum += nums[i];
         }
         return -1;
     }

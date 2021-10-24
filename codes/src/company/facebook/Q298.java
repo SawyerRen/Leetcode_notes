@@ -3,22 +3,22 @@ package company.facebook;
 import model.TreeNode;
 
 public class Q298 {
-    int maxLen = 0;
+    int res = 0;
 
     public int longestConsecutive(TreeNode root) {
         helper(root, root.val - 1, 0);
-        return maxLen;
+        return res;
     }
 
-    private void helper(TreeNode root, int preVal, int len) {
+    private void helper(TreeNode root, int pre, int depth) {
         if (root == null) return;
-        if (root.val == preVal + 1) {
-            len++;
+        if (root.val == pre + 1) {
+            depth++;
         } else {
-            len = 1;
+            depth = 1;
         }
-        maxLen = Math.max(maxLen, len);
-        helper(root.left, root.val, len);
-        helper(root.right, root.val, len);
+        res = Math.max(res, depth);
+        helper(root.left, root.val, depth);
+        helper(root.right, root.val, depth);
     }
 }

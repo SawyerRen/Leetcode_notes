@@ -10,14 +10,14 @@ public class Q844 {
                 else countS--;
                 i--;
             }
-            char sc = i >= 0 ? s.charAt(i) : '@';
             while (j >= 0 && (countT > 0 || t.charAt(j) == '#')) {
                 if (t.charAt(j) == '#') countT++;
                 else countT--;
                 j--;
             }
-            char tc = j >= 0 ? t.charAt(j) : '@';
-            if (sc != tc) return false;
+            char c1 = i >= 0 ? s.charAt(i) : '!';
+            char c2 = j >= 0 ? t.charAt(j) : '!';
+            if (c1 != c2) return false;
             i--;
             j--;
         }

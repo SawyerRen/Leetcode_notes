@@ -14,6 +14,8 @@ public class Q129 {
         if (root.left == null && root.right == null) {
             return sum;
         }
-        return helper(root.left, sum) + helper(root.right, sum);
+        int left = helper(root.left, sum);
+        int right = helper(root.right, sum);
+        return left + right;
     }
 }

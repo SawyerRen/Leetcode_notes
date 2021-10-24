@@ -18,6 +18,44 @@ public class E2 {
     public static int[][] mergeList(int[][] firstList, int[][] secondList) {
         if (firstList.length == 0) return secondList;
         if (secondList.length == 0) return firstList;
+        int i = 0, j = 0;
+        int[] prev = null;
+        if (firstList[0][0] < secondList[0][0]) {
+            prev = firstList[0];
+            i++;
+        } else {
+            prev = secondList[0];
+            j++;
+        }
+        List<int[]> list = new ArrayList<>();
+        while (i < firstList.length || j < secondList.length) {
+            if (j == secondList.length || firstList[i][0] < secondList[j][0]) {
+                if (prev[1] < firstList[i][0]) {
+                    list.add(prev);
+                    prev = firstList[i];
+                } else {
+                    prev[1] = Math.max(prev[1], firstList[i][1]);
+                }
+                i++;
+            } else {
+                if (prev[1] < secondList[i][0]) {
+                    list.add(prev);
+                    prev = secondList[i];
+                } else {
+                    prev[1] = Math.max(prev[1], secondList[i][1]);
+                }
+                j++;
+            }
+        }
+        int[][] res = new int[list.size()][2];
+        for (int k = 0; k < list.size(); k++) {
+            res[k] = list.get(k);
+        }
+        return res;
+    }
+    public static int[][] mergeList1(int[][] firstList, int[][] secondList) {
+        if (firstList.length == 0) return secondList;
+        if (secondList.length == 0) return firstList;
         List<int[]> list = new ArrayList<>();
         int i = 0, j = 0;
         int[] prev;

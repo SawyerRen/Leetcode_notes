@@ -32,19 +32,19 @@ interface NestedInteger {
 public class Q339 {
     public int depthSum(List<NestedInteger> nestedList) {
         int res = 0;
-        int level = 1;
         Queue<NestedInteger> queue = new LinkedList<>(nestedList);
+        int level = 0;
         while (!queue.isEmpty()) {
+            level++;
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 NestedInteger poll = queue.poll();
                 if (poll.isInteger()) {
-                    res += level * poll.getInteger();
+                    res += poll.getInteger() * level;
                 } else {
                     queue.addAll(poll.getList());
                 }
             }
-            level++;
         }
         return res;
     }

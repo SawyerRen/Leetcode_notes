@@ -6,18 +6,25 @@ public class Q398 {
 }
 
 class Solution {
-    Map<Integer, List<Integer>> map = new HashMap<>();
-    Random random = new Random();
+    int[] nums;
+    Random random;
 
     public Solution(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            map.putIfAbsent(nums[i], new ArrayList<>());
-            map.get(nums[i]).add(i);
-        }
+        this.nums = nums;
+        random = new Random();
     }
 
     public int pick(int target) {
-        List<Integer> list = map.get(target);
-        return list.get(random.nextInt(list.size()));
+        int count = 0;
+        int res = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == target) {
+                count++;
+                if (random.nextInt(count) == 0) {
+                    res = i;
+                }
+            }
+        }
+        return res;
     }
 }

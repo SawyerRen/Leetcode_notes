@@ -16,8 +16,8 @@ public class Q333 {
     }
 
     public int largestBSTSubtree(TreeNode root) {
-        Result res = helper(root);
-        return res.size;
+        Result result = helper(root);
+        return result.size;
     }
 
     private Result helper(TreeNode root) {
@@ -29,8 +29,10 @@ public class Q333 {
         if (root.val <= left.maxVal || root.val >= right.minVal) {
             return new Result(Integer.MIN_VALUE, Integer.MAX_VALUE, Math.max(left.size, right.size));
         } else {
-            return new Result(Math.min(left.minVal, root.val), Math.max(right.maxVal, root.val),
-                    left.size + right.size + 1);
+            int min = Math.min(root.val, left.minVal);
+            int max = Math.max(root.val, right.maxVal);
+            int size = left.size + right.size + 1;
+            return new Result(min, max, size);
         }
     }
 }

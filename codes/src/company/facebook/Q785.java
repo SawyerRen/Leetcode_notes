@@ -6,9 +6,7 @@ public class Q785 {
         int[] colors = new int[n];
         for (int i = 0; i < n; i++) {
             if (colors[i] == 0) {
-                if (!helper(graph, colors, i, 1)) {
-                    return false;
-                }
+                if (!helper(graph, colors, i, 1)) return false;
             }
         }
         return true;

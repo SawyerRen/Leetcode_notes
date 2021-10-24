@@ -9,40 +9,36 @@ public class Q919 {
 }
 
 class CBTInserter {
-    TreeNode root;
     Queue<TreeNode> queue;
+    TreeNode root;
 
     public CBTInserter(TreeNode root) {
-        this.root = root;
         queue = new LinkedList<>();
+        this.root = root;
         queue.add(root);
         while (!queue.isEmpty()) {
             TreeNode peek = queue.peek();
-            if (peek.left != null && peek.right != null) {
-                queue.add(peek.left);
-                queue.add(peek.right);
-                queue.poll();
-            } else {
-                break;
-            }
+            if (peek.left == null || peek.right == null) break;
+            TreeNode poll = queue.poll();
+            queue.add(poll.left);
+            queue.add(poll.right);
         }
     }
 
     public int insert(int val) {
-        TreeNode node = new TreeNode(val);
         TreeNode peek = queue.peek();
         if (peek.left == null) {
-            peek.left = node;
+            peek.left = new TreeNode(val);
         } else {
-            peek.right = node;
+            peek.right = new TreeNode(val);
+            queue.poll();
             queue.add(peek.left);
             queue.add(peek.right);
-            queue.poll();
         }
         return peek.val;
     }
 
     public TreeNode get_root() {
-        return root;
+        return this.root;
     }
 }

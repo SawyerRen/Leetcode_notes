@@ -1,6 +1,7 @@
 package company.facebook;
 
 public class Q29 {
+    // logN     1
     public int divide(int dividend, int divisor) {
         boolean negative = false;
         if ((dividend < 0 && divisor > 0) || (dividend > 0 && divisor < 0)) negative = true;
@@ -8,8 +9,9 @@ public class Q29 {
         long absDivisor = Math.abs((long) divisor);
         long res = 0;
         while (absDividend >= absDivisor) {
-            long temp = absDivisor, count = 1;
-            while (temp <= absDividend) {
+            long temp = absDivisor;
+            long count = 1;
+            while (absDividend >= temp) {
                 temp <<= 1;
                 count <<= 1;
             }

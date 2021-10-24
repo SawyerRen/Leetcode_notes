@@ -8,7 +8,6 @@ import java.util.Stack;
 
 public class Q1382 {
     public TreeNode balanceBST(TreeNode root) {
-        if (root == null) return null;
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
         TreeNode cur = root;
@@ -26,7 +25,6 @@ public class Q1382 {
 
     private TreeNode helper(List<Integer> list, int left, int right) {
         if (left > right) return null;
-        if (left == right) return new TreeNode(list.get(left));
         int mid = left + (right - left) / 2;
         TreeNode root = new TreeNode(list.get(mid));
         root.left = helper(list, left, mid - 1);

@@ -8,29 +8,29 @@ public class Q314 {
     public List<List<Integer>> verticalOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null) return res;
-        Map<Integer, List<Integer>> map = new HashMap<>();
         Queue<TreeNode> queue = new LinkedList<>();
         Queue<Integer> cols = new LinkedList<>();
+        Map<Integer, List<Integer>> map = new HashMap<>();
+        int min = 0, max = 0;
         queue.add(root);
         cols.add(0);
-        int minCol = 0, maxCol = 0;
         while (!queue.isEmpty()) {
-            TreeNode node = queue.poll();
-            Integer col = cols.poll();
-            minCol = Math.min(minCol, col);
-            maxCol = Math.max(maxCol, col);
+            TreeNode poll = queue.poll();
+            int col = cols.poll();
+            min = Math.min(min, col);
+            max = Math.max(max, col);
             map.putIfAbsent(col, new ArrayList<>());
-            map.get(col).add(node.val);
-            if (node.left != null) {
-                queue.add(node.left);
+            map.get(col).add(poll.val);
+            if (poll.left != null) {
+                queue.add(poll.left);
                 cols.add(col - 1);
             }
-            if (node.right != null) {
-                queue.add(node.right);
+            if (poll.right != null) {
+                queue.add(poll.right);
                 cols.add(col + 1);
             }
         }
-        for (int i = minCol; i <= maxCol; i++) {
+        for (int i = min; i <= max; i++) {
             res.add(map.get(i));
         }
         return res;

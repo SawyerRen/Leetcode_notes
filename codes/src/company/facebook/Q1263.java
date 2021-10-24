@@ -3,10 +3,12 @@ package company.facebook;
 import java.util.*;
 
 public class Q1263 {
+    int[][] dirs = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+
     public int minPushBox(char[][] grid) {
         Queue<int[]> queue = new LinkedList<>();
         int m = grid.length, n = grid[0].length;
-        int[] target = null, player = null, box = null;
+        int[] player = null, target = null, box = null;
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (grid[i][j] == 'B') {
@@ -19,10 +21,9 @@ public class Q1263 {
             }
         }
         int res = 0;
-        int[][] dirs = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
         Set<List<Integer>> visited = new HashSet<>();
         queue.add(new int[]{box[0], box[1], player[0], player[1]});
-        visited.add(new ArrayList<>(Arrays.asList(box[0], box[1], player[0], player[1])));
+        visited.add(Arrays.asList(box[0], box[1], player[0], player[1]));
         while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
@@ -33,11 +34,10 @@ public class Q1263 {
                 for (int[] dir : dirs) {
                     int x = box[0] + dir[0], y = box[1] + dir[1];
                     if (x < 0 || x >= m || y < 0 || y >= n || grid[x][y] == '#' ||
-                            visited.contains(new ArrayList<>(Arrays.asList(x, y, box[0], box[1]))) ||
-                            !canReach(grid, m, n, player, box, new int[]{box[0] - dir[0], box[1] - dir[1]}, dirs))
-                        continue;
+                            !canReach(grid, m, n, player, box, new int[]{box[0] - dir[0], box[1] - dir[1]}) ||
+                            visited.contains(Arrays.asList(x, y, box[0], box[1]))) continue;
                     queue.add(new int[]{x, y, box[0], box[1]});
-                    visited.add(new ArrayList<>(Arrays.asList(x, y, box[0], box[1])));
+                    visited.add(Arrays.asList(x, y, box[0], box[1]));
                 }
             }
             res++;
@@ -45,7 +45,7 @@ public class Q1263 {
         return -1;
     }
 
-    private boolean canReach(char[][] grid, int m, int n, int[] player, int[] box, int[] target, int[][] dirs) {
+    private boolean canReach(char[][] grid, int m, int n, int[] player, int[] box, int[] target) {
         Queue<int[]> queue = new LinkedList<>();
         boolean[][] visited = new boolean[m][n];
         queue.add(player);

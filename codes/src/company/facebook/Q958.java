@@ -16,8 +16,7 @@ public class Q958 {
             queue.add(poll.right);
         }
         while (!queue.isEmpty()) {
-            TreeNode poll = queue.poll();
-            if (poll != null) return false;
+            if (queue.poll() != null) return false;
         }
         return true;
     }

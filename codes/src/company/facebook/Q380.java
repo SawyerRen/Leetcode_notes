@@ -6,12 +6,14 @@ public class Q380 {
 }
 
 class RandomizedSet {
-    Map<Integer, Integer> map = new HashMap<>();
-    ArrayList<Integer> list = new ArrayList<>();
-    Random random = new Random();
+    Map<Integer, Integer> map;
+    List<Integer> list;
+    Random random;
 
     public RandomizedSet() {
-
+        map = new HashMap<>();
+        list = new ArrayList<>();
+        random = new Random();
     }
 
     public boolean insert(int val) {
@@ -23,14 +25,14 @@ class RandomizedSet {
 
     public boolean remove(int val) {
         if (!map.containsKey(val)) return false;
-        Integer index = map.get(val);
-        if (index != list.size() - 1) {
-            int lastVal = list.get(list.size() - 1);
+        int index = map.get(val);
+        if (index < list.size() - 1) {
+            Integer lastVal = list.get(list.size() - 1);
             list.set(index, lastVal);
             map.put(lastVal, index);
         }
-        list.remove(list.size() - 1);
         map.remove(val);
+        list.remove(list.size() - 1);
         return true;
     }
 

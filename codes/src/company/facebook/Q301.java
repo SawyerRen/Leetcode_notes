@@ -7,6 +7,7 @@ import java.util.Set;
 
 public class Q301 {
     public List<String> removeInvalidParentheses(String s) {
+        Set<String> res = new HashSet<>();
         int left = 0, right = 0;
         for (char c : s.toCharArray()) {
             if (c == '(') left++;
@@ -15,29 +16,28 @@ public class Q301 {
                 else right++;
             }
         }
-        Set<String> set = new HashSet<>();
-        helper(s, set, new StringBuilder(), 0, left, right, 0);
-        return new ArrayList<>(set);
+        helper(res, new StringBuilder(), s, left, right, 0, 0);
+        return new ArrayList<>(res);
     }
 
-    private void helper(String s, Set<String> set, StringBuilder builder, int i, int left, int right, int open) {
-        if (left < 0 || right < 0 || open < 0) return;
-        if (i == s.length()) {
+    private void helper(Set<String> res, StringBuilder builder, String s, int left, int right, int open, int index) {
+        if (open < 0 || left < 0 || right < 0) return;
+        if (index == s.length()) {
             if (left == 0 && right == 0 && open == 0) {
-                set.add(builder.toString());
+                res.add(builder.toString());
             }
             return;
         }
-        char c = s.charAt(i);
         int length = builder.length();
+        char c = s.charAt(index);
         if (c == '(') {
-            helper(s, set, builder, i + 1, left - 1, right, open);
-            helper(s, set, builder.append(c), i + 1, left, right, open + 1);
+            helper(res, builder, s, left - 1, right, open, index + 1);
+            helper(res, builder.append(c), s, left, right, open + 1, index + 1);
         } else if (c == ')') {
-            helper(s, set, builder, i + 1, left, right - 1, open);
-            helper(s, set, builder.append(c), i + 1, left, right, open - 1);
+            helper(res, builder, s, left, right - 1, open, index + 1);
+            helper(res, builder.append(c), s, left, right, open - 1, index + 1);
         } else {
-            helper(s, set, builder.append(c), i + 1, left, right, open);
+            helper(res, builder.append(c), s, left, right, open, index + 1);
         }
         builder.setLength(length);
     }

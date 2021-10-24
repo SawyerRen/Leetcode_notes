@@ -25,10 +25,9 @@ class BSTIterator {
     }
 
     public int next() {
+        if (!hasNext()) return -1;
         TreeNode pop = stack.pop();
-        if (pop.right != null) {
-            buildStack(pop.right);
-        }
+        buildStack(pop.right);
         return pop.val;
     }
 

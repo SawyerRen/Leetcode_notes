@@ -19,17 +19,18 @@ class LRUCache {
 
     public int get(int key) {
         if (!map.containsKey(key)) return -1;
-        int val = map.get(key).val;
-        put(key, val);
-        return val;
+        Node node = map.get(key);
+        put(key, node.val);
+        return node.val;
     }
 
     public void put(int key, int value) {
         Node node = new Node(key, value);
         if (map.containsKey(key)) {
             list.remove(map.get(key));
+            map.remove(key);
         } else {
-            if (list.size == capacity) {
+            if (capacity == list.size) {
                 int last = list.removeLast();
                 map.remove(last);
             }

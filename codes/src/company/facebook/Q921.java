@@ -4,16 +4,14 @@ import java.util.Stack;
 
 public class Q921 {
     public int minAddToMakeValid(String s) {
-        int open = 0;
-        int close = 0;
+        int left = 0, right = 0;
         for (char c : s.toCharArray()) {
-            if (c == '(') {
-                open++;
-            } else {
-                if (open > 0) open--;
-                else close++;
+            if (c == '(') left++;
+            else if (c == ')') {
+                if (left > 0) left--;
+                else right++;
             }
         }
-        return open + close;
+        return left + right;
     }
 }

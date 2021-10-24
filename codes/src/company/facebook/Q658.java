@@ -22,20 +22,18 @@ public class Q658 {
     }
 
     public List<Integer> findClosestElements1(int[] arr, int k, int x) {
-        List<Integer> res = new ArrayList<>();
-        int left = 0, right = arr.length - 1;
+        int i = 0, j = arr.length - 1;
         k = arr.length - k;
-        for (int i = 0; i < k; i++) {
-            int leftDiff = Math.abs(arr[left] - x);
-            int rightDiff = Math.abs(arr[right] - x);
-            if (leftDiff <= rightDiff) {
-                right--;
+        while (k-- > 0) {
+            if (Math.abs(arr[i] - x) > Math.abs(arr[j] - x)) {
+                i++;
             } else {
-                left++;
+                j--;
             }
         }
-        for (int i = left; i <= right; i++) {
-            res.add(arr[i]);
+        List<Integer> res = new ArrayList<>();
+        for (int l = i; l <= j; l++) {
+            res.add(arr[l]);
         }
         return res;
     }

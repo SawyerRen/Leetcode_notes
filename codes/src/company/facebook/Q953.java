@@ -9,24 +9,24 @@ public class Q953 {
         for (int i = 0; i < order.length(); i++) {
             index[order.charAt(i) - 'a'] = i;
         }
-        for (int i = 1; i < words.length; i++) {
-            if (!sorted(index, words[i - 1], words[i])) return false;
+        for (int i = 0; i < words.length - 1; i++) {
+            if (!helper(index, words[i], words[i + 1])) return false;
         }
         return true;
     }
 
-    private boolean sorted(int[] index, String s1, String s2) {
-        if (s1.equals(s2)) return true;
+    private boolean helper(int[] index, String s1, String s2) {
         int i = 0, j = 0;
         while (i < s1.length() && j < s2.length()) {
             char c1 = s1.charAt(i);
             char c2 = s2.charAt(j);
-            if (c1 != c2) {
-                return index[c1 - 'a'] < index[c2 - 'a'];
+            if (c1 == c2) {
+                i++;
+                j++;
+            } else {
+                return index[s1.charAt(i) - 'a'] < index[s2.charAt(i) - 'a'];
             }
-            i++;
-            j++;
         }
-        return s1.length() < s2.length();
+        return s1.length() <= s2.length();
     }
 }

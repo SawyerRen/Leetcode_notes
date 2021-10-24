@@ -4,25 +4,24 @@ import java.util.*;
 
 public class Q1424 {
     public int[] findDiagonalOrder(List<List<Integer>> nums) {
-        Map<Integer, LinkedList<Integer>> map = new HashMap<>();
         int maxKey = 0;
         int count = 0;
+        Map<Integer, List<Integer>> map = new HashMap<>();
         for (int i = 0; i < nums.size(); i++) {
             for (int j = 0; j < nums.get(i).size(); j++) {
-                count++;
                 int key = i + j;
                 maxKey = Math.max(maxKey, key);
-                map.putIfAbsent(key, new LinkedList<>());
-                map.get(key).addFirst(nums.get(i).get(j));
+                map.putIfAbsent(key, new ArrayList<>());
+                map.get(key).add(nums.get(i).get(j));
+                count++;
             }
         }
         int[] res = new int[count];
         int index = 0;
-        for (int i = 0; i <= maxKey; i++) {
-            if (!map.containsKey(i)) continue;
-            LinkedList<Integer> list = map.get(i);
-            for (Integer val : list) {
-                res[index++] = val;
+        for (int i = 0; i < maxKey + 1; i++) {
+            List<Integer> list = map.get(i);
+            for (int j = list.size() - 1; j >= 0; j--) {
+                res[index++] = list.get(j);
             }
         }
         return res;

@@ -9,32 +9,39 @@ public class Q1570 {
 }
 
 class SparseVector {
-    List<int[]> list = new ArrayList<>();
+    class Node {
+        int index;
+        int val;
+
+        public Node(int index, int val) {
+            this.index = index;
+            this.val = val;
+        }
+    }
+
+    List<Node> nodes;
 
     SparseVector(int[] nums) {
+        nodes = new ArrayList<>();
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != 0) {
-                list.add(new int[]{i, nums[i]});
-            }
+            if (nums[i] != 0) nodes.add(new Node(i, nums[i]));
         }
     }
 
     // Return the dotProduct of two sparse vectors
     public int dotProduct(SparseVector vec) {
-        int res = 0;
         int i = 0, j = 0;
-        while (i < list.size() && j < vec.list.size()) {
-            int[] pair1 = list.get(i);
-            int[] pair2 = vec.list.get(j);
-            if (pair1[0] == pair2[0]) {
-                res += pair1[1] * pair2[1];
+        int res = 0;
+        while (i < nodes.size() && j < vec.nodes.size()) {
+            Node n1 = nodes.get(i);
+            Node n2 = vec.nodes.get(j);
+            if (n1.index == n2.index) {
+                res += n1.val * n2.val;
                 i++;
                 j++;
-            } else if (pair1[0] > pair2[0]) {
-                j++;
-            } else {
-                i++;
             }
+            else if (n1.index < n2.index) i++;
+            else j++;
         }
         return res;
     }

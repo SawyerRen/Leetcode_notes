@@ -4,28 +4,6 @@ import java.util.Map;
 import java.util.Stack;
 
 public class Q1209 {
-    public String removeDuplicates(String s, int k) {
-        Stack<Node> stack = new Stack<>();
-        for (char c : s.toCharArray()) {
-            if (!stack.isEmpty() && stack.peek().c == c) {
-                stack.peek().count++;
-                if (stack.peek().count == k) {
-                    stack.pop();
-                }
-            } else {
-                stack.push(new Node(1, c));
-            }
-        }
-        StringBuilder builder = new StringBuilder();
-        while (!stack.isEmpty()) {
-            Node node = stack.pop();
-            for (int i = 0; i < node.count; i++) {
-                builder.append(node.c);
-            }
-        }
-        return builder.reverse().toString();
-    }
-
     class Node {
         int count;
         char c;
@@ -34,5 +12,25 @@ public class Q1209 {
             this.count = count;
             this.c = c;
         }
+    }
+
+    public String removeDuplicates(String s, int k) {
+        Stack<Node> stack = new Stack<>();
+        for (char c : s.toCharArray()) {
+            if (!stack.isEmpty() && stack.peek().c == c) {
+                stack.peek().count++;
+                if (stack.peek().count == k) stack.pop();
+            } else {
+                stack.push(new Node(1, c));
+            }
+        }
+        StringBuilder builder = new StringBuilder();
+        while (!stack.isEmpty()) {
+            Node pop = stack.pop();
+            for (int i = 0; i < pop.count; i++) {
+                builder.append(pop.c);
+            }
+        }
+        return builder.reverse().toString();
     }
 }

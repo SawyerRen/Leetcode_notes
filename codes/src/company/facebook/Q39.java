@@ -4,9 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Q39 {
+    // N^target/min     target/min
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();
-        helper(res, new ArrayList<>(), candidates, target, 0);
+        helper(res, new ArrayList<Integer>(), candidates, target, 0);
         return res;
     }
 

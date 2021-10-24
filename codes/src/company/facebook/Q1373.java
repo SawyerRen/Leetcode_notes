@@ -18,7 +18,7 @@ public class Q1373 {
     int res = 0;
 
     public int maxSumBST(TreeNode root) {
-        Result result = helper(root);
+        helper(root);
         return res;
     }
 
@@ -31,8 +31,8 @@ public class Q1373 {
         if (root.val <= left.max || root.val >= right.min) {
             return new Result(Integer.MIN_VALUE, Integer.MAX_VALUE, Math.max(left.sum, right.sum));
         } else {
-            int min = Math.min(left.min, root.val);
-            int max = Math.max(right.max, root.val);
+            int max = Math.max(root.val, right.max);
+            int min = Math.min(root.val, left.min);
             int sum = left.sum + right.sum + root.val;
             res = Math.max(res, sum);
             return new Result(min, max, sum);

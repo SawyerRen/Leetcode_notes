@@ -11,12 +11,10 @@ public class Q1868 {
         while (i < encoded1.length && j < encoded2.length) {
             int[] en1 = encoded1[i];
             int[] en2 = encoded2[j];
-            int minLen = Math.min(en1[1], en2[1]);
             int mul = en1[0] * en2[0];
-            if (res.size() != 0 && res.get(res.size() - 1).get(0) == mul) {
-                int len = res.get(res.size() - 1).get(1);
-                len += minLen;
-                res.get(res.size() - 1).set(1, len);
+            int minLen = Math.min(en1[1], en2[1]);
+            if (res.size() > 0 && res.get(res.size() - 1).get(0) == mul) {
+                res.get(res.size() - 1).set(1, res.get(res.size() - 1).get(1) + minLen);
             } else {
                 res.add(Arrays.asList(mul, minLen));
             }

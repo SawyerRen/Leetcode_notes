@@ -5,7 +5,7 @@ public class Q680 {
         int i = 0, j = s.length() - 1;
         while (i < j) {
             if (s.charAt(i) != s.charAt(j)) {
-                return helper(s, i + 1, j) || helper(s, i, j - 1);
+                return helper(s, i, j - 1) || helper(s, i + 1, j);
             }
             i++;
             j--;

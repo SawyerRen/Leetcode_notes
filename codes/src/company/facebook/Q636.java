@@ -4,19 +4,6 @@ import java.util.List;
 import java.util.Stack;
 
 public class Q636 {
-    class Log {
-        int id;
-        int time;
-        boolean isStart;
-
-        public Log(String content) {
-            String[] split = content.split(":");
-            id = Integer.parseInt(split[0]);
-            time = Integer.parseInt(split[2]);
-            isStart = split[1].equals("start");
-        }
-    }
-
     public int[] exclusiveTime(int n, List<String> logs) {
         Stack<Log> stack = new Stack<>();
         int[] res = new int[n];
@@ -27,12 +14,25 @@ public class Q636 {
             } else {
                 Log pop = stack.pop();
                 int duration = log.time - pop.time + 1;
-                res[log.id] += duration;
+                res[pop.id] += duration;
                 if (!stack.isEmpty()) {
                     res[stack.peek().id] -= duration;
                 }
             }
         }
         return res;
+    }
+
+    class Log {
+        int id;
+        int time;
+        boolean isStart;
+
+        public Log(String s) {
+            String[] split = s.split(":");
+            id = Integer.parseInt(split[0]);
+            isStart = split[1].equals("start");
+            time = Integer.parseInt(split[2]);
+        }
     }
 }

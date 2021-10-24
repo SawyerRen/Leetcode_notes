@@ -2,6 +2,8 @@ package company.facebook;
 
 import model.TreeNode;
 
+import javax.xml.stream.events.Characters;
+
 public class Q536 {
     int index = 0;
 
@@ -9,8 +11,7 @@ public class Q536 {
         if (index >= s.length()) return null;
         StringBuilder builder = new StringBuilder();
         while (index < s.length() && s.charAt(index) != '(' && s.charAt(index) != ')') {
-            builder.append(s.charAt(index));
-            index++;
+            builder.append(s.charAt(index++));
         }
         TreeNode root = new TreeNode(Integer.parseInt(builder.toString()));
         if (index < s.length() && s.charAt(index) == '(') {

@@ -24,8 +24,8 @@ public class Q426 {
         }
     }
 
-    Node head = null;
-    Node tail = null;
+    Node head;
+    Node tail;
 
     public Node treeToDoublyList(Node root) {
         if (root == null) return null;

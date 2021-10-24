@@ -17,6 +17,7 @@ public class Q114 {
         }
     }
 
+    // N    N
     public void flatten1(TreeNode root) {
         if (root == null) return;
         flatten(root.left);

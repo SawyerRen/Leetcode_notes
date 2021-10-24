@@ -22,7 +22,9 @@ public class Q1293 {
                     int y = poll[1] + dir[1];
                     int curK = poll[2];
                     if (x < 0 || x >= m || y < 0 || y >= n) continue;
-                    if (grid[x][y] == 1) curK++;
+                    if (grid[x][y] == 1) {
+                        curK++;
+                    }
                     if (curK <= k && !visited[x][y][curK]) {
                         queue.add(new int[]{x, y, curK});
                         visited[x][y][curK] = true;

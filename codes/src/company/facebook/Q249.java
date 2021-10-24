@@ -7,18 +7,19 @@ import java.util.Map;
 
 public class Q249 {
     public List<List<String>> groupStrings(String[] strings) {
+        List<List<String>> res = new ArrayList<>();
         Map<String, List<String>> map = new HashMap<>();
         for (String string : strings) {
-            StringBuilder builder = new StringBuilder();
-            for (int i = 0; i < string.length() - 1; i++) {
-                int diff = string.charAt(i + 1) - string.charAt(i);
+            List<Integer> list = new ArrayList<>();
+            for (int i = 1; i < string.length(); i++) {
+                int diff = string.charAt(i) - string.charAt(i - 1);
                 if (diff < 0) diff += 26;
-                builder.append(diff).append(",");
+                list.add(diff);
             }
-            String pattern = builder.toString();
-            map.putIfAbsent(pattern, new ArrayList<>());
-            map.get(pattern).add(string);
+            map.putIfAbsent(list.toString(), new ArrayList<>());
+            map.get(list.toString()).add(string);
         }
-        return new ArrayList<>(map.values());
+        res.addAll(map.values());
+        return res;
     }
 }

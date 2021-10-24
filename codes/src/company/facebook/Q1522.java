@@ -34,17 +34,17 @@ public class Q1522 {
 
     private int helper(Node root) {
         if (root == null) return 0;
-        int max1 = 0, max2 = 0;
+        int max = 0, secondMax = 0;
         for (Node child : root.children) {
-            int n = helper(child);
-            if (n > max1) {
-                max2 = max1;
-                max1 = n;
-            } else if (n > max2) {
-                max2 = n;
+            int d = helper(child);
+            if (d > max) {
+                secondMax = max;
+                max = d;
+            } else if (d > secondMax) {
+                secondMax = d;
             }
         }
-        res = Math.max(res, max1 + max2);
-        return max1 + 1;
+        res = Math.max(res, max + secondMax);
+        return max + 1;
     }
 }
