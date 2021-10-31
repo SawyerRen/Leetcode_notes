@@ -20,12 +20,12 @@ public class Q224 {
             } else if (c == '-') {
                 sign = -1;
             } else if (c == '(') {
-                stack.push(sign);
                 stack.push(res);
-                res = 0;
+                stack.push(sign);
                 sign = 1;
+                res = 0;
             } else if (c == ')') {
-                res = stack.pop() + res * stack.pop();
+                res = stack.pop() * res + stack.pop();
             }
         }
         return res;

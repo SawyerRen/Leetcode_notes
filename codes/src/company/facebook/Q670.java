@@ -22,6 +22,6 @@ public class Q670 {
         char c = chars[i];
         chars[i] = chars[j];
         chars[j] = c;
-        return Integer.parseInt(new String(chars));
+        return Integer.parseInt(String.valueOf(chars));
     }
 }

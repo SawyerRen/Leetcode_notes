@@ -9,14 +9,16 @@ public class Q43 {
                 int n1 = num1.charAt(i) - '0';
                 int n2 = num2.charAt(j) - '0';
                 int mul = n1 * n2;
-                int sum = mul + res[i + j + 1];
+                int sum = res[i + j + 1] + mul;
                 res[i + j + 1] = sum % 10;
                 res[i + j] += sum / 10;
             }
         }
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < res.length; i++) {
-            if (builder.length() == 0 && res[i] == 0) continue;
+            if (builder.length() == 0 && res[i] == 0) {
+                continue;
+            }
             builder.append(res[i]);
         }
         if (builder.length() == 0) return "0";

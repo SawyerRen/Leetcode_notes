@@ -2,6 +2,7 @@ package company.facebook;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 // 求并集
 public class Q986 {
@@ -18,7 +19,7 @@ public class Q986 {
             if (minEnd == secondList[j][1]) j++;
         }
         int[][] res = new int[list.size()][2];
-        for (int k = 0; k < list.size(); k++) {
+        for (int k = 0; k < res.length; k++) {
             res[k] = list.get(k);
         }
         return res;

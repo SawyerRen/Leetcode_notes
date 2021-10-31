@@ -2,9 +2,11 @@ package company.facebook;
 
 import model.TreeNode;
 
+import java.util.Map;
+
 public class Q1123 {
-    TreeNode res = null;
     int maxDepth = 0;
+    TreeNode res = null;
 
     public TreeNode lcaDeepestLeaves(TreeNode root) {
         helper(root, 0);

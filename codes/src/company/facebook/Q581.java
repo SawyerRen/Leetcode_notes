@@ -8,7 +8,7 @@ public class Q581 {
         int left = nums.length - 1, right = 0;
         for (int i = 0; i < nums.length; i++) {
             while (!stack.isEmpty() && nums[i] < nums[stack.peek()]) {
-                left = Math.min(stack.pop(), left);
+                left = Math.min(left, stack.pop());
             }
             stack.push(i);
         }
@@ -19,7 +19,7 @@ public class Q581 {
             }
             stack.push(i);
         }
-        if (right > left) return right - left + 1;
-        return 0;
+        if (right <= left) return 0;
+        return right - left + 1;
     }
 }

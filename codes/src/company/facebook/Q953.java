@@ -10,22 +10,19 @@ public class Q953 {
             index[order.charAt(i) - 'a'] = i;
         }
         for (int i = 0; i < words.length - 1; i++) {
-            if (!helper(index, words[i], words[i + 1])) return false;
+            String s1 = words[i], s2 = words[i + 1];
+            if (!valid(index, s1, s2)) return false;
         }
         return true;
     }
 
-    private boolean helper(int[] index, String s1, String s2) {
+    private boolean valid(int[] index, String s1, String s2) {
         int i = 0, j = 0;
         while (i < s1.length() && j < s2.length()) {
-            char c1 = s1.charAt(i);
-            char c2 = s2.charAt(j);
-            if (c1 == c2) {
-                i++;
-                j++;
-            } else {
-                return index[s1.charAt(i) - 'a'] < index[s2.charAt(i) - 'a'];
-            }
+            char c1 = s1.charAt(i), c2 = s2.charAt(j);
+            if (c1 != c2) return index[c1 - 'a'] < index[c2 - 'a'];
+            i++;
+            j++;
         }
         return s1.length() <= s2.length();
     }

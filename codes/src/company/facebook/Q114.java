@@ -25,9 +25,7 @@ public class Q114 {
         TreeNode right = root.right;
         root.right = root.left;
         root.left = null;
-        while (root.right != null) {
-            root = root.right;
-        }
+        while (root.right != null) root = root.right;
         root.right = right;
     }
 }

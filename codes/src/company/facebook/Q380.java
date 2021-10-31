@@ -1,5 +1,6 @@
 package company.facebook;
 
+import java.sql.Ref;
 import java.util.*;
 
 public class Q380 {
@@ -25,14 +26,14 @@ class RandomizedSet {
 
     public boolean remove(int val) {
         if (!map.containsKey(val)) return false;
-        int index = map.get(val);
-        if (index < list.size() - 1) {
+        Integer index = map.get(val);
+        if (index != list.size() - 1) {
             Integer lastVal = list.get(list.size() - 1);
-            list.set(index, lastVal);
             map.put(lastVal, index);
+            list.set(index, lastVal);
         }
-        map.remove(val);
         list.remove(list.size() - 1);
+        map.remove(val);
         return true;
     }
 

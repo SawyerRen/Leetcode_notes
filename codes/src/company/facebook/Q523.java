@@ -12,9 +12,10 @@ public class Q523 {
             sum += nums[i];
             int mod = k == 0 ? sum : sum % k;
             if (map.containsKey(mod)) {
-                if (i - map.get(mod) > 1) return true;
+                if (i - map.get(mod) >= 2) return true;
+            } else {
+                map.put(mod, i);
             }
-            map.putIfAbsent(mod, i);
         }
         return false;
     }

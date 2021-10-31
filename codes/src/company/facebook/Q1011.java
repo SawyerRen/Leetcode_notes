@@ -1,19 +1,21 @@
 package company.facebook;
 
+import java.util.Map;
+
 public class Q1011 {
     public int shipWithinDays(int[] weights, int days) {
-        int left = 0, right = 0;
+        int left = 1, right = 0;
         for (int weight : weights) {
             left = Math.max(left, weight);
             right += weight;
         }
         while (left < right) {
             int mid = left + (right - left) / 2;
-            int load = 0, need = 1;
+            int need = 1, load = 0;
             for (int weight : weights) {
                 if (load + weight > mid) {
-                    load = 0;
                     need++;
+                    load = 0;
                 }
                 load += weight;
             }

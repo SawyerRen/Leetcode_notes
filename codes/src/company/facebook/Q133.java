@@ -28,11 +28,12 @@ public class Q133 {
     public Node cloneGraph(Node node) {
         if (node == null) return null;
         if (map.containsKey(node)) return map.get(node);
-        map.put(node, new Node(node.val, new ArrayList<>()));
+        Node copy = new Node(node.val, new ArrayList<>());
+        map.put(node, copy);
         for (Node neighbor : node.neighbors) {
-            map.get(node).neighbors.add(cloneGraph(neighbor));
+            copy.neighbors.add(cloneGraph(neighbor));
         }
-        return map.get(node);
+        return copy;
     }
 
     public Node cloneGraph1(Node node) {

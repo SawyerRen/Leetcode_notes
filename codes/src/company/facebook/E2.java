@@ -1,6 +1,7 @@
 package company.facebook;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /*
@@ -53,6 +54,7 @@ public class E2 {
         }
         return res;
     }
+
     public static int[][] mergeList1(int[][] firstList, int[][] secondList) {
         if (firstList.length == 0) return secondList;
         if (secondList.length == 0) return firstList;
@@ -94,6 +96,11 @@ public class E2 {
     }
 
     public static void main(String[] args) {
-
+        int[][] l1 = {{-1, 2}, {4, 8}, {10, 20}};
+        int[][] l2 = {{1, 3}, {5, 9}, {10, 22}};
+        int[][] ints = mergeList1(l1, l2);
+        for (int[] anInt : ints) {
+            System.out.println(Arrays.toString(anInt));
+        }
     }
 }

@@ -8,111 +8,107 @@ public class Q460 {
 }
 
 class LFUCache {
-    Map<Integer, LFUNode> nodeMap = new HashMap<>();
-    Map<Integer, LFUList> countMap = new HashMap<>();
-    int capacity;
-    int min, size;
+    Map<Integer, Node> nodeMap;
+    Map<Integer, DoubleList> countMap;
+    int size, capacity, min;
 
     public LFUCache(int capacity) {
+        nodeMap = new HashMap<>();
+        countMap = new HashMap<>();
+        size = 0;
         this.capacity = capacity;
+        min = 0;
     }
 
     public int get(int key) {
         if (!nodeMap.containsKey(key)) return -1;
-        LFUNode node = nodeMap.get(key);
+        Node node = nodeMap.get(key);
         update(node);
         return node.val;
     }
 
-    private void update(LFUNode node) {
-        LFUList list = countMap.get(node.count);
+    private void update(Node node) {
+        int count = node.count;
+        DoubleList list = countMap.get(count);
         list.remove(node);
-        if (node.count == min && list.size == 0) min++;
+        if (list.size == 0 && node.count == min) min++;
         node.count++;
-        LFUList newList = countMap.getOrDefault(node.count, new LFUList());
-        newList.addFirst(node);
-        countMap.put(node.count, newList);
+        countMap.putIfAbsent(node.count, new DoubleList());
+        countMap.get(node.count).addFirst(node);
     }
 
     public void put(int key, int value) {
         if (capacity == 0) return;
-        LFUNode node;
         if (nodeMap.containsKey(key)) {
-            node = nodeMap.get(key);
+            Node node = nodeMap.get(key);
             node.val = value;
             update(node);
         } else {
-            node = new LFUNode(key, value, 1);
             if (size == capacity) {
-                LFUList minList = countMap.get(min);
-                int lastKey = minList.removeLast();
+                DoubleList doubleList = countMap.get(min);
+                int lastKey = doubleList.removeLast();
                 nodeMap.remove(lastKey);
                 size--;
             }
-            size++;
+            Node node = new Node(key, value, 1);
             min = 1;
-            LFUList list = countMap.getOrDefault(1, new LFUList());
-            list.addFirst(node);
-            countMap.put(1, list);
+            countMap.putIfAbsent(1, new DoubleList());
+            countMap.get(1).addFirst(node);
             nodeMap.put(key, node);
+            size++;
         }
     }
-}
 
-class LFUList {
-    LFUNode head;
-    LFUNode tail;
-    int size;
+    class DoubleList {
+        Node head;
+        Node tail;
+        int size;
 
-    public LFUList() {
-        head = new LFUNode();
-        tail = new LFUNode();
-        head.next = tail;
-        tail.pre = head;
-        size = 0;
+        public DoubleList() {
+            head = new Node();
+            tail = new Node();
+            head.next = tail;
+            tail.pre = head;
+            size = 0;
+        }
+
+        void addFirst(Node node) {
+            node.next = head.next;
+            head.next.pre = node;
+            head.next = node;
+            node.pre = head;
+            size++;
+        }
+
+        void remove(Node node) {
+            node.pre.next = node.next;
+            node.next.pre = node.pre;
+            size--;
+        }
+
+        int removeLast() {
+            Node node = tail.pre;
+            node.pre.next = tail;
+            tail.pre = node.pre;
+            size--;
+            return node.key;
+        }
     }
 
-    void addFirst(LFUNode node) {
-        LFUNode next = head.next;
-        node.next = next;
-        node.pre = head;
-        head.next = node;
-        next.pre = node;
-        size++;
-    }
+    class Node {
+        int key;
+        int val;
+        int count;
+        Node next;
+        Node pre;
 
-    void remove(LFUNode node) {
-        LFUNode pre = node.pre;
-        LFUNode next = node.next;
-        pre.next = next;
-        next.pre = pre;
-        size--;
-    }
+        public Node() {
+        }
 
-    Integer removeLast() {
-        if (size == 0) return null;
-        LFUNode node = tail.pre;
-        LFUNode pre = node.pre;
-        pre.next = tail;
-        tail.pre = pre;
-        size--;
-        return node.key;
-    }
-}
-
-class LFUNode {
-    int key;
-    int val;
-    int count;
-    LFUNode pre;
-    LFUNode next;
-
-    public LFUNode() {
-    }
-
-    public LFUNode(int key, int val, int count) {
-        this.key = key;
-        this.val = val;
-        this.count = count;
+        public Node(int key, int val, int count) {
+            this.key = key;
+            this.val = val;
+            this.count = count;
+        }
     }
 }

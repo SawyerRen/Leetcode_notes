@@ -6,11 +6,11 @@ public class Q528 {
 
 }
 
-class Solution {
+class Solution1 {
     int[] preSum;
     Random random;
 
-    public Solution(int[] w) {
+    public Solution1(int[] w) {
         preSum = new int[w.length];
         preSum[0] = w[0];
         for (int i = 1; i < w.length; i++) {

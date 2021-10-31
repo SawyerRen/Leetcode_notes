@@ -5,6 +5,19 @@ import java.util.PriorityQueue;
 import java.util.Random;
 
 public class Q973 {
+    public int[][] kClosest1(int[][] points, int k) {
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> (calculate(b) - calculate(a)));
+        for (int[] point : points) {
+            pq.add(point);
+            if (pq.size() > k) pq.poll();
+        }
+        int[][] res = new int[k][2];
+        for (int i = 0; i < res.length; i++) {
+            res[i] = pq.poll();
+        }
+        return res;
+    }
+
     public int[][] kClosest(int[][] points, int k) {
         int left = 0, right = points.length - 1;
         while (left < right) {
@@ -12,12 +25,16 @@ public class Q973 {
             if (pivotIndex >= k) right = pivotIndex;
             else left = pivotIndex + 1;
         }
-        return Arrays.copyOf(points, k);
+        int[][] res = new int[k][2];
+        for (int i = 0; i < k; i++) {
+            res[i] = points[i];
+        }
+        return res;
     }
 
     private int helper(int[][] points, int left, int right) {
         int randomIndex = new Random().nextInt(right - left + 1) + left;
-        swap(points, left, randomIndex);
+        swap(points, randomIndex, left);
         int pivot = calculate(points[left]);
         int i = left, j = right;
         while (i < j) {

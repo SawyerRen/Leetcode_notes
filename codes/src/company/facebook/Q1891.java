@@ -4,8 +4,9 @@ public class Q1891 {
     public int maxLength(int[] ribbons, int k) {
         int left = 1, right = 0;
         for (int ribbon : ribbons) {
-            right = Math.max(ribbon, right) + 1;
+            right = Math.max(ribbon, right);
         }
+        right++;
         while (left < right) {
             int mid = left + (right - left) / 2;
             int count = 0;

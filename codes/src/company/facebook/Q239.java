@@ -9,18 +9,18 @@ import java.util.Queue;
 public class Q239 {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int n = nums.length;
-        LinkedList<Integer> list = new LinkedList<>();
         int[] res = new int[n - k + 1];
-        for (int i = 0; i < n; i++) {
-            while (list.size() > 0 && list.getFirst() < i - k + 1) {
-                list.pollFirst();
+        LinkedList<Integer> queue = new LinkedList<>();
+        for (int i = 0; i < nums.length; i++) {
+            while (!queue.isEmpty() && queue.peekFirst() < i - k + 1) {
+                queue.pollFirst();
             }
-            while (list.size() > 0 && nums[i] > nums[list.getLast()]) {
-                list.pollLast();
+            while (!queue.isEmpty() && nums[i] > nums[queue.peekLast()]) {
+                queue.pollLast();
             }
-            list.addLast(i);
+            queue.add(i);
             if (i - k + 1 >= 0) {
-                res[i - k + 1] = nums[list.peekFirst()];
+                res[i - k + 1] = nums[queue.peekFirst()];
             }
         }
         return res;

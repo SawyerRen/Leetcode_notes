@@ -28,13 +28,13 @@ public class Q253 {
 
     public int minMeetingRooms1(int[][] intervals) {
         int res = 0;
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
         Arrays.sort(intervals, (a, b) -> (a[0] - b[0]));
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> (a[1] - b[1]));
         for (int[] interval : intervals) {
-            while (!pq.isEmpty() && interval[0] >= pq.peek()[1]) {
+            while (!pq.isEmpty() && pq.peek() <= interval[0]) {
                 pq.poll();
             }
-            pq.add(interval);
+            pq.add(interval[1]);
             res = Math.max(res, pq.size());
         }
         return res;

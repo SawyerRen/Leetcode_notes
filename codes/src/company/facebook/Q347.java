@@ -50,22 +50,21 @@ public class Q347 {
         for (int num : nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
-        List<Integer>[] buckets = new List[nums.length + 1];
+        ArrayList<Integer>[] buckets = new ArrayList[nums.length + 1];
         for (Integer num : map.keySet()) {
-            int count = map.get(num);
+            Integer count = map.get(num);
             if (buckets[count] == null) buckets[count] = new ArrayList<>();
             buckets[count].add(num);
         }
         int[] res = new int[k];
         int index = 0;
-        for (int i = buckets.length - 1; i >= 0; i--) {
+        for (int i = nums.length; i >= 0; i--) {
             if (buckets[i] != null) {
-                List<Integer> list = buckets[i];
-                if (k < list.size()) break;
-                for (Integer integer : list) {
-                    res[index++] = integer;
+                if (k == 0) break;
+                for (Integer num : buckets[i]) {
+                    res[index++] = num;
                 }
-                k -= list.size();
+                k -= buckets[i].size();
             }
         }
         return res;

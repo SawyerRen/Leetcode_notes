@@ -10,8 +10,8 @@ public class Q109 {
         ListNode fast = head, slow = head, pre = head;
         while (fast != null && fast.next != null) {
             pre = slow;
-            slow = slow.next;
             fast = fast.next.next;
+            slow = slow.next;
         }
         pre.next = null;
         TreeNode root = new TreeNode(slow.val);

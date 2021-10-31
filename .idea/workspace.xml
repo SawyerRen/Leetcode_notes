@@ -23,283 +23,452 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q224.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q232.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q261.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q647.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q918.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q117.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q126.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q241.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q341.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q364.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q416.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q435.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q480.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q489.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q510.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q540.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q875.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1047.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q114.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q124.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1249.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q125.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1263.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q127.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q129.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q133.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1382.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q139.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q140.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1428.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1539.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1570.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q162.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1650.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q173.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1762.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1868.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q1891.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q199.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q215.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q227.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q249.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q253.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q269.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q270.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q282.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q301.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q304.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q314.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q317.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q339.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q380.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q398.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q408.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q415.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q426.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q498.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q50.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q523.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q528.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q536.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q543.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q560.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q621.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q636.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q65.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q658.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q67.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q670.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q680.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q708.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q71.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q721.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q76.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q766.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q791.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q827.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q863.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q88.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q921.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q938.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q953.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q973.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q977.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q986.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/facebook/freq/Q987.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/ChangeNumberBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/CountUniqueInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/IntervalUnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Merge3Lists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Other.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/PointInMaxOverlappingIntervals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1026.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1027.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1036.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1047.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1060.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q109.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1091.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1094.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q113.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q114.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q116.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1163.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q117.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1209.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1213.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q124.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1249.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q125.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q127.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q129.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q133.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1331.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1344.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1353.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1373.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1382.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q139.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q140.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1424.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1428.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1522.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1539.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q155.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q1559.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q157.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q162.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q163.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q168.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q173.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q199.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q200.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q207.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q209.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q211.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q215.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q219.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q224.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q226.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q227.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q230.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q232.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q234.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q240.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q241.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q242.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q249.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q252.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q253.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q266.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q269.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q270.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q278.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q282.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q283.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q286.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q287.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q296.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q298.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q301.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q303.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q304.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q314.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q317.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q328.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q329.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q333.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q334.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q339.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q340.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q341.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q346.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q348.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q364.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q378.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q380.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q387.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q394.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q398.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q408.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q415.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q416.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q424.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q426.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q435.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q438.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q443.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q460.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q463.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q477.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q480.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q490.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q494.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q496.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q498.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q50.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q503.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q510.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q515.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q518.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q523.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q528.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q536.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q540.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q543.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q560.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q57.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q581.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q605.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q616.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q621.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q622.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q636.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q637.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q647.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q65.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q658.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q67.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q670.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q674.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q680.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q694.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q695.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q703.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q708.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q71.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q721.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q724.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q739.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q750.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q76.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q766.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q767.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q778.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q78.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q785.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q79.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q791.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q794.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q824.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q827.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q844.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q862.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q863.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q875.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q88.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q896.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q91.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q918.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q919.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q921.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q934.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q935.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q938.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q939.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q94.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q953.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q958.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q973.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q977.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q98.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q983.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q986.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/Q987.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/SplitArrayEqualSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/SumOfFloatNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/UniqueSubstringSizeK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr3/other.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/E2.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/E2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1004.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1004.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1011.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1011.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1026.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1026.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1047.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1047.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1060.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1060.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q109.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q109.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1094.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1094.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1123.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q114.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q114.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1197.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1197.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1209.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1209.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1249.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1249.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q125.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q125.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1263.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1263.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q127.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q127.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q129.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q129.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1293.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1293.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q133.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q133.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1344.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1344.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1353.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1353.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1373.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1373.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q138.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q138.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1382.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1382.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q139.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q139.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q140.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q140.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1424.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1424.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1428.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1428.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q146.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q146.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1522.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1522.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q153.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q153.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1539.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1539.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1559.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1559.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q157.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q157.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1570.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1570.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q163.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q163.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1650.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1650.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q162.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q162.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q173.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q173.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1762.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1762.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1868.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1868.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q1891.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q1891.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q207.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q207.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q215.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q215.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q224.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q224.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q227.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q227.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q23.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q23.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q238.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q238.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q239.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q239.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q249.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q249.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q269.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q269.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q273.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q273.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q282.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q282.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q29.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q29.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q297.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q297.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q298.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q298.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q301.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q301.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q31.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q31.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q314.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q314.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q317.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q317.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q32.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q32.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q333.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q333.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q339.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q339.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q346.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q346.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q253.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q253.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q329.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q329.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q334.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q334.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q347.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q347.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q348.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q348.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q380.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q380.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q39.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q39.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q398.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q398.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q40.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q40.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q408.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q408.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q42.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q42.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q424.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q424.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q426.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q426.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q43.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q43.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q443.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q443.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q463.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q463.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q477.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q477.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q460.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q460.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q494.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q494.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q498.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q498.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q50.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q50.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q523.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q523.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q528.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q528.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q536.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q536.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q549.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q56.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q56.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q560.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q560.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q581.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q581.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q616.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q616.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q622.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q622.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q636.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q636.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q65.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q65.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q658.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q658.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q670.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q670.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q680.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q680.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q708.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q708.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q71.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q71.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q721.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q721.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q724.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q724.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q76.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q76.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q766.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q766.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q767.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q767.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q778.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q778.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q78.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q78.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q785.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q785.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q794.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q794.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q8.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q827.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q827.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q844.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q844.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q863.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q863.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q896.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q896.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q919.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q919.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q921.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q921.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q934.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q934.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q935.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q935.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q938.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q938.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q939.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q939.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q953.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q953.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q958.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q958.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q973.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q973.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q977.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q977.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q983.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q983.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q986.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q986.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/facebook/Q987.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/facebook/Q987.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/BSTIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/BSTIterator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/CBTInserter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/CBTInserter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/DoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/DoubleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/KthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/KthLargest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/E2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/E2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/LFUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/LFUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/LRUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/MovingAverage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/MovingAverage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/LFUList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/LFUNode.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/MyCircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/MyCircularQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/NumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/NumArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/NumMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/NumMatrix.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1004.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1004.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1011.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1011.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1026.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1026.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1027.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1027.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1047.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1047.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1060.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1060.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1091.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1091.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q109.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q109.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1094.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1094.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1110.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1110.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1123.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1123.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q114.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q114.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1161.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1161.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1197.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1197.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1209$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1209$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1209.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1209.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1213.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1213.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1249.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1249.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q125.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q125.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q127.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q127.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1263.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1263.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q129.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q129.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1293.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1293.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q133.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q133.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1331.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1331.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1344.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1344.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1353.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1353.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1373$Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1373$Result.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1373.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1373.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q138.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q138.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1382.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1382.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q139.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q139.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q140.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q140.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1424.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1424.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1428.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1428.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1522.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1522.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q153.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q153.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1539.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1539.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1559.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1559.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q157.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q157.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1570.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1570.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q163.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q163.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1644.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1644.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q162.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q162.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1650.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1650.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1748.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1748.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1762.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1762.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1868.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1868.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1891.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q1891.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q207.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q207.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q215.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q215.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q224.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q224.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q227.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q227.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q23.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q238.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q238.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q239.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q239.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q240.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q240.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q242.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q242.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q249.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q249.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q252.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q252.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q253.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q253.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q259.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q259.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q266.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q266.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q269.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q269.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q270.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q270.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q273.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q273.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q282.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q282.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q283.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q283.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q286.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q286.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q29.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q297.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q297.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q298.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q298.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q301.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q301.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q31.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q314.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q314.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q317.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q317.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q32.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q32.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q328.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q328.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q329.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q329.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q333.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q333.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q334.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q334.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q339.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q339.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q340.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q340.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q347.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q347.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q387.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q387.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q39.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q39.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q398.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q398.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q40.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q40.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q380.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q380.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q408.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q408.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q42.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q42.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q424.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q424.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q426.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q426.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q43.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q43.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q438.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q438.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q443.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q443.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q463.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q463.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q477.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q477.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q490.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q490.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q494.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q494.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q496.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q496.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q498.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q498.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q50.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q50.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q503.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q503.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q515.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q515.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q523.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q523.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q536.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q536.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q543.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q543.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q549.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q56.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q56.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q560.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q560.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q605.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q605.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q581.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q581.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q616.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q616.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q621.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q621.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q636$Log.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q636$Log.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q636.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q636.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q65.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q65.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q658.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q658.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q670.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q670.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q674.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q674.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q695.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q695.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q680.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q680.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q708.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q708.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q71.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q71.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q721$UnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q721$UnionFind.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q721.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q721.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q724.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q724.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q750.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q750.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q76.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q76.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q766.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q766.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q767.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q767.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q778.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q778.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q78.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q78.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q785.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q785.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q788.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q788.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q791.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q791.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q794.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q794.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q824.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q824.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q827.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q827.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q844.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q844.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q863.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q863.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q896.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q896.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q921.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q921.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q934.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q934.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q935.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q935.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q938.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q938.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q939.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q939.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q953.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q953.class" afterDir="false" />
@@ -308,12 +477,11 @@
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q977.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q977.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q983.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q983.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q986.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q986.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q987$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q987$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Q987.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Q987.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/RandomizedSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/RandomizedSet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/Solution1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/Solution1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/SparseVector.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/SparseVector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/facebook/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/facebook/TicTacToe.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,13 +543,13 @@
       <recent name="$PROJECT_DIR$/notes/topics/Math" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q560">
-    <configuration name="FindOddZeroNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.codesignal.quora.FindOddZeroNumber" />
+  <component name="RunManager" selected="Application.Other">
+    <configuration name="CountUniqueInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.fbr3.CountUniqueInSortedArray" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.codesignal.quora.*" />
+          <option name="PATTERN" value="company.fbr3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,12 +557,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q139" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.facebook.Q139" />
+    <configuration name="E" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.fbr3.E" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.facebook.*" />
+          <option name="PATTERN" value="company.fbr3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,12 +570,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.facebook.Q239" />
+    <configuration name="IntervalUnion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.fbr3.IntervalUnion" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.facebook.*" />
+          <option name="PATTERN" value="company.fbr3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,12 +583,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q560" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.facebook.Q560" />
+    <configuration name="Other" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.fbr3.Other" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="company.facebook.*" />
+          <option name="PATTERN" value="company.fbr3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,9 +596,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="SplitArrayEqualSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="company.fbr3.SplitArrayEqualSum" />
       <module name="codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="company.fbr3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -450,11 +624,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q560" />
-        <item itemvalue="Application.Q139" />
-        <item itemvalue="Application.Q239" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.FindOddZeroNumber" />
+        <item itemvalue="Application.Other" />
+        <item itemvalue="Application.E" />
+        <item itemvalue="Application.IntervalUnion" />
+        <item itemvalue="Application.SplitArrayEqualSum" />
+        <item itemvalue="Application.CountUniqueInSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -605,7 +779,15 @@
       <workItem from="1634737793615" duration="30398000" />
       <workItem from="1634825935753" duration="29875000" />
       <workItem from="1634911054102" duration="32861000" />
-      <workItem from="1634996617000" duration="26513000" />
+      <workItem from="1634996617000" duration="30879000" />
+      <workItem from="1635085583483" duration="32099000" />
+      <workItem from="1635168334112" duration="34788000" />
+      <workItem from="1635254629781" duration="26791000" />
+      <workItem from="1635341705313" duration="33674000" />
+      <workItem from="1635425841967" duration="37970000" />
+      <workItem from="1635549590724" duration="441000" />
+      <workItem from="1635624886120" duration="343000" />
+      <workItem from="1635696257721" duration="958000" />
     </task>
     <servers />
   </component>
@@ -642,11 +824,11 @@
     </state>
     <state x="650" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1010@0.25.1792.1010" timestamp="1629578484561" />
     <state x="928" y="462" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1633482325319" />
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1635017054540">
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1635449023699">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1634997414329" />
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1635017054540" />
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1635449023699" />
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1635214556257" />
     <state x="971" y="556" width="618" height="280" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1631319860296">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -660,38 +842,42 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="887" y="324" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1627089117883" />
-    <state width="1515" height="392" key="GridCell.Tab.0.bottom" timestamp="1634958435208">
+    <state width="1730" height="392" key="GridCell.Tab.0.bottom" timestamp="1635529534492">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1515" height="392" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1634923936184" />
+    <state width="1730" height="392" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1635529534492" />
     <state width="1415" height="392" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1634435012945" />
+    <state width="1730" height="392" key="GridCell.Tab.0.bottom/0.25.1792.1012@0.25.1792.1012" timestamp="1635478668717" />
     <state width="1218" height="436" key="GridCell.Tab.0.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133401" />
     <state width="2498" height="382" key="GridCell.Tab.0.bottom/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="1515" height="392" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1634958435208" />
-    <state width="1515" height="392" key="GridCell.Tab.0.center" timestamp="1634958435207">
+    <state width="2498" height="392" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1635468060150" />
+    <state width="1730" height="392" key="GridCell.Tab.0.center" timestamp="1635529534491">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1515" height="392" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1634923936174" />
+    <state width="1730" height="392" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1635529534491" />
     <state width="1415" height="392" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1634435012945" />
+    <state width="1730" height="392" key="GridCell.Tab.0.center/0.25.1792.1012@0.25.1792.1012" timestamp="1635478668716" />
     <state width="1218" height="436" key="GridCell.Tab.0.center/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133400" />
     <state width="2498" height="382" key="GridCell.Tab.0.center/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="1515" height="392" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1634958435207" />
-    <state width="1515" height="392" key="GridCell.Tab.0.left" timestamp="1634958435207">
+    <state width="2498" height="392" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1635468060149" />
+    <state width="1730" height="392" key="GridCell.Tab.0.left" timestamp="1635529534489">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1515" height="392" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1634923936173" />
+    <state width="1730" height="392" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1635529534489" />
     <state width="1415" height="392" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1634435012945" />
+    <state width="1730" height="392" key="GridCell.Tab.0.left/0.25.1792.1012@0.25.1792.1012" timestamp="1635478668716" />
     <state width="1218" height="436" key="GridCell.Tab.0.left/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133400" />
     <state width="2498" height="382" key="GridCell.Tab.0.left/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="1515" height="392" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1634958435207" />
-    <state width="1515" height="392" key="GridCell.Tab.0.right" timestamp="1634958435208">
+    <state width="2498" height="392" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1635468060149" />
+    <state width="1730" height="392" key="GridCell.Tab.0.right" timestamp="1635529534491">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1515" height="392" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1634923936175" />
+    <state width="1730" height="392" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1635529534491" />
     <state width="1415" height="392" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1634435012945" />
+    <state width="1730" height="392" key="GridCell.Tab.0.right/0.25.1792.1012@0.25.1792.1012" timestamp="1635478668716" />
     <state width="1218" height="436" key="GridCell.Tab.0.right/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133401" />
     <state width="2498" height="382" key="GridCell.Tab.0.right/0.25.2560.1330/-1792.25.1792.1095@0.25.2560.1330" timestamp="1627003444257" />
-    <state width="1515" height="392" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1634958435208" />
+    <state width="2498" height="392" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1635468060149" />
     <state width="1218" height="436" key="GridCell.Tab.1.bottom" timestamp="1633841133402">
       <screen x="0" y="25" width="1792" height="1019" />
     </state>
@@ -717,31 +903,44 @@
     </state>
     <state x="942" y="256" key="RollbackChangesDialog/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1634587690959" />
     <state x="942" y="256" key="RollbackChangesDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1634175343313" />
-    <state x="962" y="80" key="SettingsEditor" timestamp="1635024900022">
+    <state x="962" y="80" key="SettingsEditor" timestamp="1635394185551">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="962" y="80" key="SettingsEditor/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1635024900022" />
+    <state x="962" y="80" key="SettingsEditor/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1635394185551" />
     <state x="256" y="25" key="SettingsEditor/0.25.1792.1017@0.25.1792.1017" timestamp="1630034386276" />
-    <state x="962" y="80" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1634845617727" />
+    <state x="962" y="80" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1635177265326" />
     <state x="1083" y="125" width="1377" height="1130" key="dock-window-1" timestamp="1634571590074">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1083" y="125" width="1377" height="1130" key="dock-window-1/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1634571590074" />
-    <state x="958" y="402" key="refactoring.ChangeSignatureDialog" timestamp="1634867800856">
+    <state x="958" y="402" key="refactoring.ChangeSignatureDialog" timestamp="1635343600103">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
+    <state x="958" y="402" key="refactoring.ChangeSignatureDialog/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1635343600103" />
     <state x="958" y="402" key="refactoring.ChangeSignatureDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1634867800856" />
-    <state x="1354" y="316" key="run.anything.popup" timestamp="1633894164980">
+    <state x="1354" y="316" key="run.anything.popup" timestamp="1635382400305">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
+    <state x="1354" y="316" key="run.anything.popup/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1635382400305" />
     <state x="1354" y="316" key="run.anything.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1633894164980" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1634932617157">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1635624910530">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="777" y="25" width="1005" height="1560" key="search.everywhere.popup/-1792.25.1792.1019/0.25.2560.1415@0.25.2560.1415" timestamp="1634520154463" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1634932617157" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1635426045458" />
     <state x="544" y="25" width="1005" height="1114" key="search.everywhere.popup/0.25.1792.1010@0.25.1792.1010" timestamp="1629017910279" />
     <state x="544" y="25" width="1005" height="1120" key="search.everywhere.popup/0.25.1792.1015@0.25.1792.1015" timestamp="1630166661551" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1634867963290" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1635624910530" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codes/src/company/fbr3/Q67.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
