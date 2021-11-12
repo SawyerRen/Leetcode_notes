@@ -1,0 +1,14 @@
+package company.fbr4.q400;
+
+public class Q405 {
+    public String toHex(int num) {
+        if (num == 0) return "0";
+        char[] chars = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};
+        StringBuilder builder = new StringBuilder();
+        while (num != 0) {
+            builder.append(chars[num & 15]);
+            num >>>= 16;
+        }
+        return builder.reverse().toString();
+    }
+}

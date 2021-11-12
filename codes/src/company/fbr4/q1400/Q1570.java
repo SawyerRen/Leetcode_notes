@@ -1,0 +1,48 @@
+package company.fbr4.q1400;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Q1570 {
+    class SparseVector {
+        List<Node> list = new ArrayList<>();
+
+        SparseVector(int[] nums) {
+            for (int i = 0; i < nums.length; i++) {
+                if (nums[i] != 0) {
+                    list.add(new Node(i, nums[i]));
+                }
+            }
+        }
+
+        // Return the dotProduct of two sparse vectors
+        public int dotProduct(SparseVector vec) {
+            List<Node> list2 = vec.list;
+            int i = 0, j = 0, res = 0;
+            while (i < list.size() && j < list2.size()) {
+                Node n1 = list.get(i);
+                Node n2 = list2.get(j);
+                if (n1.index == n2.index) {
+                    res += n1.value * n2.value;
+                    i++;
+                    j++;
+                } else if (n1.index < n2.index) {
+                    i++;
+                } else {
+                    j++;
+                }
+            }
+            return res;
+        }
+    }
+
+    class Node {
+        int index;
+        int value;
+
+        public Node(int index, int value) {
+            this.index = index;
+            this.value = value;
+        }
+    }
+}
