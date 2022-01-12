@@ -1,89 +1,284 @@
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.PriorityQueue;
+import java.util.TreeSet;
 
 public class Test {
-    static int solution(int[] nums1, int[] nums2) {
-        return helper(nums1, nums2, 0, 0);
-    }
-
-    private static int helper(int[] nums1, int[] nums2, int start, int index) {
-        if (index == nums2.length) return 1;
-        int res = 0;
-        for (int i = start; i < nums1.length; i++) {
-            if (nums1[i] == nums2[index]) {
-                res += helper(nums1, nums2, i + 1, index + 1);
-            }
+    static void solution(long n) {
+        double[] nodes = {
+                41023461,
+                85734516,
+                117281328,
+                125736242,
+                141878141,
+                165308929,
+                185920185,
+                221671914,
+                227453371,
+                340980054,
+                357445747,
+                375597852,
+                453005073,
+                484408336,
+                487574807,
+                623671120,
+                692704175,
+                697323074,
+                764379973,
+                789296165,
+                803152581,
+                916542415,
+                931833455,
+                952627244,
+                994063877,
+                1063543501,
+                1095619456,
+                1098796346,
+                1111608456,
+                1120746458,
+                1151137969,
+                1181992062,
+                1187165134,
+                1252080068,
+                1261294919,
+                1296716671,
+                1316531642,
+                1318382642,
+                1341912145,
+                1381160637,
+                1404663120,
+                1422888474,
+                1546942430,
+                1560975388,
+                1574796670,
+                1585416285,
+                1612579555,
+                1656924640,
+                1724755455,
+                1731889169,
+                1754318746,
+                1762436030,
+                1764222159,
+                1775858108,
+                1800372655,
+                1809291066,
+                1863256569,
+                1891506992,
+                1942391358,
+                1953369586,
+                1968770578,
+                2025363743,
+                2027722572,
+                2031829201,
+                2164747594L,
+                2172985745L,
+                2192856140L,
+                2273480401L,
+                2284205690L,
+                2316135367L,
+                2323499285L,
+                2341081299L,
+                2398120550L,
+                2410249898L,
+                2421703563L,
+                2533231366L,
+                2588113728L,
+                2609076330L,
+                2659741832L,
+                2661558850L,
+                2666144559L,
+                2666469865L,
+                2679467071L,
+                2710439878L,
+                2718627103L,
+                2745687488L,
+                2786462292L,
+                2819986368L,
+                2900791414L,
+                2962760732L,
+                2997760308L,
+                3021167971L,
+                3082456979L,
+                3108575688L,
+                3120899843L,
+                3121824464L,
+                3160801474L,
+                3171558423L,
+                3204538100L,
+                3358105298L,
+                3427287623L,
+                3435223392L,
+                3455481312L,
+                3500380522L,
+                3520503822L,
+                3549309559L,
+                3577574332L,
+                3599771466L,
+                3624420161L,
+                3675748542L,
+                3696728729L,
+                3706957430L,
+                3745581151L,
+                3747460195L,
+                3796694723L,
+                3804850610L,
+                3850900472L,
+                3906413794L,
+                3968044193L,
+                3993839047L,
+                4024184364L,
+                4056579626L,
+                4074051712L,
+                4092914857L,
+                4127129221L,
+                4131133786L,
+                4248431269L,
+                4276933077L
+        };
+        TreeSet<Double> set = new TreeSet<>();
+        for (double node : nodes) {
+            set.add(node);
         }
-        return res;
-    }
-
-    static int solution1(int[] nums1, int[] nums2) {
-        int[][] memo = new int[nums1.length][nums2.length];
-        for (int[] ints : memo) {
-            Arrays.fill(ints, -1);
-        }
-        return helper1(nums1, nums2, 0, 0, memo);
-    }
-
-    private static int helper1(int[] nums1, int[] nums2, int start, int index, int[][] memo) {
-        if (index == nums2.length) return 1;
-        if (start == nums1.length) return 0;
-        if (memo[start][index] != -1) return memo[start][index];
-        int res = 0;
-        for (int i = start; i < nums1.length; i++) {
-            if (nums1[i] == nums2[index]) {
-                res += helper(nums1, nums2, i + 1, index + 1);
-            }
-        }
-        memo[start][index] = res;
-        return res;
-    }
-
-    static public int[] visitingCities(int[] red, int[] blue, int blueCost) {
-        int n = red.length;
-        int[] res = new int[n + 1];
-        res[0] = 0;
-        int[][] dp = new int[n + 1][2];
-        dp[0][0] = 0;
-        dp[0][1] = blueCost;
-        for (int i = 1; i < n + 1; i++) {
-            dp[i][0] = Math.min(dp[i - 1][0] + red[i - 1], dp[i - 1][1] + red[i - 1]);
-            dp[i][1] = Math.min(dp[i - 1][1] + blue[i - 1], dp[i - 1][0] + blueCost + blue[i - 1]);
-            res[i] = Math.min(dp[i][0], dp[i][1]);
-        }
-        return res;
-    }
-
-    static public int productSales(long[] inventory, int order) {
-        Arrays.sort(inventory);
-        long ans = 0;
-        int n = inventory.length - 1;
-        long count = 1;
-        while (order > 0) {
-            if (n > 0 && inventory[n] - inventory[n - 1] > 0 && order >= count * (inventory[n] - inventory[n - 1])) {
-                ans += count * sumFromNtoX(inventory[n], inventory[n - 1]);
-                order -= count * (inventory[n] - inventory[n - 1]);
-            } else if (n == 0 || inventory[n] - inventory[n - 1] > 0) {
-                long a = order / count;
-                ans += count * sumFromNtoX(inventory[n], inventory[n] - a);
-                long b = order % count;
-                ans += b * (inventory[n] - a);
-                order = 0;
-            }
-            ans %= 1000000007;
-            n--;
-            count++;
-        }
-        return (int) ans;
-    }
-
-    private static long sumFromNtoX(long n, long x) {
-        return (n * (n + 1)) / 2 - (x * (x + 1)) / 2;
+        double start = n;
+        Double dest = set.ceiling(305419896.0);
     }
 
     public static void main(String[] args) {
-        long[] inventory = {6, 4};
-        int order = 4;
-        System.out.println(productSales(inventory, order));
+        double[] nodes = {
+                41023461,
+                85734516,
+                117281328,
+                125736242,
+                141878141,
+                165308929,
+                185920185,
+                221671914,
+                227453371,
+                340980054,
+                357445747,
+                375597852,
+                453005073,
+                484408336,
+                487574807,
+                623671120,
+                692704175,
+                697323074,
+                764379973,
+                789296165,
+                803152581,
+                916542415,
+                931833455,
+                952627244,
+                994063877,
+                1063543501,
+                1095619456,
+                1098796346,
+                1111608456,
+                1120746458,
+                1151137969,
+                1181992062,
+                1187165134,
+                1252080068,
+                1261294919,
+                1296716671,
+                1316531642,
+                1318382642,
+                1341912145,
+                1381160637,
+                1404663120,
+                1422888474,
+                1546942430,
+                1560975388,
+                1574796670,
+                1585416285,
+                1612579555,
+                1656924640,
+                1724755455,
+                1731889169,
+                1754318746,
+                1762436030,
+                1764222159,
+                1775858108,
+                1800372655,
+                1809291066,
+                1863256569,
+                1891506992,
+                1942391358,
+                1953369586,
+                1968770578,
+                2025363743,
+                2027722572,
+                2031829201,
+                2164747594L,
+                2172985745L,
+                2192856140L,
+                2273480401L,
+                2284205690L,
+                2316135367L,
+                2323499285L,
+                2341081299L,
+                2398120550L,
+                2410249898L,
+                2421703563L,
+                2533231366L,
+                2588113728L,
+                2609076330L,
+                2659741832L,
+                2661558850L,
+                2666144559L,
+                2666469865L,
+                2679467071L,
+                2710439878L,
+                2718627103L,
+                2745687488L,
+                2786462292L,
+                2819986368L,
+                2900791414L,
+                2962760732L,
+                2997760308L,
+                3021167971L,
+                3082456979L,
+                3108575688L,
+                3120899843L,
+                3121824464L,
+                3160801474L,
+                3171558423L,
+                3204538100L,
+                3358105298L,
+                3427287623L,
+                3435223392L,
+                3455481312L,
+                3500380522L,
+                3520503822L,
+                3549309559L,
+                3577574332L,
+                3599771466L,
+                3624420161L,
+                3675748542L,
+                3696728729L,
+                3706957430L,
+                3745581151L,
+                3747460195L,
+                3796694723L,
+                3804850610L,
+                3850900472L,
+                3906413794L,
+                3968044193L,
+                3993839047L,
+                4024184364L,
+                4056579626L,
+                4074051712L,
+                4092914857L,
+                4127129221L,
+                4131133786L,
+                4248431269L,
+                4276933077L
+        };
+        TreeSet<Double> set = new TreeSet<>();
+        for (double node : nodes) {
+            set.add(node);
+        }
+        System.out.println(set.ceiling((double) (306419896 + 3500380522L)));
+        System.out.println(set.ceiling((double) 306419896));
     }
 }

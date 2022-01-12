@@ -19,28 +19,27 @@ public class Q1202 {
         }
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
-            int parentIndex = uf.find(i);
-            builder.append(map.get(parentIndex).poll());
+            builder.append(map.get(uf.find(i)).poll());
         }
         return builder.toString();
     }
 
     class UnionFind {
-        int[] parent;
+        int[] parents;
         int size;
 
         public UnionFind(int size) {
             this.size = size;
-            parent = new int[size];
-            for (int i = 0; i < size; i++) {
-                parent[i] = i;
+            parents = new int[size];
+            for (int i = 0; i < parents.length; i++) {
+                parents[i] = i;
             }
         }
 
         int find(int i) {
-            while (i != parent[i]) {
-                parent[i] = parent[parent[i]];
-                i = parent[i];
+            while (i != parents[i]) {
+                parents[i] = parents[parents[i]];
+                i = parents[i];
             }
             return i;
         }
@@ -48,7 +47,7 @@ public class Q1202 {
         void union(int i, int j) {
             int p1 = find(i), p2 = find(j);
             if (p1 == p2) return;
-            parent[p2] = p1;
+            parents[p2] = p1;
             size--;
         }
     }

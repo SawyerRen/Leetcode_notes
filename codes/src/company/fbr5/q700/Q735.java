@@ -19,7 +19,9 @@ public class Q735 {
                     stack.pop();
                 }
             }
-            if (push) stack.push(asteroid);
+            if (push) {
+                stack.push(asteroid);
+            }
         }
         int[] res = new int[stack.size()];
         for (int i = res.length - 1; i >= 0; i--) {

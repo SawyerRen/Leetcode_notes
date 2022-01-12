@@ -3,15 +3,17 @@ package company.fbr5.q600;
 public class Q605 {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         if (n <= 0) return true;
-        int[] bed = new int[flowerbed.length + 2];
-        System.arraycopy(flowerbed, 0, bed, 1, flowerbed.length);
-        for (int i = 1; i < bed.length - 1; i++) {
-            if (bed[i - 1] == 0 && bed[i] == 0 && bed[i + 1] == 0) {
-                bed[i] = 1;
-                n--;
-                if (n == 0) return true;
+        int count = 0, cur = 1;
+        for (int i = 0; i < flowerbed.length; i++) {
+            if (flowerbed[i] == 0) {
+                cur++;
+            } else {
+                count += (cur - 1) / 2;
+                cur = 0;
             }
         }
-        return false;
+        if (cur > 0) cur++;
+        count += (cur - 1) / 2;
+        return count >= n;
     }
 }

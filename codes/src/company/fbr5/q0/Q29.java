@@ -2,26 +2,23 @@ package company.fbr5.q0;
 
 public class Q29 {
     public int divide(int dividend, int divisor) {
+        if (dividend == Integer.MIN_VALUE && divisor == -1) return Integer.MAX_VALUE;
         boolean negative = false;
         if ((dividend < 0 && divisor > 0) || (dividend > 0 && divisor < 0)) negative = true;
-        long absDividend = Math.abs((long) dividend);
-        long absDivisor = Math.abs((long) divisor);
-        long res = 0;
-        while (absDividend >= absDivisor) {
-            long temp = absDivisor;
-            long count = 1;
-            while (temp <= absDividend) {
+        int absDividend = Math.abs(dividend);
+        int absDivisor = Math.abs(divisor);
+        int res = 0;
+        while (absDividend - absDivisor >= 0) {
+            int temp = absDivisor;
+            int count = 1;
+            while (absDividend - (temp << 1) >= 0) {
                 temp <<= 1;
                 count <<= 1;
             }
-            res += count >> 1;
-            if (res > Integer.MAX_VALUE) {
-                if (negative) return Integer.MIN_VALUE;
-                return Integer.MAX_VALUE;
-            }
-            absDividend -= temp >> 1;
+            res += count;
+            absDividend -= temp;
         }
-        if (negative) return -(int) res;
-        return (int) res;
+        if (negative) return -res;
+        return res;
     }
 }

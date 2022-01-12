@@ -9,16 +9,16 @@ public class Q863 {
         Map<TreeNode, Integer> map = new HashMap<>();
         find(map, root, target);
         List<Integer> res = new ArrayList<>();
-        helper(map, res, root, k, 0);
+        helper(res, map, root, k, 0);
         return res;
     }
 
-    private void helper(Map<TreeNode, Integer> map, List<Integer> res, TreeNode root, int k, int distance) {
+    private void helper(List<Integer> res, Map<TreeNode, Integer> map, TreeNode root, int k, int distance) {
         if (root == null) return;
         if (map.containsKey(root)) distance = map.get(root);
         if (distance == k) res.add(root.val);
-        helper(map, res, root.left, k, distance + 1);
-        helper(map, res, root.right, k, distance + 1);
+        helper(res, map, root.left, k, distance + 1);
+        helper(res, map, root.right, k, distance + 1);
     }
 
     private int find(Map<TreeNode, Integer> map, TreeNode root, TreeNode target) {

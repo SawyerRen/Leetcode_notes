@@ -3,18 +3,18 @@ package company.fbr5.q700;
 public class Q767 {
     public String reorganizeString(String s) {
         int[] count = new int[26];
-        int maxCount = 0;
+        int max = 0;
         char maxChar = 'a';
         for (char c : s.toCharArray()) {
             count[c - 'a']++;
-            if (count[c - 'a'] > maxCount) {
-                maxCount = count[c - 'a'];
+            if (count[c - 'a'] > max) {
+                max = count[c - 'a'];
                 maxChar = c;
             }
         }
-        if (maxCount > (s.length() + 1) / 2) return "";
-        int index = 0;
+        if (max > (s.length() + 1) / 2) return "";
         char[] res = new char[s.length()];
+        int index = 0;
         while (count[maxChar - 'a'] > 0) {
             res[index] = maxChar;
             index += 2;

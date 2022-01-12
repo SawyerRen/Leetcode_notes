@@ -23,25 +23,24 @@ public class Q489 {
 
     public void cleanRoom(Robot robot) {
         Set<String> visited = new HashSet<>();
-        helper(robot, 0, 0, visited, 0);
+        helper(robot, visited, 0, 0, 0);
     }
 
-    private void helper(Robot robot, int row, int col, Set<String> visited, int d) {
+    private void helper(Robot robot, Set<String> visited, int row, int col, int d) {
         visited.add(row + "," + col);
         robot.clean();
         for (int i = 0; i < 4; i++) {
-            int newD = (d + i) % 4;
+            int newD = (i + d) % 4;
             int x = row + dirs[newD][0], y = col + dirs[newD][1];
             if (!visited.contains(x + "," + y) && robot.move()) {
-                visited.add(x + "," + y);
-                helper(robot, x, y, visited, newD);
+                helper(robot, visited, x, y, newD);
                 robot.turnRight();
                 robot.turnRight();
                 robot.move();
                 robot.turnRight();
                 robot.turnRight();
             }
-            robot.turnRight();;
+            robot.turnRight();
         }
     }
 }

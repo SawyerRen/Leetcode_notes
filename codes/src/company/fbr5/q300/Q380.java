@@ -27,8 +27,8 @@ public class Q380 {
                 map.put(last, index);
                 list.set(index, last);
             }
-            map.remove(val);
             list.remove(list.size() - 1);
+            map.remove(val);
             return true;
         }
 

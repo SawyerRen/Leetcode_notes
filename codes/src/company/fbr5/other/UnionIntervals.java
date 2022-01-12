@@ -2,6 +2,7 @@ package company.fbr5.other;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class UnionIntervals {
     List<int[]> union(int[][] l1, int[][] l2) {
@@ -17,7 +18,7 @@ public class UnionIntervals {
         }
         while (i < l1.length || j < l2.length) {
             if (j == l2.length || (i < l1.length && l1[i][0] < l2[j][0])) {
-                if (l1[i][0] > prev[1]) {
+                if (prev[1] < l1[i][0]) {
                     list.add(prev);
                     prev = l1[i];
                 } else {
@@ -25,7 +26,7 @@ public class UnionIntervals {
                 }
                 i++;
             } else if (i == l1.length || (j < l2.length && l1[i][0] >= l2[j][0])) {
-                if (l2[j][0] > prev[1]) {
+                if (prev[1] < l2[j][0]) {
                     list.add(prev);
                     prev = l2[j];
                 } else {

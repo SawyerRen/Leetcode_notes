@@ -16,7 +16,7 @@ public class Q332 {
 
     private void helper(LinkedList<String> res, Map<String, PriorityQueue<String>> map, String airport) {
         PriorityQueue<String> pq = map.get(airport);
-        while (pq != null && pq.size() > 0) {
+        while (pq != null && !pq.isEmpty()) {
             helper(res, map, pq.poll());
         }
         res.addFirst(airport);

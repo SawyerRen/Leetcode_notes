@@ -1,5 +1,6 @@
 package company.fbr5.q700;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -7,8 +8,9 @@ import java.util.Stack;
 public class Q772 {
     public int calculate(String s) {
         if (s.length() == 0) return 0;
+        char[] chars = s.toCharArray();
         Queue<Character> queue = new LinkedList<>();
-        for (char c : s.toCharArray()) {
+        for (char c : chars) {
             queue.add(c);
         }
         queue.add('+');
@@ -16,6 +18,7 @@ public class Q772 {
     }
 
     private int helper(Queue<Character> queue) {
+        if (queue.size() == 0) return 0;
         int num = 0;
         char sign = '+';
         Stack<Integer> stack = new Stack<>();
@@ -28,10 +31,10 @@ public class Q772 {
                 num = helper(queue);
             } else {
                 switch (sign) {
-                    case '*' -> stack.push(stack.pop() * num);
-                    case '-' -> stack.push(-num);
-                    case '/' -> stack.push(stack.pop() / num);
                     case '+' -> stack.push(num);
+                    case '-' -> stack.push(-num);
+                    case '*' -> stack.push(stack.pop() * num);
+                    case '/' -> stack.push(stack.pop() / num);
                 }
                 sign = c;
                 num = 0;
