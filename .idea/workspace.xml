@@ -23,96 +23,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q200/Q267.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q700/Q742.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q1004.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q1011.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q1047.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q1216.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q124.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q1249.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q125.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q1263.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q133.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q1344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q138.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q139.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q140.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q146.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q1570.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q162.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q1650.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q173.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q1762.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q1891.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q215.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q227.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q236.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q249.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q266.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q269.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q282.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q301.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q314.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q317.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q346.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q347.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q408.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q415.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q426.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q498.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q50.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q523.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q528.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q536.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q543.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q56.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q560.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q636.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q65.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q658.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q670.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q680.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q708.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q71.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q721.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q76.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q766.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q791.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q88.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q921.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q938.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q953.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q973.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/ffff/Q986.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q29.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/other/ListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/other/ListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/other/MaxOverLappingPoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/other/MaxOverLappingPoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/other/SumOfFloatNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/other/SumOfFloatNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/other/UnionIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/other/UnionIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q0/Q29.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q0/Q29.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q1000/Q1047.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q1000/Q1047.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q1200/Q1202.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q1200/Q1202.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q200/Q230.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q200/Q230.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q300/Q329.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q300/Q329.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q300/Q332.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q300/Q332.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q300/Q380.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q300/Q380.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q400/Q489.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q400/Q489.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q600/Q605.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q600/Q605.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q700/Q735.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q700/Q735.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q700/Q767.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q700/Q767.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q700/Q772.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q700/Q772.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q700/Q785.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q700/Q785.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q800/Q862.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q800/Q862.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q800/Q863.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q800/Q863.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbr5/q900/Q953.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbr5/q900/Q953.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q10.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q11.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q14.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q15.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q16.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q17.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q18.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q19.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q20.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q21.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q22.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q23.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q24.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q25.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q26.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q27.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q28.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q28.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q3.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q31.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q32.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q32.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q33.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q34.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q36.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q36.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q37.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q37.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q38.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q38.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q39.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q4.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q40.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q41.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q42.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q43.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q43.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q44.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q45.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q45.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q46.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q47.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q47.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q48.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q48.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q49.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q49.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q5.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q50.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q6.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q8.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q9.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -435,7 +391,16 @@
       <workItem from="1637543960754" duration="2660000" />
       <workItem from="1637965607867" duration="4000" />
       <workItem from="1641926987838" duration="328000" />
-      <workItem from="1641946215946" duration="216000" />
+      <workItem from="1641946215946" duration="559000" />
+      <workItem from="1642004722590" duration="2830000" />
+      <workItem from="1642110262208" duration="469000" />
+      <workItem from="1642113122080" duration="1765000" />
+      <workItem from="1642204098599" duration="123000" />
+      <workItem from="1642268775808" duration="205000" />
+      <workItem from="1642274942431" duration="3652000" />
+      <workItem from="1642349752272" duration="1973000" />
+      <workItem from="1642434254199" duration="2719000" />
+      <workItem from="1642521836581" duration="2247000" />
     </task>
     <servers />
   </component>
@@ -455,38 +420,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1024" y="64" key="#Project_Structure" timestamp="1633579885244">
-      <screen x="0" y="25" width="2560" height="1330" />
-    </state>
-    <state x="1024" y="64" key="#Project_Structure/0.25.2560.1330@0.25.2560.1330" timestamp="1633579885244" />
-    <state x="940" y="448" key="#SQL_Dialects" timestamp="1632931161441">
-      <screen x="0" y="25" width="2560" height="1330" />
-    </state>
-    <state x="940" y="448" key="#SQL_Dialects/0.25.2560.1330@0.25.2560.1330" timestamp="1632931161440" />
-    <state x="1520" y="340" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632931165131">
-      <screen x="0" y="25" width="2560" height="1330" />
-    </state>
-    <state x="1520" y="340" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1632931165131" />
-    <state x="928" y="462" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1633482325319">
-      <screen x="0" y="25" width="2560" height="1330" />
-    </state>
-    <state x="650" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1010@0.25.1792.1010" timestamp="1629578484561" />
-    <state x="928" y="462" key="#com.intellij.fileTypes.FileTypeChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1633482325319" />
     <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1636987086202">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1636987086202" />
     <state x="699" y="212" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1015@0.25.1792.1015" timestamp="1636172016084" />
     <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/0.25.2560.1330@0.25.2560.1330" timestamp="1636490003275" />
-    <state x="971" y="556" width="618" height="280" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1631319860296">
-      <screen x="0" y="25" width="2560" height="1330" />
-    </state>
-    <state x="971" y="556" width="618" height="280" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.25.2560.1330@0.25.2560.1330" timestamp="1631319860296" />
-    <state x="839" y="536" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1631319948462">
-      <screen x="0" y="25" width="2560" height="1330" />
-    </state>
-    <state x="587" y="413" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.25.1792.1010@0.25.1792.1010" timestamp="1629017677574" />
-    <state x="839" y="536" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.25.2560.1330@0.25.2560.1330" timestamp="1631319948462" />
     <state x="388" y="144" key="DiffContextDialog" timestamp="1636574251913">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -499,7 +438,6 @@
     <state width="1730" height="392" key="GridCell.Tab.0.bottom/0.25.1792.1012@0.25.1792.1012" timestamp="1635478668717" />
     <state width="1511" height="391" key="GridCell.Tab.0.bottom/0.25.1792.1015@0.25.1792.1015" timestamp="1636172988901" />
     <state width="1730" height="334" key="GridCell.Tab.0.bottom/0.25.1792.1017@0.25.1792.1017" timestamp="1636991560295" />
-    <state width="1218" height="436" key="GridCell.Tab.0.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133401" />
     <state width="1628" height="334" key="GridCell.Tab.0.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1636432162112" />
     <state width="1218" height="471" key="GridCell.Tab.0.center" timestamp="1637551160289">
       <screen x="0" y="25" width="2560" height="1330" />
@@ -509,7 +447,6 @@
     <state width="1730" height="392" key="GridCell.Tab.0.center/0.25.1792.1012@0.25.1792.1012" timestamp="1635478668716" />
     <state width="1511" height="391" key="GridCell.Tab.0.center/0.25.1792.1015@0.25.1792.1015" timestamp="1636172988900" />
     <state width="1730" height="334" key="GridCell.Tab.0.center/0.25.1792.1017@0.25.1792.1017" timestamp="1636991560295" />
-    <state width="1218" height="436" key="GridCell.Tab.0.center/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133400" />
     <state width="1628" height="334" key="GridCell.Tab.0.center/0.25.2560.1330@0.25.2560.1330" timestamp="1636432162112" />
     <state width="1218" height="471" key="GridCell.Tab.0.left" timestamp="1637551160289">
       <screen x="0" y="25" width="2560" height="1330" />
@@ -519,7 +456,6 @@
     <state width="1730" height="392" key="GridCell.Tab.0.left/0.25.1792.1012@0.25.1792.1012" timestamp="1635478668716" />
     <state width="1511" height="391" key="GridCell.Tab.0.left/0.25.1792.1015@0.25.1792.1015" timestamp="1636172988900" />
     <state width="1730" height="334" key="GridCell.Tab.0.left/0.25.1792.1017@0.25.1792.1017" timestamp="1636991560294" />
-    <state width="1218" height="436" key="GridCell.Tab.0.left/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133400" />
     <state width="1628" height="334" key="GridCell.Tab.0.left/0.25.2560.1330@0.25.2560.1330" timestamp="1636432162111" />
     <state width="1218" height="471" key="GridCell.Tab.0.right" timestamp="1637551160289">
       <screen x="0" y="25" width="2560" height="1330" />
@@ -529,28 +465,7 @@
     <state width="1730" height="392" key="GridCell.Tab.0.right/0.25.1792.1012@0.25.1792.1012" timestamp="1635478668716" />
     <state width="1511" height="391" key="GridCell.Tab.0.right/0.25.1792.1015@0.25.1792.1015" timestamp="1636172988900" />
     <state width="1730" height="334" key="GridCell.Tab.0.right/0.25.1792.1017@0.25.1792.1017" timestamp="1636991560295" />
-    <state width="1218" height="436" key="GridCell.Tab.0.right/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133401" />
     <state width="1628" height="334" key="GridCell.Tab.0.right/0.25.2560.1330@0.25.2560.1330" timestamp="1636432162112" />
-    <state width="1218" height="436" key="GridCell.Tab.1.bottom" timestamp="1633841133402">
-      <screen x="0" y="25" width="1792" height="1019" />
-    </state>
-    <state width="1218" height="436" key="GridCell.Tab.1.bottom/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133402" />
-    <state width="1218" height="436" key="GridCell.Tab.1.bottom/0.25.2560.1330@0.25.2560.1330" timestamp="1633802415213" />
-    <state width="1218" height="436" key="GridCell.Tab.1.center" timestamp="1633841133401">
-      <screen x="0" y="25" width="1792" height="1019" />
-    </state>
-    <state width="1218" height="436" key="GridCell.Tab.1.center/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133401" />
-    <state width="1218" height="436" key="GridCell.Tab.1.center/0.25.2560.1330@0.25.2560.1330" timestamp="1633802415212" />
-    <state width="1218" height="436" key="GridCell.Tab.1.left" timestamp="1633841133401">
-      <screen x="0" y="25" width="1792" height="1019" />
-    </state>
-    <state width="1218" height="436" key="GridCell.Tab.1.left/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133401" />
-    <state width="1218" height="436" key="GridCell.Tab.1.left/0.25.2560.1330@0.25.2560.1330" timestamp="1633802415212" />
-    <state width="1218" height="436" key="GridCell.Tab.1.right" timestamp="1633841133401">
-      <screen x="0" y="25" width="1792" height="1019" />
-    </state>
-    <state width="1218" height="436" key="GridCell.Tab.1.right/0.25.1792.1019@0.25.1792.1019" timestamp="1633841133401" />
-    <state width="1218" height="436" key="GridCell.Tab.1.right/0.25.2560.1330@0.25.2560.1330" timestamp="1633802415212" />
     <state x="942" y="256" key="RollbackChangesDialog" timestamp="1636661159879">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -560,7 +475,6 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="962" y="80" key="SettingsEditor/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1636952385630" />
-    <state x="256" y="25" key="SettingsEditor/0.25.1792.1017@0.25.1792.1017" timestamp="1630034386276" />
     <state x="962" y="80" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1635986090435" />
     <state x="1083" y="125" width="1377" height="1130" key="dock-window-1" timestamp="1634571590074">
       <screen x="0" y="25" width="2560" height="1330" />
@@ -580,13 +494,12 @@
     </state>
     <state x="1354" y="316" key="run.anything.popup/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1635382400305" />
     <state x="1354" y="316" key="run.anything.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1633894164980" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1636949181146">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1642523670700">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1642523670700" />
     <state x="777" y="25" width="1005" height="1560" key="search.everywhere.popup/-1792.25.1792.1019/0.25.2560.1415@0.25.2560.1415" timestamp="1634520154463" />
     <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1636949181146" />
-    <state x="544" y="25" width="1005" height="1114" key="search.everywhere.popup/0.25.1792.1010@0.25.1792.1010" timestamp="1629017910279" />
-    <state x="544" y="25" width="1005" height="1120" key="search.everywhere.popup/0.25.1792.1015@0.25.1792.1015" timestamp="1630166661551" />
     <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1636511355222" />
   </component>
   <component name="XDebuggerManager">

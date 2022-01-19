@@ -2,7 +2,6 @@ package all_solution.q0;
 
 public class Q8 {
     public int myAtoi(String s) {
-        long res = 0;
         int index = 0;
         while (index < s.length() && s.charAt(index) == ' ') index++;
         if (index == s.length()) return 0;
@@ -13,11 +12,13 @@ public class Q8 {
         } else if (s.charAt(index) == '+') {
             index++;
         }
+        long res = 0;
         while (index < s.length()) {
             char c = s.charAt(index);
-            if (c < '0' || c > '9') break;
-            res = res * 10 + c - '0';
-            if (res > Integer.MAX_VALUE) {
+            if (!Character.isDigit(c)) break;
+            int num = c - '0';
+            res = res * 10 + num;
+            if (res < Integer.MIN_VALUE || res > Integer.MAX_VALUE) {
                 if (negative) return Integer.MIN_VALUE;
                 return Integer.MAX_VALUE;
             }
@@ -27,3 +28,10 @@ public class Q8 {
         return (int) res;
     }
 }
+
+
+
+
+
+
+

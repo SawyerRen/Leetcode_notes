@@ -12,10 +12,10 @@ public class Q2 {
             int val2 = l2 == null ? 0 : l2.val;
             int sum = val1 + val2 + carry;
             cur.next = new ListNode(sum % 10);
+            cur = cur.next;
             carry = sum / 10;
             l1 = l1 == null ? null : l1.next;
             l2 = l2 == null ? null : l2.next;
-            cur = cur.next;
         }
         return dummy.next;
     }

@@ -1,7 +1,7 @@
 package all_solution.q0;
 
 public class Q5 {
-    int left = 0, right = 0, maxLen = 0;
+    int maxLen = 0, left = 0, right = 0;
 
     public String longestPalindrome(String s) {
         for (int i = 0; i < s.length(); i++) {
@@ -16,9 +16,9 @@ public class Q5 {
             i--;
             j++;
         }
-        int curLen = j - i - 1;
-        if (curLen > maxLen) {
-            maxLen = curLen;
+        int len = j - i - 1;
+        if (len > maxLen) {
+            maxLen = len;
             left = i + 1;
             right = j;
         }

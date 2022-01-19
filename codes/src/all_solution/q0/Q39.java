@@ -6,21 +6,20 @@ import java.util.List;
 
 public class Q39 {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        Arrays.sort(candidates);
         List<List<Integer>> res = new ArrayList<>();
-        helper(res, candidates, target, 0, new ArrayList<>());
+        helper(res, new ArrayList<Integer>(), candidates, target, 0, 0);
         return res;
     }
 
-    private void helper(List<List<Integer>> res, int[] candidates, int target, int start, List<Integer> list) {
-        if (target < 0) return;
-        if (target == 0) {
+    private void helper(List<List<Integer>> res, ArrayList<Integer> list, int[] candidates, int target, int start, int sum) {
+        if (sum > target) return;
+        if (sum == target) {
             res.add(new ArrayList<>(list));
             return;
         }
         for (int i = start; i < candidates.length; i++) {
             list.add(candidates[i]);
-            helper(res, candidates, target - candidates[i], i, list);
+            helper(res, list, candidates, target, i, sum + candidates[i]);
             list.remove(list.size() - 1);
         }
     }

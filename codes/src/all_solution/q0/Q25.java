@@ -9,22 +9,20 @@ public class Q25 {
         ListNode pre = dummy, tail = dummy;
         while (true) {
             int count = k;
-            while (count-- > 0 && tail != null) {
+            while (count > 0 && tail != null) {
                 tail = tail.next;
+                count--;
             }
-            // reach the end
             if (tail == null) break;
             ListNode nextDummy = pre.next;
             while (pre.next != tail) {
-                // delete pre.next
                 ListNode temp = pre.next;
                 pre.next = pre.next.next;
-                // insert to tail.next
                 temp.next = tail.next;
                 tail.next = temp;
             }
-            tail = nextDummy;
             pre = nextDummy;
+            tail = nextDummy;
         }
         return dummy.next;
     }

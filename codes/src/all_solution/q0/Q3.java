@@ -6,17 +6,15 @@ import java.util.Set;
 public class Q3 {
     public int lengthOfLongestSubstring(String s) {
         Set<Character> set = new HashSet<>();
-        int i = 0, j = 0;
-        int res = 0;
-        char[] chars = s.toCharArray();
-        while (j < chars.length) {
-            while (set.contains(chars[j])) {
-                set.remove(chars[i]);
+        int res = 0, i = 0, j = 0;
+        while (j < s.length()) {
+            while (set.contains(s.charAt(j))) {
+                set.remove(s.charAt(i));
                 i++;
             }
-            set.add(chars[j]);
-            res = Math.max(res, set.size());
+            set.add(s.charAt(j));
             j++;
+            res = Math.max(res, set.size());
         }
         return res;
     }

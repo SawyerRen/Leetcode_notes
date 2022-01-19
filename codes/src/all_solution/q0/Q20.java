@@ -6,23 +6,13 @@ public class Q20 {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();
         for (char c : s.toCharArray()) {
-            if (stack.isEmpty() || c == '(' || c == '{' || c == '[') {
-                stack.push(c);
+            if (c == ')' || c == ']' || c == '}') {
+                if (stack.isEmpty()) return false;
+                if (c == ')' && stack.pop() != '(') return false;
+                if (c == ']' && stack.pop() != '[') return false;
+                if (c == '}' && stack.pop() != '{') return false;
             } else {
-                switch (c) {
-                    case ')' -> {
-                        if (stack.peek() != '(') return false;
-                        stack.pop();
-                    }
-                    case ']' -> {
-                        if (stack.peek() != '[') return false;
-                        stack.pop();
-                    }
-                    case '}' -> {
-                        if (stack.peek() != '{') return false;
-                        stack.pop();
-                    }
-                }
+                stack.push(c);
             }
         }
         return stack.isEmpty();

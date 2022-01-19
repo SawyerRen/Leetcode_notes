@@ -15,9 +15,9 @@ public class Q43 {
             }
         }
         StringBuilder builder = new StringBuilder();
-        for (int val : res) {
-            if (val == 0 && builder.length() == 0) continue;
-            builder.append(val);
+        for (int i = 0; i < res.length; i++) {
+            if (res[i] == 0 && builder.length() == 0) continue;
+            builder.append(res[i]);
         }
         if (builder.length() == 0) return "0";
         return builder.toString();

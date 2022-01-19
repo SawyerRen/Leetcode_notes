@@ -5,7 +5,7 @@ public class Q10 {
         int m = s.length(), n = p.length();
         boolean[][] dp = new boolean[m + 1][n + 1];
         dp[0][0] = true;
-        for (int j = 1; j < n; j++) {
+        for (int j = 1; j < n + 1; j++) {
             dp[0][j] = p.charAt(j - 1) == '*' && dp[0][j - 2];
         }
         for (int i = 1; i < m + 1; i++) {

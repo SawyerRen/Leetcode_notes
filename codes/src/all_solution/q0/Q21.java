@@ -3,24 +3,21 @@ package all_solution.q0;
 import model.ListNode;
 
 public class Q21 {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode dummy = new ListNode();
         ListNode cur = dummy;
-        while (l1 != null && l2 != null) {
-            if (l1.val < l2.val) {
-                cur.next = l1;
-                l1 = l1.next;
+        while (list1 != null && list2 != null) {
+            if (list1.val < list2.val) {
+                cur.next = list1;
+                list1 = list1.next;
             } else {
-                cur.next = l2;
-                l2 = l2.next;
+                cur.next = list2;
+                list2 = list2.next;
             }
             cur = cur.next;
         }
-        if (l1 != null) {
-            cur.next = l1;
-        } else if (l2 != null) {
-            cur.next = l2;
-        }
+        if (list1 != null) cur.next = list1;
+        if (list2 != null) cur.next = list2;
         return dummy.next;
     }
 }

@@ -5,19 +5,19 @@ public class Q48 {
         int n = matrix.length;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i; j++) {
-                int temp = matrix[i][j];
+                int t = matrix[i][j];
                 matrix[i][j] = matrix[j][i];
-                matrix[j][i] = temp;
+                matrix[j][i] = t;
             }
         }
         for (int i = 0; i < n; i++) {
-            int left = 0, right = n - 1;
-            while (left < right) {
-                int temp = matrix[i][left];
-                matrix[i][left] = matrix[i][right];
-                matrix[i][right] = temp;
-                left++;
-                right--;
+            int l = 0, r = n - 1;
+            while (l < r) {
+                int t = matrix[i][l];
+                matrix[i][l] = matrix[i][r];
+                matrix[i][r] = t;
+                l++;
+                r--;
             }
         }
     }

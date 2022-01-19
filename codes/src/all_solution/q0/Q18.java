@@ -6,27 +6,27 @@ import java.util.List;
 
 public class Q18 {
     public List<List<Integer>> fourSum(int[] nums, int target) {
-        List<List<Integer>> res = new ArrayList<>();
         Arrays.sort(nums);
+        List<List<Integer>> res = new ArrayList<>();
         for (int i = 0; i < nums.length - 3; i++) {
             if (i > 0 && nums[i] == nums[i - 1]) continue;
-            int targetThree = target - nums[i];
+            int target1 = target - nums[i];
             for (int j = i + 1; j < nums.length - 2; j++) {
                 if (j > i + 1 && nums[j] == nums[j - 1]) continue;
-                int targetTwo = targetThree - nums[j];
-                int left = j + 1, right = nums.length - 1;
-                while (left < right) {
-                    int sum = nums[left] + nums[right];
-                    if (sum == targetTwo) {
-                        res.add(new ArrayList<>(Arrays.asList(nums[i], nums[j], nums[left], nums[right])));
-                        left++;
-                        right--;
-                        while (left < right && nums[left] == nums[left - 1]) left++;
-                        while (left < right && nums[right] == nums[right + 1]) right--;
-                    } else if (sum < targetTwo) {
-                        left++;
+                int target2 = target1 - nums[j];
+                int l = j + 1, r = nums.length - 1;
+                while (l < r) {
+                    int sum = nums[l] + nums[r];
+                    if (sum == target2) {
+                        res.add(Arrays.asList(nums[i], nums[j], nums[l], nums[r]));
+                        while (l < r && nums[l] == nums[l + 1]) l++;
+                        while (l < r && nums[r] == nums[r - 1]) r--;
+                        l++;
+                        r--;
+                    } else if (sum < target2) {
+                        l++;
                     } else {
-                        right--;
+                        r--;
                     }
                 }
             }

@@ -10,9 +10,9 @@ public class Q49 {
             for (char c : str.toCharArray()) {
                 hash[c - 'a']++;
             }
-            String s = Arrays.toString(hash);
-            map.putIfAbsent(s, new ArrayList<>());
-            map.get(s).add(str);
+            String pattern = Arrays.toString(hash);
+            map.putIfAbsent(pattern, new ArrayList<>());
+            map.get(pattern).add(str);
         }
         return new ArrayList<>(map.values());
     }
