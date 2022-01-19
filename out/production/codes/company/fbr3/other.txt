@@ -1,0 +1,7 @@
+Count distinct elements in an array
+Point in max overlapping intervals
+merge 3 sorted list
+Given a list of city names and populations, generate a random city based on its population weight. input:[(NY, 5),(BOS, 3),(PHL, 2)], output NY with possibility 1/2, BOS with possibility 3/10, PHL with possibility 1/5. follow up 要求加快。
+第二道无穷大棋盘有1knight,1king,一些pawns作为障碍，求knight跳到king最少要多少步 当时先写了一个简单的bfs；他追问有没有问题，我一时sb竟觉得没啥问题；然后他提示说king‍‌‍‍‌‍‍‌‌‍‍‌‍‍‌‌‍‍‍‍被包围了没有solution你这个解法还行不行啊，一想觉得很有道理，因为无穷大就停不下来了；于是改成bidirectional bfs）
+/** Products of primes   Print all possible products of the given primes   where each prime can be used either 0 or 1 times.   primes = [2, 3,11]   Want to print (any order): 2, 3, 11, 6, 33, 22, 66     */
+bidiretional bfs

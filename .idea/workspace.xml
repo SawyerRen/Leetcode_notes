@@ -23,52 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q29.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q10.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q11.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q14.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q15.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q16.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q17.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q18.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q19.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q20.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q21.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q22.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q23.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q24.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q24.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q25.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q25.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q26.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q27.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q28.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q28.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q3.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q31.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q31.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q32.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q32.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q33.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q33.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q34.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q34.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q36.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q36.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q37.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q37.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q38.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q38.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q39.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q39.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q4.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q40.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q40.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q41.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q41.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q42.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q42.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q43.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q43.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q44.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q44.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q45.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q45.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q46.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q47.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q48.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q48.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q49.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q49.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q5.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q50.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q50.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q6.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q8.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q9.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +42,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="cb1988d4-ff2d-429c-b021-0c69717de5b7" />
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="jhayqlv0" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -120,7 +78,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -401,6 +359,8 @@
       <workItem from="1642349752272" duration="1973000" />
       <workItem from="1642434254199" duration="2719000" />
       <workItem from="1642521836581" duration="2247000" />
+      <workItem from="1642552994260" duration="199000" />
+      <workItem from="1642560062435" duration="24000" />
     </task>
     <servers />
   </component>
@@ -471,9 +431,10 @@
     </state>
     <state x="942" y="256" key="RollbackChangesDialog/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1636661159879" />
     <state x="942" y="256" key="RollbackChangesDialog/0.25.2560.1330@0.25.2560.1330" timestamp="1634175343313" />
-    <state x="962" y="80" key="SettingsEditor" timestamp="1636952385630">
+    <state x="962" y="80" key="SettingsEditor" timestamp="1642553127741">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
+    <state x="962" y="80" key="SettingsEditor/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1642553127741" />
     <state x="962" y="80" key="SettingsEditor/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1636952385630" />
     <state x="962" y="80" key="SettingsEditor/0.25.2560.1330@0.25.2560.1330" timestamp="1635986090435" />
     <state x="1083" y="125" width="1377" height="1130" key="dock-window-1" timestamp="1634571590074">
@@ -484,6 +445,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1304" y="155" width="821" height="1068" key="find.popup/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1636659217315" />
+    <state x="1437" y="115" key="new project wizard" timestamp="1642553188942">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1437" y="115" key="new project wizard/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1642553188942" />
     <state x="958" y="402" key="refactoring.ChangeSignatureDialog" timestamp="1636763750060">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -493,7 +458,6 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1354" y="316" key="run.anything.popup/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1635382400305" />
-    <state x="1354" y="316" key="run.anything.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1633894164980" />
     <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1642523670700">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>

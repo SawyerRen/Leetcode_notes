@@ -2,7 +2,7 @@ package all_solution.q0;
 
 public class Q50 {
     public double myPow(double x, int n) {
-        long N = (long) n;
+        long N =  n;
         if (N < 0) {
             N = -N;
             x = 1 / x;
