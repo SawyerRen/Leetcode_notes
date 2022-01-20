@@ -6,9 +6,11 @@ public class Q69 {
         int left = 1, right = x;
         while (left < right) {
             int mid = left + (right - left) / 2;
-            // 找到平方大于x的最小值
-            if (x / mid < mid) right = mid;
-            else left = mid + 1;
+            if (mid > x / mid) {
+                right = mid;
+            } else {
+                left = mid + 1;
+            }
         }
         return left - 1;
     }

@@ -23,15 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q52.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q65.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q51.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q51.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q53.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q53.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q54.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q54.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q55.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q55.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q56.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q56.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q57.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q57.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q58.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q58.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q61.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q61.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q63.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q63.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q66.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q66.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q67.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q69.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q69.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,13 +154,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -381,6 +381,7 @@
       <workItem from="1642552994260" duration="199000" />
       <workItem from="1642560062435" duration="24000" />
       <workItem from="1642613125363" duration="2989000" />
+      <workItem from="1642692177209" duration="1977000" />
     </task>
     <servers />
   </component>
