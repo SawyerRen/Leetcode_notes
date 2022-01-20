@@ -23,7 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q52.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q51.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q51.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q53.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q54.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q54.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q55.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q55.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q56.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q56.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q57.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q57.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q58.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q58.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +152,17 @@
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="codes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -361,6 +380,7 @@
       <workItem from="1642521836581" duration="2247000" />
       <workItem from="1642552994260" duration="199000" />
       <workItem from="1642560062435" duration="24000" />
+      <workItem from="1642613125363" duration="2989000" />
     </task>
     <servers />
   </component>
@@ -458,10 +478,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1354" y="316" key="run.anything.popup/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1635382400305" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1642523670700">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1642613626806">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1642523670700" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1642613626806" />
     <state x="777" y="25" width="1005" height="1560" key="search.everywhere.popup/-1792.25.1792.1019/0.25.2560.1415@0.25.2560.1415" timestamp="1634520154463" />
     <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1636949181146" />
     <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/0.25.2560.1330@0.25.2560.1330" timestamp="1636511355222" />

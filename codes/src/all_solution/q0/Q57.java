@@ -7,17 +7,16 @@ import java.util.List;
 
 public class Q57 {
     public int[][] insert(int[][] intervals, int[] newInterval) {
-        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+        Arrays.sort(intervals, (a, b) -> (a[0] - b[0]));
         List<int[]> list = new ArrayList<>();
         int index = 0;
-        while (index < intervals.length && intervals[index][1] < newInterval[0]) {
-            list.add(intervals[index]);
-            index++;
-        }
         int start = newInterval[0], end = newInterval[1];
-        while (index < intervals.length && intervals[index][0] <= newInterval[1]) {
-            start = Math.min(intervals[index][0], start);
-            end = Math.max(intervals[index][1], end);
+        while (index < intervals.length && intervals[index][1] < start) {
+            list.add(intervals[index++]);
+        }
+        while (index < intervals.length && intervals[index][0] <= end) {
+            start = Math.min(start, intervals[index][0]);
+            end = Math.max(end, intervals[index][1]);
             index++;
         }
         list.add(new int[]{start, end});

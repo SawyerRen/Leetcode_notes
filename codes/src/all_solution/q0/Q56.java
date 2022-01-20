@@ -4,21 +4,22 @@ import java.util.*;
 
 public class Q56 {
     public int[][] merge(int[][] intervals) {
-        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
-        ArrayList<int[]> list = new ArrayList<>();
-        list.add(intervals[0]);
-        for (int[] interval : intervals) {
-            int[] last = list.get(list.size() - 1);
-            if (interval[0] <= last[1]) {
-                last[1] = Math.max(last[1], interval[1]);
-            } else {
-                list.add(interval);
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        List<int[]> res = new ArrayList<>();
+        int start = 0, end = 0;
+        for (int i = 0; i < intervals.length; i++) {
+            start = intervals[i][0];
+            end = intervals[i][1];
+            while (i + 1 < intervals.length && intervals[i + 1][0] <= end) {
+                end = Math.max(end, intervals[i + 1][1]);
+                i++;
             }
+            res.add(new int[]{start, end});
         }
-        int[][] res = new int[list.size()][2];
-        for (int i = 0; i < list.size(); i++) {
-            res[i] = list.get(i);
+        int[][] ints = new int[res.size()][2];
+        for (int i = 0; i < res.size(); i++) {
+            ints[i] = res.get(i);
         }
-        return res;
+        return ints;
     }
 }
