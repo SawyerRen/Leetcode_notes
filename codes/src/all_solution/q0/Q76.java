@@ -9,34 +9,30 @@ public class Q76 {
         for (char c : t.toCharArray()) {
             map.put(c, map.getOrDefault(c, 0) + 1);
         }
-        int left = 0, right = 0;
-        int minLen = s.length();
-        int count = t.length();
-        int i = 0, j = 0;
-        boolean found = false;
+        int left = 0, right = 0, i = 0, j = 0, minLen = Integer.MAX_VALUE, count = t.length();
         while (j < s.length()) {
-            char c = s.charAt(j);
-            if (map.containsKey(c)) {
-                if (map.get(c) > 0) count--;
-                map.put(c, map.get(c) - 1);
+            char rc = s.charAt(j);
+            if (map.containsKey(rc)) {
+                map.put(rc, map.get(rc) - 1);
+                if (map.get(rc) >= 0) count--;
             }
-            while (i <= j && count == 0) {
-                found = true;
-                if (j - i + 1 < minLen) {
-                    minLen = j - i + 1;
+            while (count == 0) {
+                int len = j - i + 1;
+                if (len < minLen) {
+                    minLen = len;
                     left = i;
-                    right = j;
+                    right = j + 1;
                 }
-                char leftChar = s.charAt(i);
-                if (map.containsKey(leftChar)) {
-                    map.put(leftChar, map.get(leftChar) + 1);
-                    if (map.get(leftChar) > 0) count++;
+                char lc = s.charAt(i);
+                if (map.containsKey(lc)) {
+                    map.put(lc, map.get(lc) + 1);
+                    if (map.get(lc) >= 1) count++;
                 }
                 i++;
             }
             j++;
         }
-        if (found) return s.substring(left, right + 1);
+        if (right != 0) return s.substring(left, right);
         return "";
     }
 }
