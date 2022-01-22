@@ -7,7 +7,7 @@ public class Q84 {
     public int largestRectangleArea(int[] heights) {
         int res = 0;
         Stack<Integer> stack = new Stack<>();
-        for (int i = 0; i <= heights.length; i++) {
+        for (int i = 0; i < heights.length + 1; i++) {
             int height = i == heights.length ? 0 : heights[i];
             while (!stack.isEmpty() && height < heights[stack.peek()]) {
                 int h = heights[stack.pop()];

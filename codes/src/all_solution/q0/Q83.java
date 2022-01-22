@@ -4,10 +4,10 @@ import model.ListNode;
 
 public class Q83 {
     public ListNode deleteDuplicates(ListNode head) {
-        if (head == null) return null;
+        if (head == null || head.next == null) return head;
         ListNode left = head, right = head;
         while (right != null) {
-            while (right != null && right.val == left.val) {
+            while (right != null && left.val == right.val) {
                 right = right.next;
             }
             left.next = right;
