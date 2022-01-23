@@ -4,7 +4,8 @@ import model.ListNode;
 
 public class Q92 {
     public ListNode reverseBetween(ListNode head, int left, int right) {
-        ListNode dummy = new ListNode(0, head);
+        ListNode dummy = new ListNode();
+        dummy.next = head;
         ListNode pre = dummy, tail = dummy;
         for (int i = 0; i < left - 1; i++) {
             pre = pre.next;

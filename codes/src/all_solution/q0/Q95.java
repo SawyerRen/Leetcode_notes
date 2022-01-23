@@ -1,5 +1,6 @@
 package all_solution.q0;
 
+import model.ListNode;
 import model.TreeNode;
 
 import java.util.ArrayList;
@@ -7,24 +8,27 @@ import java.util.List;
 
 public class Q95 {
     public List<TreeNode> generateTrees(int n) {
-        return generateTrees(1, n);
+        return helper(1, n);
     }
 
-    private List<TreeNode> generateTrees(int left, int right) {
-        if (left > right) {
-            List<TreeNode> res = new ArrayList<>();
+    private List<TreeNode> helper(int start, int end) {
+        List<TreeNode> res = new ArrayList<>();
+        if (start > end) {
             res.add(null);
             return res;
         }
-        List<TreeNode> res = new ArrayList<>();
-        for (int i = left; i <= right; i++) {
-            List<TreeNode> leftLists = generateTrees(left, i - 1);
-            List<TreeNode> rightLists = generateTrees(i + 1, right);
-            for (TreeNode leftNode : leftLists) {
-                for (TreeNode rightNode : rightLists) {
+        if (start == end) {
+            res.add(new TreeNode(start));
+            return res;
+        }
+        for (int i = start; i <= end; i++) {
+            List<TreeNode> left = helper(start, i - 1);
+            List<TreeNode> right = helper(i + 1, end);
+            for (TreeNode l : left) {
+                for (TreeNode r : right) {
                     TreeNode root = new TreeNode(i);
-                    root.left = leftNode;
-                    root.right = rightNode;
+                    root.left = l;
+                    root.right = r;
                     res.add(root);
                 }
             }

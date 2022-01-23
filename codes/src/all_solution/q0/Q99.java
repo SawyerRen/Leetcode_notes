@@ -7,9 +7,9 @@ public class Q99 {
 
     public void recoverTree(TreeNode root) {
         helper(root);
-        int val = n1.val;
+        int t = n1.val;
         n1.val = n2.val;
-        n2.val = val;
+        n2.val = t;
     }
 
     private void helper(TreeNode root) {

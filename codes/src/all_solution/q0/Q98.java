@@ -3,21 +3,22 @@ package all_solution.q0;
 import model.TreeNode;
 
 public class Q98 {
-    boolean valid = true;
+    boolean res = true;
 
     public boolean isValidBST(TreeNode root) {
+        if (root == null) return res;
         helper(root, null, null);
-        return valid;
+        return res;
     }
 
     private void helper(TreeNode root, TreeNode minNode, TreeNode maxNode) {
         if (root == null) return;
         if (minNode != null && root.val <= minNode.val) {
-            valid = false;
+            res = false;
             return;
         }
         if (maxNode != null && root.val >= maxNode.val) {
-            valid = false;
+            res = false;
             return;
         }
         helper(root.left, minNode, root);

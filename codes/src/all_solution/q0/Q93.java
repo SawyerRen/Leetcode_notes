@@ -18,14 +18,10 @@ public class Q93 {
         int len = builder.length();
         for (int i = 0; i < 3 && i < s.length(); i++) {
             if (i > 0 && s.charAt(0) == '0') break;
-            String sub = s.substring(0, i + 1);
-            int num = Integer.parseInt(sub);
-            if (num >= 0 && num <= 255) {
-                if (len == 0) {
-                    builder.append(sub);
-                } else {
-                    builder.append('.').append(sub);
-                }
+            int num = Integer.parseInt(s.substring(0, i + 1));
+            if (0 <= num && num <= 255) {
+                if (len == 0) builder.append(num);
+                else builder.append('.').append(num);
                 helper(res, builder, s.substring(i + 1), count + 1);
                 builder.setLength(len);
             }

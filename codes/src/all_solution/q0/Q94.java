@@ -8,13 +8,13 @@ import java.util.Stack;
 
 public class Q94 {
     public List<Integer> inorderTraversal(TreeNode root) {
-        Stack<TreeNode> stack = new Stack<>();
         List<Integer> res = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
         if (root == null) return res;
         TreeNode cur = root;
         while (!stack.isEmpty() || cur != null) {
             while (cur != null) {
-                stack.push(cur.left);
+                stack.push(cur);
                 cur = cur.left;
             }
             cur = stack.pop();
