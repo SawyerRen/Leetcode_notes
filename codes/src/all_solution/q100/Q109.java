@@ -18,11 +18,11 @@ public class Q109 {
 
     private ListNode getPreMid(ListNode head) {
         if (head == null) return null;
-        ListNode fast = head, slow = head, pre = slow;
+        ListNode fast = head, slow = head, pre = head;
         while (fast != null && fast.next != null) {
-            fast = fast.next.next;
             pre = slow;
             slow = slow.next;
+            fast = fast.next.next;
         }
         return pre;
     }

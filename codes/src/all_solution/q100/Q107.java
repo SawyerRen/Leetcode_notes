@@ -19,12 +19,8 @@ public class Q107 {
             for (int i = 0; i < size; i++) {
                 TreeNode poll = queue.poll();
                 list.add(poll.val);
-                if (poll.left != null) {
-                    queue.add(poll.left);
-                }
-                if (poll.right != null) {
-                    queue.add(poll.right);
-                }
+                if (poll.left != null) queue.add(poll.left);
+                if (poll.right != null) queue.add(poll.right);
             }
             res.addFirst(list);
         }

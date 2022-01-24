@@ -16,13 +16,13 @@ public class Q105 {
         return helper(preorder, 0, preorder.length - 1);
     }
 
-    private TreeNode helper(int[] preorder, int left, int right) {
-        if (left > right) return null;
+    private TreeNode helper(int[] preorder, int start, int end) {
+        if (start > end) return null;
         int rootVal = preorder[preIndex++];
         int inIndex = map.get(rootVal);
         TreeNode root = new TreeNode(rootVal);
-        root.left = helper(preorder, left, inIndex - 1);
-        root.right = helper(preorder, inIndex + 1, right);
+        root.left = helper(preorder, start, inIndex - 1);
+        root.right = helper(preorder, inIndex + 1, end);
         return root;
     }
 }
