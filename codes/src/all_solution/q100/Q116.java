@@ -31,7 +31,11 @@ public class Q116 {
             Node node = left;
             while (node != null) {
                 node.left.next = node.right;
-                node.right.next = node.next == null ? null : node.next.left;
+                if (node.next == null) {
+                    node.right.next = null;
+                } else {
+                    node.right.next = node.next.left;
+                }
                 node = node.next;
             }
             left = left.left;

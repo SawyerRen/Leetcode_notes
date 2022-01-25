@@ -6,13 +6,12 @@ import java.util.List;
 public class Q118 {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new ArrayList<>();
-        for (int i = 0; i < numRows; i++) {
+        for (int n = 1; n < numRows + 1; n++) {
             List<Integer> list = new ArrayList<>();
-            for (int j = 0; j < i + 1; j++) {
-                if (j == 0 || j == i) {
-                    list.add(1);
-                } else {
-                    list.add(res.get(i - 1).get(j - 1) + res.get(i - 1).get(j));
+            for (int i = 0; i < n; i++) {
+                if (i == 0 || i == n - 1) list.add(1);
+                else {
+                    list.add(res.get(n - 2).get(i - 1) + res.get(n - 2).get(i));
                 }
             }
             res.add(list);
