@@ -14,7 +14,7 @@ public class Q124 {
         if (root == null) return 0;
         int left = Math.max(0, helper(root.left));
         int right = Math.max(0, helper(root.right));
-        res = Math.max(res, root.val + left + right);
-        return root.val + Math.max(left, right);
+        res = Math.max(res, left + right + root.val);
+        return Math.max(left, right) + root.val;
     }
 }

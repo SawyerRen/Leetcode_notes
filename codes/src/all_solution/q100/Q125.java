@@ -2,14 +2,14 @@ package all_solution.q100;
 
 public class Q125 {
     public boolean isPalindrome(String s) {
-        String s1 = s.toLowerCase();
-        int left = 0, right = s.length() - 1;
-        while (left < right) {
-            while (left < right && !Character.isLetter(s.charAt(left)) && !Character.isDigit(s1.charAt(left))) left++;
-            while (left < right && !Character.isLetter(s.charAt(right)) && !Character.isDigit(s1.charAt(right))) right--;
-            if (left < right && s1.charAt(left) != s1.charAt(right)) return false;
-            left++;
-            right--;
+        s = s.toLowerCase();
+        int i = 0, j = s.length() - 1;
+        while (i < j) {
+            while (i < j && !Character.isLetterOrDigit(s.charAt(i))) i++;
+            while (i < j && !Character.isLetterOrDigit(s.charAt(j))) j--;
+            if (s.charAt(i) != s.charAt(j)) return false;
+            i++;
+            j--;
         }
         return true;
     }

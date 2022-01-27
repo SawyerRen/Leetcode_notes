@@ -5,7 +5,7 @@ public class Q123 {
         int n = prices.length;
         int maxK = 2;
         int[][][] dp = new int[n][maxK + 1][2];
-        for (int i = 0; i < prices.length; i++) {
+        for (int i = 0; i < n; i++) {
             for (int k = 1; k <= maxK; k++) {
                 if (i == 0) {
                     dp[i][k][0] = 0;
