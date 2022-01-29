@@ -6,37 +6,38 @@ public class Q127 {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Set<String> wordSet = new HashSet<>(wordList);
         Queue<String> queue = new LinkedList<>();
-        int res = 0;
-        if (beginWord.equals(endWord)) return res;
-        Set<String> visited = new HashSet<>();
         queue.add(beginWord);
+        Set<String> visited = new HashSet<>();
+        visited.add(beginWord);
+        int res = 1;
         while (!queue.isEmpty()) {
-            int size = queue.size();
             res++;
+            wordSet.removeAll(queue);
+            int size = queue.size();
             for (int i = 0; i < size; i++) {
-                String word = queue.poll();
-                List<String> nextWords = getNextWords(word, wordSet);
-                for (String nextWord : nextWords) {
-                    if (nextWord.equals(endWord)) return res;
-                    if (visited.contains(nextWord)) continue;
-                    queue.add(nextWord);
-                    visited.add(nextWord);
+                String poll = queue.poll();
+                List<String> nextList = getNext(poll, wordSet);
+                for (String next : nextList) {
+                    if (next.equals(endWord)) return res;
+                    if (visited.contains(next)) continue;
+                    queue.add(next);
+                    visited.add(next);
                 }
             }
         }
-        return res;
+        return 0;
     }
 
-    private List<String> getNextWords(String word, Set<String> wordSet) {
-        List<String> res = new ArrayList<>();
-        for (int i = 0; i < word.length(); i++) {
-            char[] chars = word.toCharArray();
+    private List<String> getNext(String s, Set<String> wordSet) {
+        List<String> list = new ArrayList<>();
+        for (int i = 0; i < s.length(); i++) {
+            char[] chars = s.toCharArray();
             for (char c = 'a'; c <= 'z'; c++) {
                 chars[i] = c;
-                String s = new String(chars);
-                if (wordSet.contains(s)) res.add(s);
+                String word = new String(chars);
+                if (wordSet.contains(word)) list.add(word);
             }
         }
-        return res;
+        return list;
     }
 }
