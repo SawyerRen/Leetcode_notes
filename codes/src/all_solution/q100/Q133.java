@@ -25,16 +25,16 @@ public class Q133 {
 
     public Node cloneGraph(Node node) {
         Map<Node, Node> map = new HashMap<>();
-        Queue<Node> queue = new LinkedList<>();
         if (node == null) return null;
-        queue.add(node);
+        Queue<Node> queue = new LinkedList<>();
         map.put(node, new Node(node.val, new ArrayList<>()));
+        queue.add(node);
         while (!queue.isEmpty()) {
             Node poll = queue.poll();
             for (Node neighbor : poll.neighbors) {
                 if (!map.containsKey(neighbor)) {
-                    map.put(neighbor, new Node(neighbor.val, new ArrayList<>()));
                     queue.add(neighbor);
+                    map.put(neighbor, new Node(neighbor.val, new ArrayList<>()));
                 }
                 map.get(poll).neighbors.add(map.get(neighbor));
             }
