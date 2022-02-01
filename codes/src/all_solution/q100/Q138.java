@@ -18,7 +18,6 @@ public class Q138 {
 
     public Node copyRandomList(Node head) {
         Map<Node, Node> map = new HashMap<>();
-        if (head == null) return null;
         Node cur = head;
         while (cur != null) {
             map.put(cur, new Node(cur.val));

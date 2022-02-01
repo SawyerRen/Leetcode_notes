@@ -23,12 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q100/Q132.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q100/Q131.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q100/Q131.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q100/Q133.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q100/Q133.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q100/Q134.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q100/Q134.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q100/Q135.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q100/Q135.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q100/Q137.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q100/Q137.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q100/Q138.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q100/Q138.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q100/Q139.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q100/Q139.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,17 +141,6 @@
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="codes" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -381,7 +368,8 @@
       <workItem from="1643297842417" duration="2003000" />
       <workItem from="1643386513770" duration="793000" />
       <workItem from="1643489316349" duration="2146000" />
-      <workItem from="1643556998455" duration="1931000" />
+      <workItem from="1643556998455" duration="1954000" />
+      <workItem from="1643728730029" duration="796000" />
     </task>
     <servers />
   </component>
