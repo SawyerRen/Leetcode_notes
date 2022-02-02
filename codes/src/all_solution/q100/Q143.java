@@ -5,7 +5,7 @@ import model.ListNode;
 public class Q143 {
     public void reorderList(ListNode head) {
         if (head == null || head.next == null) return;
-        ListNode fast = head, slow = head, pre = head;
+        ListNode fast = head, slow = head, pre = slow;
         while (fast != null && fast.next != null) {
             pre = slow;
             fast = fast.next.next;
@@ -26,14 +26,11 @@ public class Q143 {
     }
 
     private ListNode reverse(ListNode head) {
-        ListNode dummy = new ListNode();
-        ListNode cur = head;
-        while (cur != null) {
-            ListNode next = cur.next;
-            cur.next = dummy.next;
-            dummy.next = cur;
-            cur = next;
-        }
-        return dummy.next;
+        if (head == null || head.next == null) return head;
+        ListNode next = head.next;
+        ListNode newHead = reverse(next);
+        next.next = head;
+        head.next = null;
+        return newHead;
     }
 }

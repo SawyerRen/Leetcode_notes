@@ -15,12 +15,8 @@ public class Q144 {
         while (!stack.isEmpty()) {
             TreeNode pop = stack.pop();
             res.add(pop.val);
-            if (pop.right != null) {
-                stack.push(pop.right);
-            }
-            if (pop.left != null) {
-                stack.push(pop.left);
-            }
+            if (pop.right != null) stack.push(pop.right);
+            if (pop.left != null) stack.push(pop.left);
         }
         return res;
     }

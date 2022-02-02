@@ -14,7 +14,7 @@ public class Q142 {
                     fast = fast.next;
                     slow = slow.next;
                 }
-                return slow;
+                return fast;
             }
         }
         return null;

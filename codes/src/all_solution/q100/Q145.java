@@ -9,9 +9,9 @@ import java.util.Stack;
 
 public class Q145 {
     public List<Integer> postorderTraversal(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
         LinkedList<Integer> res = new LinkedList<>();
         if (root == null) return res;
-        Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
         while (!stack.isEmpty()) {
             TreeNode pop = stack.pop();
