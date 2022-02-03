@@ -7,90 +7,85 @@ public class Q146 {
 }
 
 class LRUCache {
-    DoubleLinkedList cache;
-    Map<Integer, Node> map;
+    Map<Integer, LRUNode> map = new HashMap<>();
+    LRUList list = new LRUList();
     int capacity;
 
     public LRUCache(int capacity) {
-        cache = new DoubleLinkedList();
-        map = new HashMap<>();
         this.capacity = capacity;
     }
 
     public int get(int key) {
         if (!map.containsKey(key)) return -1;
-        Node node = map.get(key);
-        put(node.key, node.value);
-        return node.value;
+        LRUNode node = map.get(key);
+        put(key, node.val);
+        return node.val;
     }
 
     public void put(int key, int value) {
-        Node node = new Node(key, value);
+        LRUNode node = new LRUNode(key, value);
         if (map.containsKey(key)) {
-            cache.remove(map.get(key));
+            LRUNode node1 = map.get(key);
+            list.remove(node1);
             map.remove(key);
         } else {
-            if (cache.size == capacity) {
-                int last = cache.removeLast();
-                map.remove(last);
+            if (this.capacity == list.size) {
+                int lastKey = list.removeLast();
+                map.remove(lastKey);
             }
         }
         map.put(key, node);
-        cache.addFirst(node);
+        list.addFirst(node);
     }
 }
 
-class DoubleLinkedList {
-    Node head;
-    Node tail;
+class LRUList {
+    LRUNode head;
+    LRUNode tail;
     int size;
 
-    public DoubleLinkedList() {
-        head = new Node();
-        tail = new Node();
+    public LRUList() {
+        head = new LRUNode();
+        tail = new LRUNode();
         head.next = tail;
         tail.pre = head;
         size = 0;
     }
 
-    void addFirst(Node node) {
-        Node next = head.next;
-        node.next = next;
-        node.pre = head;
+    void addFirst(LRUNode node) {
+        node.next = head.next;
+        node.next.pre = node;
         head.next = node;
-        next.pre = node;
+        node.pre = head;
         size++;
     }
 
-    void remove(Node node) {
-        Node pre = node.pre;
-        Node next = node.next;
-        pre.next = next;
-        next.pre = pre;
+    void remove(LRUNode node) {
+        node.pre.next = node.next;
+        node.next.pre = node.pre;
         size--;
     }
 
     int removeLast() {
-        Node node = tail.pre;
-        Node pre = node.pre;
-        pre.next = tail;
-        tail.pre = pre;
+        LRUNode last = tail.pre;
+        last.pre.next = tail;
+        tail.pre = last.pre;
         size--;
-        return node.key;
+        return last.key;
     }
 }
 
-class Node {
+class LRUNode {
     int key;
-    int value;
-    Node next;
-    Node pre;
+    int val;
+    LRUNode pre;
+    LRUNode next;
 
-    public Node() {
+    public LRUNode() {
     }
 
-    public Node(int key, int value) {
+    public LRUNode(int key, int val) {
         this.key = key;
-        this.value = value;
+        this.val = val;
     }
 }

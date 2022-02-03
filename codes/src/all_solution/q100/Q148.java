@@ -8,30 +8,30 @@ public class Q148 {
         ListNode fast = head, slow = head, pre = slow;
         while (fast != null && fast.next != null) {
             pre = slow;
-            fast = fast.next.next;
             slow = slow.next;
+            fast = fast.next.next;
         }
         pre.next = null;
-        ListNode n1 = sortList(head);
-        ListNode n2 = sortList(slow);
-        return merge(n1, n2);
+        ListNode h1 = sortList(head);
+        ListNode h2 = sortList(slow);
+        return merge(h1, h2);
     }
 
-    private ListNode merge(ListNode n1, ListNode n2) {
+    private ListNode merge(ListNode h1, ListNode h2) {
         ListNode dummy = new ListNode();
         ListNode cur = dummy;
-        while (n1 != null && n2 != null) {
-            if (n1.val < n2.val) {
-                cur.next = n1;
-                n1 = n1.next;
+        while (h1 != null && h2 != null) {
+            if (h1.val < h2.val) {
+                cur.next = h1;
+                h1 = h1.next;
             } else {
-                cur.next = n2;
-                n2 = n2.next;
+                cur.next = h2;
+                h2 = h2.next;
             }
             cur = cur.next;
         }
-        if (n1 != null) cur.next = n1;
-        else if (n2 != null) cur.next = n2;
+        if (h1 != null) cur.next = h1;
+        if (h2 != null) cur.next = h2;
         return dummy.next;
     }
 }

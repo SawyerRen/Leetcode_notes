@@ -4,7 +4,7 @@ import model.ListNode;
 
 public class Q147 {
     public ListNode insertionSortList(ListNode head) {
-        ListNode dummy = new ListNode(Integer.MIN_VALUE);
+        ListNode dummy = new ListNode();
         ListNode cur = dummy;
         while (head != null) {
             ListNode next = head.next;
