@@ -7,36 +7,41 @@ public class Q155 {
 }
 
 class MinStack {
-    Stack<Integer> valStack;
-    Stack<Integer> minStack;
+    class Node {
+        int val;
+        int min;
+        Node next;
 
-    /**
-     * initialize your data structure here.
-     */
+        public Node(int val, int min, Node next) {
+            this.val = val;
+            this.min = min;
+            this.next = next;
+        }
+    }
+
+    Node head;
+
     public MinStack() {
-        valStack = new Stack<>();
-        minStack = new Stack<>();
+
     }
 
     public void push(int val) {
-        valStack.push(val);
-        if (minStack.isEmpty()) {
-            minStack.push(val);
+        if (head == null) {
+            head = new Node(val, val, null);
         } else {
-            minStack.push(Math.min(minStack.peek(), val));
+            head = new Node(val, Math.min(val, head.min), head);
         }
     }
 
     public void pop() {
-        valStack.pop();
-        minStack.pop();
+        head = head.next;
     }
 
     public int top() {
-        return valStack.peek();
+        return head.val;
     }
 
     public int getMin() {
-        return minStack.peek();
+        return head.min;
     }
 }

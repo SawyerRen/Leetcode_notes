@@ -7,13 +7,13 @@ public class Q154 {
             if (nums[left] < nums[right]) return nums[left];
             int mid = left + (right - left) / 2;
             if (mid > 0 && nums[mid] < nums[mid - 1]) return nums[mid];
-            if (nums[mid] < nums[right] || nums[mid] < nums[left]) {
+            if (nums[left] > nums[mid] || nums[mid] < nums[right]) {
                 right = mid;
-            } else if (nums[mid] > nums[right] || nums[mid] > nums[left]) {
+            } else if (nums[right] < nums[mid] || nums[left] < nums[mid]) {
                 left = mid + 1;
             } else {
-                right--;
                 left++;
+                right--;
             }
         }
         return nums[left];
