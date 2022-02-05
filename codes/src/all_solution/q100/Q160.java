@@ -4,11 +4,11 @@ import model.ListNode;
 
 public class Q160 {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        ListNode curA = headA, curB = headB;
-        while (curA != curB) {
-            curA = curA == null ? headB : curA.next;
-            curB = curB == null ? headA : curB.next;
+        ListNode n1 = headA, n2 = headB;
+        while (n1 != n2) {
+            n1 = n1 == null ? headB : n1.next;
+            n2 = n2 == null ? headA : n2.next;
         }
-        return curA;
+        return n1;
     }
 }
