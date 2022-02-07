@@ -2,16 +2,18 @@ package all_solution.q100;
 
 public class Q169 {
     public int majorityElement(int[] nums) {
-        int res = nums[0];
+        int candidate = nums[0];
         int count = 0;
         for (int num : nums) {
-            if (num == res) count++;
-            else count--;
             if (count == 0) {
-                res = num;
+                candidate = num;
                 count++;
+            } else if (num == candidate) {
+                count++;
+            } else {
+                count--;
             }
         }
-        return res;
+        return candidate;
     }
 }
