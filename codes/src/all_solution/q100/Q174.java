@@ -10,9 +10,9 @@ public class Q174 {
                 else if (i == m - 1) dp[i][j] = Math.max(1, dp[i][j + 1] - dungeon[i][j]);
                 else if (j == n - 1) dp[i][j] = Math.max(1, dp[i + 1][j] - dungeon[i][j]);
                 else {
-                    int right = Math.max(1, dp[i][j + 1] - dungeon[i][j]);
                     int down = Math.max(1, dp[i + 1][j] - dungeon[i][j]);
-                    dp[i][j] = Math.min(right, down);
+                    int right = Math.max(1, dp[i][j + 1] - dungeon[i][j]);
+                    dp[i][j] = Math.min(down, right);
                 }
             }
         }

@@ -4,34 +4,34 @@ import model.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 public class Q173 {
 
 }
 
 class BSTIterator {
-    List<Integer> list;
-    int index;
+    Stack<TreeNode> stack = new Stack<>();
 
     public BSTIterator(TreeNode root) {
-        list = new ArrayList<>();
-        index = 0;
-        buildList(root);
+        buildStack(root);
     }
 
-    private void buildList(TreeNode root) {
-        if (root == null) return;
-        buildList(root.left);
-        list.add(root.val);
-        buildList(root.right);
+    private void buildStack(TreeNode root) {
+        while (root != null) {
+            stack.push(root);
+            root = root.left;
+        }
     }
 
     public int next() {
-        if (hasNext()) return list.get(index++);
-        return -1;
+        if (!hasNext()) return -1;
+        TreeNode pop = stack.pop();
+        buildStack(pop.right);
+        return pop.val;
     }
 
     public boolean hasNext() {
-        return index < list.size();
+        return !stack.isEmpty();
     }
 }
