@@ -15,11 +15,11 @@ public class Q199 {
         queue.add(root);
         while (!queue.isEmpty()) {
             int size = queue.size();
+            res.add(queue.peek().val);
             for (int i = 0; i < size; i++) {
                 TreeNode poll = queue.poll();
-                if (i == size - 1) res.add(poll.val);
-                if (poll.left != null) queue.add(poll.left);
                 if (poll.right != null) queue.add(poll.right);
+                if (poll.left != null) queue.add(poll.left);
             }
         }
         return res;
