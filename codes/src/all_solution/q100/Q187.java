@@ -9,16 +9,14 @@ public class Q187 {
     public List<String> findRepeatedDnaSequences(String s) {
         Set<String> once = new HashSet<>();
         Set<String> twice = new HashSet<>();
-        List<String> res = new ArrayList<>();
         for (int i = 0; i < s.length() - 9; i++) {
             String sub = s.substring(i, i + 10);
             if (!once.contains(sub)) {
                 once.add(sub);
-            } else if (once.contains(sub) && !twice.contains(sub)) {
-                res.add(sub);
+            } else {
                 twice.add(sub);
             }
         }
-        return res;
+        return new ArrayList<>(twice);
     }
 }
