@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Q202 {
-    Set<Integer> visited = new HashSet<>();
+    Set<Integer> set = new HashSet<>();
 
     public boolean isHappy(int n) {
         if (n == 1) return true;
@@ -14,8 +14,8 @@ public class Q202 {
             num += tail * tail;
             n /= 10;
         }
-        if (visited.contains(num)) return false;
-        visited.add(num);
+        if (set.contains(num)) return false;
+        set.add(num);
         return isHappy(num);
     }
 }

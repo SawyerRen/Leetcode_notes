@@ -1,40 +1,33 @@
 package all_solution.q200;
 
+import model.TreeNode;
+
 public class Q208 {
 }
 
 class Trie {
-    class Node {
-        Node[] children = new Node[26];
+    class TrieNode {
+        TrieNode[] children = new TrieNode[26];
         boolean isWord;
     }
 
-    Node head;
+    TrieNode root;
 
-    /**
-     * Initialize your data structure here.
-     */
     public Trie() {
-        head = new Node();
+        root = new TrieNode();
     }
 
-    /**
-     * Inserts a word into the trie.
-     */
     public void insert(String word) {
-        Node cur = head;
+        TrieNode cur = root;
         for (char c : word.toCharArray()) {
-            if (cur.children[c - 'a'] == null) cur.children[c - 'a'] = new Node();
+            if (cur.children[c - 'a'] == null) cur.children[c - 'a'] = new TrieNode();
             cur = cur.children[c - 'a'];
         }
         cur.isWord = true;
     }
 
-    /**
-     * Returns if the word is in the trie.
-     */
     public boolean search(String word) {
-        Node cur = head;
+        TrieNode cur = root;
         for (char c : word.toCharArray()) {
             if (cur.children[c - 'a'] == null) return false;
             cur = cur.children[c - 'a'];
@@ -42,11 +35,8 @@ class Trie {
         return cur.isWord;
     }
 
-    /**
-     * Returns if there is any word in the trie that starts with the given prefix.
-     */
     public boolean startsWith(String prefix) {
-        Node cur = head;
+        TrieNode cur = root;
         for (char c : prefix.toCharArray()) {
             if (cur.children[c - 'a'] == null) return false;
             cur = cur.children[c - 'a'];
