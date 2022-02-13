@@ -9,17 +9,14 @@ class WordDictionary {
         boolean isWord;
     }
 
-    Node head;
+    Node root;
 
-    /**
-     * Initialize your data structure here.
-     */
     public WordDictionary() {
-        head = new Node();
+        root = new Node();
     }
 
     public void addWord(String word) {
-        Node cur = head;
+        Node cur = root;
         for (char c : word.toCharArray()) {
             if (cur.children[c - 'a'] == null) cur.children[c - 'a'] = new Node();
             cur = cur.children[c - 'a'];
@@ -28,23 +25,22 @@ class WordDictionary {
     }
 
     public boolean search(String word) {
-        Node cur = head;
-        return search(word, cur, 0);
+        Node cur = root;
+        return helper(cur, word, 0);
     }
 
-    private boolean search(String word, Node cur, int index) {
+    private boolean helper(Node cur, String word, int index) {
         if (index == word.length()) {
             return cur.isWord;
         }
         char c = word.charAt(index);
         if (c != '.') {
             if (cur.children[c - 'a'] == null) return false;
-            return search(word, cur.children[c - 'a'], index + 1);
+            return helper(cur.children[c - 'a'], word, index + 1);
         } else {
             for (Node child : cur.children) {
-                if (child != null) {
-                    if (search(word, child, index + 1)) return true;
-                }
+                if (child == null) continue;
+                if (helper(child, word, index + 1)) return true;
             }
         }
         return false;

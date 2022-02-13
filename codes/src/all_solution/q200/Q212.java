@@ -6,32 +6,35 @@ import java.util.List;
 import java.util.Set;
 
 public class Q212 {
-    int[][] dirs = {{0, 1}, {0, -1}, {-1, 0}, {1, 0}};
-
     public List<String> findWords(char[][] board, String[] words) {
-        Trie head = new Trie();
+        Trie trie = new Trie();
         for (String word : words) {
-            head.insert(word);
+            trie.insert(word);
         }
         Set<String> res = new HashSet<>();
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[0].length; j++) {
-                helper(res, board, i, j, "", new boolean[board.length][board[0].length], head);
+        int m = board.length, n = board[0].length;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                helper(res, board, trie, i, j, m, n, "", new boolean[m][n]);
             }
         }
         return new ArrayList<>(res);
     }
 
-    private void helper(Set<String> res, char[][] board, int i, int j, String s, boolean[][] visited, Trie head) {
-        if (i < 0 || i >= board.length || j < 0 || j >= board[0].length || visited[i][j]) return;
+    int[][] dirs = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+
+    private void helper(Set<String> res, char[][] board, Trie trie, int i, int j, int m, int n, String s, boolean[][] visited) {
+        if (i < 0 || j < 0 || i >= m || j >= n || visited[i][j]) return;
         s += board[i][j];
-        if (!head.startsWith(s)) return;
-        if (head.search(s)) res.add(s);
-        for (int[] dir : dirs) {
-            visited[i][j] = true;
-            helper(res, board, i + dir[0], j + dir[1], s, visited, head);
-            visited[i][j] = false;
+        if (!trie.startsWith(s)) return;
+        if (trie.search(s)) {
+            res.add(s);
         }
+        visited[i][j] = true;
+        for (int[] dir : dirs) {
+            helper(res, board, trie, i + dir[0], j + dir[1], m, n, s, visited);
+        }
+        visited[i][j] = false;
     }
 
     class Trie {

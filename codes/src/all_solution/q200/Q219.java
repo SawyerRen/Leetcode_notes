@@ -9,8 +9,7 @@ public class Q219 {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(nums[i])) {
-                int left = map.get(nums[i]);
-                if (i - left <= k) return true;
+                if (i - map.get(nums[i]) <= k) return true;
             }
             map.put(nums[i], i);
         }
