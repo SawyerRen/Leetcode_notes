@@ -9,16 +9,10 @@ public class Q225 {
 class MyStack {
     Queue<Integer> queue;
 
-    /**
-     * Initialize your data structure here.
-     */
     public MyStack() {
         queue = new LinkedList<>();
     }
 
-    /**
-     * Push element x onto stack.
-     */
     public void push(int x) {
         int size = queue.size();
         queue.add(x);
@@ -27,23 +21,16 @@ class MyStack {
         }
     }
 
-    /**
-     * Removes the element on top of the stack and returns that element.
-     */
     public int pop() {
+        if (empty()) return -1;
         return queue.poll();
     }
 
-    /**
-     * Get the top element.
-     */
     public int top() {
+        if (empty()) return -1;
         return queue.peek();
     }
 
-    /**
-     * Returns whether the stack is empty.
-     */
     public boolean empty() {
         return queue.isEmpty();
     }

@@ -24,12 +24,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q211.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q211.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q212.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q212.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q213.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q213.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q215.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q215.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q216.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q216.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q217.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q217.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q221.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q221.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q222.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q222.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q223.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q223.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q224.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q224.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -384,7 +382,8 @@
       <workItem from="1644507563489" duration="626000" />
       <workItem from="1644592127387" duration="5364000" />
       <workItem from="1644716384286" duration="1641000" />
-      <workItem from="1644766941767" duration="1852000" />
+      <workItem from="1644766941767" duration="2148000" />
+      <workItem from="1644858677466" duration="1594000" />
     </task>
     <servers />
   </component>
