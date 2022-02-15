@@ -12,16 +12,16 @@ public class Q227 {
             if (Character.isDigit(c)) {
                 num = c - '0';
                 while (i + 1 < s.length() && Character.isDigit(s.charAt(i + 1))) {
-                    num = num * 10 + (s.charAt(i + 1) - '0');
+                    num = num * 10 + s.charAt(i + 1) - '0';
                     i++;
                 }
             }
-            if (i == s.length() - 1 || !Character.isDigit(s.charAt(i)) && s.charAt(i) != ' ') {
+            if (i == s.length() - 1 || (s.charAt(i) != ' ' && !Character.isDigit(s.charAt(i)))) {
                 switch (sign) {
                     case '+' -> stack.push(num);
                     case '-' -> stack.push(-num);
-                    case '/' -> stack.push(stack.pop() / num);
                     case '*' -> stack.push(stack.pop() * num);
+                    case '/' -> stack.push(stack.pop() / num);
                 }
                 sign = s.charAt(i);
                 num = 0;

@@ -6,23 +6,19 @@ import java.util.List;
 public class Q228 {
     public List<String> summaryRanges(int[] nums) {
         List<String> res = new ArrayList<>();
-        int left = 0, right = 0;
-        while (right < nums.length) {
-            while (right + 1 < nums.length && nums[right + 1] - nums[right] == 1) {
-                right++;
+        for (int i = 0; i < nums.length; i++) {
+            int start = nums[i], end = nums[i];
+            while (i + 1 < nums.length && nums[i] == nums[i + 1] - 1) {
+                end = nums[i + 1];
+                i++;
             }
-            add2List(res, nums[left], nums[right]);
-            right++;
-            left = right;
+            res.add(n2s(start, end));
         }
         return res;
     }
 
-    private void add2List(List<String> res, int n1, int n2) {
-        if (n1 == n2) {
-            res.add(String.valueOf(n1));
-        } else {
-            res.add(n1 + "->" + n2);
-        }
+    private String n2s(int start, int end) {
+        if (start == end) return String.valueOf(start);
+        return start + "->" + end;
     }
 }

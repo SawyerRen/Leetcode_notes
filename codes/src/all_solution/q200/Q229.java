@@ -1,23 +1,21 @@
 package all_solution.q200;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Q229 {
     public List<Integer> majorityElement(int[] nums) {
-        List<Integer> res = new ArrayList<>();
-        Integer major1 = null, major2 = null;
+        Integer res1 = null, res2 = null;
         int count1 = 0, count2 = 0;
         for (int num : nums) {
-            if (major1 != null && num == major1) {
+            if (res1 != null && num == res1) {
                 count1++;
-            } else if (major2 != null && num == major2) {
+            } else if (res2 != null && num == res2) {
                 count2++;
             } else if (count1 == 0) {
-                major1 = num;
+                res1 = num;
                 count1++;
             } else if (count2 == 0) {
-                major2 = num;
+                res2 = num;
                 count2++;
             } else {
                 count1--;
@@ -27,11 +25,12 @@ public class Q229 {
         count1 = 0;
         count2 = 0;
         for (int num : nums) {
-            if (num == major1) count1++;
-            if (major2 != null && num == major2) count2++;
+            if (res1 != null && num == res1) count1++;
+            else if (res2 != null && num == res2) count2++;
         }
-        if (count1 > nums.length / 3) res.add(major1);
-        if (count2 > nums.length / 3) res.add(major2);
+        List<Integer> res = new ArrayList<>();
+        if (count1 > nums.length / 3) res.add(res1);
+        if (count2 > nums.length / 3) res.add(res2);
         return res;
     }
 }
