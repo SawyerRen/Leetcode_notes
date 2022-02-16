@@ -8,8 +8,8 @@ public class Q234 {
         ListNode fast = head, slow = head, pre = head;
         while (fast != null && fast.next != null) {
             pre = slow;
-            fast = fast.next.next;
             slow = slow.next;
+            fast = fast.next.next;
         }
         pre.next = null;
         ListNode head2 = reverse(slow);
@@ -22,11 +22,14 @@ public class Q234 {
     }
 
     private ListNode reverse(ListNode head) {
-        if (head == null || head.next == null) return head;
-        ListNode next = head.next;
-        ListNode newHead = reverse(head.next);
-        head.next = null;
-        next.next = head;
-        return newHead;
+        ListNode dummy = new ListNode();
+        ListNode cur = head;
+        while (cur != null) {
+            ListNode next = cur.next;
+            cur.next = dummy.next;
+            dummy.next = cur;
+            cur = next;
+        }
+        return dummy.next;
     }
 }
