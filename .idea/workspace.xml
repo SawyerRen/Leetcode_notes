@@ -24,8 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q232.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q232.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q234.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q234.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q236.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q236.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q238.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q238.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q239.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q239.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,7 +384,8 @@
       <workItem from="1644766941767" duration="2148000" />
       <workItem from="1644858677466" duration="1856000" />
       <workItem from="1644939048062" duration="1558000" />
-      <workItem from="1645048131794" duration="906000" />
+      <workItem from="1645048131794" duration="1042000" />
+      <workItem from="1645110393432" duration="1190000" />
     </task>
     <servers />
   </component>
