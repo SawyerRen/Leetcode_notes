@@ -14,12 +14,10 @@ public class Q250 {
         if (root == null) return true;
         boolean left = helper(root.left);
         boolean right = helper(root.right);
-        if (left && right) {
-            if (root.left != null && root.left.val != root.val) return false;
-            if (root.right != null && root.right.val != root.val) return false;
-            count++;
-            return true;
-        }
-        return false;
+        boolean uniVal = true;
+        if (!left || (root.left != null && root.left.val != root.val)) uniVal = false;
+        if (!right || root.right != null && root.right.val != root.val) uniVal = false;
+        if (uniVal) count++;
+        return uniVal;
     }
 }

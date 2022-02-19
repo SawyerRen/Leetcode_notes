@@ -8,8 +8,8 @@ public class Q242 {
             hash[s.charAt(i) - 'a']++;
             hash[t.charAt(i) - 'a']--;
         }
-        for (int i : hash) {
-            if (i != 0) return false;
+        for (int i = 0; i < 26; i++) {
+            if (hash[i] != 0) return false;
         }
         return true;
     }

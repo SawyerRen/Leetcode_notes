@@ -1,38 +1,23 @@
 package all_solution.q200;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Q249 {
     public List<List<String>> groupStrings(String[] strings) {
-        List<List<String>> res = new ArrayList<>();
-        boolean[] visited = new boolean[strings.length];
-        for (int i = 0; i < strings.length; i++) {
-            if (visited[i]) continue;
-            ArrayList<String> list = new ArrayList<>();
-            list.add(strings[i]);
-            visited[i] = true;
-            for (int j = i + 1; j < strings.length; j++) {
-                if (canShift(strings[i], strings[j])) {
-                    list.add(strings[j]);
-                    visited[j] = true;
-                }
+        Map<String, List<String>> map = new HashMap<>();
+        for (String string : strings) {
+            StringBuilder builder = new StringBuilder();
+            for (int i = 1; i < string.length(); i++) {
+                int diff = string.charAt(i) - string.charAt(i - 1);
+                if (diff < 0) diff += 26;
+                builder.append(diff).append(",");
             }
-            res.add(list);
+            map.putIfAbsent(builder.toString(), new ArrayList<>());
+            map.get(builder.toString()).add(string);
         }
-        return res;
-    }
-
-    private boolean canShift(String s1, String s2) {
-        if (s1.length() != s2.length()) return false;
-        if (s1.length() == 1) return true;
-        int diff = s1.charAt(0) - s2.charAt(0);
-        if (diff < 0) diff += 26;
-        for (int i = 1; i < s1.length(); i++) {
-            int curDiff = s1.charAt(i) - s2.charAt(i);
-            if (curDiff < 0) curDiff += 26;
-            if (diff != curDiff) return false;
-        }
-        return true;
+        return new ArrayList<>(map.values());
     }
 }

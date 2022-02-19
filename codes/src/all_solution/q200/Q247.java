@@ -11,25 +11,25 @@ public class Q247 {
         map.put('0', '0');
         map.put('1', '1');
         map.put('6', '9');
-        map.put('9', '6');
         map.put('8', '8');
+        map.put('9', '6');
         List<String> res = new ArrayList<>();
         char[] chars = new char[n];
-        helper(res, map, chars, 0, n - 1);
+        helper(res, chars, map, 0, n - 1);
         return res;
     }
 
-    private void helper(List<String> res, Map<Character, Character> map, char[] chars, int left, int right) {
-        if (left > right) {
+    private void helper(List<String> res, char[] chars, Map<Character, Character> map, int left, int right) {
+        if (right < left) {
             res.add(new String(chars));
             return;
         }
-        for (Character key : map.keySet()) {
-            if (left == 0 && left < right && key == '0') continue;
-            if (left == right && (key == '6' || key == '9')) continue;
-            chars[left] = key;
-            chars[right] = map.get(key);
-            helper(res, map, chars, left + 1, right - 1);
+        for (Character c1 : map.keySet()) {
+            if (left == 0 && right != 0 && c1 == '0') continue;
+            if (left == right && (c1 == '6' || c1 == '9')) continue;
+            chars[left] = c1;
+            chars[right] = map.get(c1);
+            helper(res, chars, map, left + 1, right - 1);
         }
     }
 }

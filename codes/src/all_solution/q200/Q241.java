@@ -8,16 +8,15 @@ public class Q241 {
         List<Integer> res = new ArrayList<>();
         for (int i = 0; i < expression.length(); i++) {
             char c = expression.charAt(i);
-            if (c == '-' || c == '+' || c == '*' || c == '/') {
-                List<Integer> left = diffWaysToCompute(expression.substring(0, i));
-                List<Integer> right = diffWaysToCompute(expression.substring(i + 1));
-                for (Integer l : left) {
-                    for (Integer r : right) {
+            if (!Character.isDigit(c)) {
+                List<Integer> leftList = diffWaysToCompute(expression.substring(0, i));
+                List<Integer> rightList = diffWaysToCompute(expression.substring(i + 1));
+                for (Integer left : leftList) {
+                    for (Integer right : rightList) {
                         switch (c) {
-                            case '+' -> res.add(l + r);
-                            case '-' -> res.add(l - r);
-                            case '*' -> res.add(l * r);
-                            case '/' -> res.add(l / r);
+                            case '+' -> res.add(left + right);
+                            case '-' -> res.add(left - right);
+                            case '*' -> res.add(left * right);
                         }
                     }
                 }
