@@ -6,15 +6,14 @@ import java.util.PriorityQueue;
 
 public class Q253 {
     public int minMeetingRooms(int[][] intervals) {
-        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
-        PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a[1]));
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
         int res = 0;
         for (int[] interval : intervals) {
-            // interval start time > pq.peek end time
-            while (!pq.isEmpty() && interval[0] >= pq.peek()[1]) {
+            while (!pq.isEmpty() && interval[0] >= pq.peek()) {
                 pq.poll();
             }
-            pq.add(interval);
+            pq.add(interval[1]);
             res = Math.max(res, pq.size());
         }
         return res;
