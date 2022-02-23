@@ -23,21 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q256.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q258.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q260.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q261.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q263.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q264.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q266.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q267.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q268.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q269.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q270.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q271.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q272.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q274.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q275.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q257.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q257.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q259.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q259.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q262.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,13 +146,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -411,7 +403,8 @@
       <workItem from="1645286896730" duration="3237000" />
       <workItem from="1645385469260" duration="2207000" />
       <workItem from="1645456498173" duration="3637000" />
-      <workItem from="1645543130175" duration="3108000" />
+      <workItem from="1645543130175" duration="3160000" />
+      <workItem from="1645656842127" duration="1635000" />
     </task>
     <servers />
   </component>
@@ -435,7 +428,6 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1645543238787" />
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1636987086202" />
     <state x="1507" y="411" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1645286933577">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -445,39 +437,33 @@
     </state>
     <state width="1408" height="471" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1643417503732" />
     <state width="1218" height="471" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1637551160290" />
-    <state width="1730" height="334" key="GridCell.Tab.0.bottom/0.25.1792.1017@0.25.1792.1017" timestamp="1636991560295" />
     <state width="1408" height="471" key="GridCell.Tab.0.center" timestamp="1643417503732">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="1408" height="471" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1643417503732" />
     <state width="1218" height="471" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1637551160289" />
-    <state width="1730" height="334" key="GridCell.Tab.0.center/0.25.1792.1017@0.25.1792.1017" timestamp="1636991560295" />
     <state width="1408" height="471" key="GridCell.Tab.0.left" timestamp="1643417503731">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="1408" height="471" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1643417503731" />
     <state width="1218" height="471" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1637551160289" />
-    <state width="1730" height="334" key="GridCell.Tab.0.left/0.25.1792.1017@0.25.1792.1017" timestamp="1636991560294" />
     <state width="1408" height="471" key="GridCell.Tab.0.right" timestamp="1643417503732">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="1408" height="471" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1643417503732" />
     <state width="1218" height="471" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1637551160289" />
-    <state width="1730" height="334" key="GridCell.Tab.0.right/0.25.1792.1017@0.25.1792.1017" timestamp="1636991560295" />
     <state x="962" y="80" key="SettingsEditor" timestamp="1642951424024">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="962" y="80" key="SettingsEditor/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1642951424024" />
-    <state x="962" y="80" key="SettingsEditor/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1636952385630" />
     <state x="1437" y="115" key="new project wizard" timestamp="1642553188942">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1437" y="115" key="new project wizard/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1642553188942" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1645460130151">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1645657132608">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1645460130151" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.25.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1636949181146" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1645657132608" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
