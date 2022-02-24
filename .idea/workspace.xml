@@ -23,11 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q271.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q272.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q274.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q275.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q276.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q277.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q278.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q278.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q279.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q279.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,15 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -404,7 +402,8 @@
       <workItem from="1645385469260" duration="2207000" />
       <workItem from="1645456498173" duration="3637000" />
       <workItem from="1645543130175" duration="3160000" />
-      <workItem from="1645656842127" duration="1635000" />
+      <workItem from="1645656842127" duration="1855000" />
+      <workItem from="1645716796655" duration="2041000" />
     </task>
     <servers />
   </component>

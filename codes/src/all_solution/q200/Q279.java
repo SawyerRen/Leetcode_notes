@@ -13,37 +13,25 @@ public class Q279 {
             res++;
             int size = queue.size();
             for (int i = 0; i < size; i++) {
-                Integer num = queue.poll();
-                List<Integer> list = getSquares(num);
-                for (Integer square : list) {
-                    int next = num - square;
-                    if (next == 0) return res;
-                    if (visited[next]) continue;
-                    queue.add(next);
-                    visited[next] = true;
+                Integer poll = queue.poll();
+                List<Integer> nextList = getNext(poll);
+                for (Integer next : nextList) {
+                    int num = poll - next;
+                    if (num == 0) return res;
+                    if (visited[num]) continue;
+                    queue.add(num);
+                    visited[num] = true;
                 }
             }
         }
         return res;
     }
 
-    private List<Integer> getSquares(Integer num) {
-        List<Integer> list = new ArrayList<>();
-        for (int i = 1; i * i <= num; i++) {
-            list.add(i * i);
+    private List<Integer> getNext(Integer val) {
+        List<Integer> res = new ArrayList<>();
+        for (int i = 1; i <= val; i++) {
+            if (i * i <= val) res.add(i * i);
         }
-        return list;
-    }
-
-    public int numSquares1(int n) {
-        int[] dp = new int[n + 1];
-        Arrays.fill(dp, Integer.MAX_VALUE);
-        dp[0] = 0;
-        for (int i = 1; i < n + 1; i++) {
-            for (int j = 1; j * j <= i; j++) {
-                dp[i] = Math.min(dp[i], dp[i - j * j] + 1);
-            }
-        }
-        return dp[n];
+        return res;
     }
 }
