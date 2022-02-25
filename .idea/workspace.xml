@@ -23,11 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q276.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q277.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q281.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q282.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q283.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q284.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q285.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q289.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q290.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q278.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q278.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q279.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q279.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q286.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q286.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q287.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q287.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,13 +151,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -403,7 +410,8 @@
       <workItem from="1645456498173" duration="3637000" />
       <workItem from="1645543130175" duration="3160000" />
       <workItem from="1645656842127" duration="1855000" />
-      <workItem from="1645716796655" duration="2041000" />
+      <workItem from="1645716796655" duration="2291000" />
+      <workItem from="1645804319320" duration="3006000" />
     </task>
     <servers />
   </component>
@@ -459,10 +467,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1437" y="115" key="new project wizard/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1642553188942" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1645657132608">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1645807597790">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1645657132608" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1645807597790" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
