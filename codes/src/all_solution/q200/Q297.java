@@ -11,7 +11,7 @@ public class Q297 {
 
 }
 
-class Codec {
+public class Codec {
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
@@ -38,9 +38,12 @@ class Codec {
 
     private TreeNode des(Queue<String> queue) {
         if (queue.size() == 0) return null;
-        String peek = queue.poll();
-        if (peek.equals("null")) return null;
-        TreeNode root = new TreeNode(Integer.parseInt(peek));
+        String poll = queue.poll();
+        if (poll.equals("null")) {
+            return null;
+        }
+        int val = Integer.parseInt(poll);
+        TreeNode root = new TreeNode(val);
         root.left = des(queue);
         root.right = des(queue);
         return root;
