@@ -11,7 +11,7 @@ class NumMatrix {
         preSum = new int[m + 1][n + 1];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                preSum[i + 1][j + 1] = preSum[i + 1][j] + preSum[i][j + 1] - preSum[i][j] + matrix[i][j];
+                preSum[i + 1][j + 1] = matrix[i][j] + preSum[i][j + 1] + preSum[i + 1][j] - preSum[i][j];
             }
         }
     }
