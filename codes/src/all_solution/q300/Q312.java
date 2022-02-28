@@ -9,10 +9,11 @@ public class Q312 {
         System.arraycopy(nums, 0, balloons, 1, nums.length);
         int[][] dp = new int[balloons.length][balloons.length];
         for (int len = 2; len <= balloons.length; len++) {
-            for (int i = 0; i + len < balloons.length; i++) {
-                int right = i + len;
-                for (int k = i + 1; k < right; k++) {
-                    dp[i][right] = Math.max(dp[i][right], dp[i][k] + dp[k][right] + balloons[i] * balloons[k] * balloons[right]);
+            for (int left = 0; left + len < balloons.length; left++) {
+                int right = left + len;
+                for (int k = left + 1; k < right; k++) {
+                    dp[left][right] = Math.max(dp[left][right],
+                            dp[left][k] + dp[k][right] + balloons[left] * balloons[k] * balloons[right]);
                 }
             }
         }
