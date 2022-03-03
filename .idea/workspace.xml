@@ -23,11 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q323.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q324.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q325.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q1200/Q1249.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q200/Q200.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q500/Q560.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q300/Q322.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q322.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,13 +153,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -409,7 +418,8 @@
       <workItem from="1645976478320" duration="5078000" />
       <workItem from="1646061220697" duration="1031000" />
       <workItem from="1646146763917" duration="2487000" />
-      <workItem from="1646261477064" duration="904000" />
+      <workItem from="1646261477064" duration="952000" />
+      <workItem from="1646320541482" duration="5226000" />
     </task>
     <servers />
   </component>
@@ -429,10 +439,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1646061304440">
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1646321889813">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1646061304440" />
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1646321889813" />
     <state x="1507" y="411" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1645286933577">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
