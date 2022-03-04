@@ -23,17 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q56.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q146.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q1200/Q1249.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q200/Q200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q500/Q560.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q0/Q5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q1200/Q1235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q1300/Q1396.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q200/Q253.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q300/Q380.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q500/Q528.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q600/Q680.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q800/Q811.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q800/Q815.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,15 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -419,7 +419,8 @@
       <workItem from="1646061220697" duration="1031000" />
       <workItem from="1646146763917" duration="2487000" />
       <workItem from="1646261477064" duration="952000" />
-      <workItem from="1646320541482" duration="5226000" />
+      <workItem from="1646320541482" duration="5244000" />
+      <workItem from="1646408689591" duration="7632000" />
     </task>
     <servers />
   </component>
@@ -471,10 +472,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1437" y="115" key="new project wizard/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1642553188942" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1646262150923">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1646410537721">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1646262150923" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1646410537721" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
