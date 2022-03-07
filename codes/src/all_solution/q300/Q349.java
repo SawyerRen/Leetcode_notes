@@ -4,19 +4,26 @@ import java.util.*;
 
 public class Q349 {
     public int[] intersection(int[] nums1, int[] nums2) {
-        Set<Integer> set = new HashSet<>();
-        for (int i : nums1) {
-            set.add(i);
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+        List<Integer> list = new ArrayList<>();
+        int i = 0, j = 0;
+        while (i < nums1.length && j < nums2.length) {
+            if (nums1[i] == nums2[j]) {
+                int val = nums1[i];
+                list.add(val);
+                while (i < nums1.length && nums1[i] == val) i++;
+                while (j < nums2.length && nums2[j] == val) j++;
+            } else if (nums1[i] < nums2[j]) {
+                i++;
+            } else {
+                j++;
+            }
         }
-        Set<Integer> res = new HashSet<>();
-        for (int i : nums2) {
-            if (set.contains(i)) res.add(i);
+        int[] res = new int[list.size()];
+        for (int k = 0; k < res.length; k++) {
+            res[k] = list.get(k);
         }
-        int[] out = new int[res.size()];
-        int i = 0;
-        for (Integer v : res) {
-            out[i++] = v;
-        }
-        return out;
+        return res;
     }
 }
