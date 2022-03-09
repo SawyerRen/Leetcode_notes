@@ -4,15 +4,14 @@ import java.util.Arrays;
 
 public class Q376 {
     public int wiggleMaxLength(int[] nums) {
-        int n = nums.length;
-        int up = 1, down = 1;
+        int low = 1, high = 1;
         for (int i = 1; i < nums.length; i++) {
             if (nums[i] > nums[i - 1]) {
-                up = down + 1;
+                high = low + 1;
             } else if (nums[i] < nums[i - 1]) {
-                down = up + 1;
+                low = high + 1;
             }
         }
-        return Math.max(up, down);
+        return Math.max(low, high);
     }
 }

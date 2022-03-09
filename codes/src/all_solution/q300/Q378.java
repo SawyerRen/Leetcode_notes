@@ -6,7 +6,7 @@ public class Q378 {
         int left = matrix[0][0], right = matrix[m - 1][n - 1];
         while (left < right) {
             int mid = left + (right - left) / 2;
-            int count = getSmaller(matrix, mid);
+            int count = getSmaller(matrix, mid, m, n);
             if (count >= k) {
                 right = mid;
             } else {
@@ -16,15 +16,15 @@ public class Q378 {
         return left;
     }
 
-    private int getSmaller(int[][] matrix, int mid) {
-        int i = matrix.length - 1, j = 0;
+    private int getSmaller(int[][] matrix, int mid, int m, int n) {
         int count = 0;
-        while (i >= 0 && j < matrix[0].length) {
-            if (matrix[i][j] > mid) {
-                i--;
-            } else {
+        int i = m - 1, j = 0;
+        while (i >= 0 && j < n) {
+            if (matrix[i][j] <= mid) {
                 count += i + 1;
                 j++;
+            } else {
+                i--;
             }
         }
         return count;

@@ -2,18 +2,15 @@ package all_solution.q300;
 
 public class Q367 {
     public boolean isPerfectSquare(int num) {
-        if (num == 1) return true;
-        long left = 0, right = num / 2;
-        while (left <= right) {
-            long mid = left + (right - left) / 2;
-            long square = mid * mid;
-            if (square == num) return true;
-            if (square < num) {
-                left = mid + 1;
+        int left = 1, right = num / 2;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (num / mid <= mid) {
+                right = mid;
             } else {
-                right = mid - 1;
+                left = mid + 1;
             }
         }
-        return false;
+        return left * left == num;
     }
 }
