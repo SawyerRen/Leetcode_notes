@@ -10,17 +10,19 @@ public class Q416 {
         }
         if (sum % 2 != 0) return false;
         sum /= 2;
-        boolean[][] dp = new boolean[sum + 1][nums.length + 1];
-        Arrays.fill(dp[0], true);
-        for (int i = 1; i < sum + 1; i++) {
-            for (int j = 1; j < nums.length + 1; j++) {
-                if (i >= nums[j - 1]) {
-                    dp[i][j] = dp[i - nums[j - 1]][j - 1] || dp[i][j - 1];
+        boolean[][] dp = new boolean[nums.length + 1][sum + 1];
+        for (int i = 0; i < dp.length; i++) {
+            dp[i][0] = true;
+        }
+        for (int i = 1; i < dp.length; i++) {
+            for (int j = 1; j < sum + 1; j++) {
+                if (j - nums[i - 1] >= 0) {
+                    dp[i][j] = dp[i - 1][j] || dp[i - 1][j - nums[i - 1]];
                 } else {
-                    dp[i][j] = dp[i][j - 1];
+                    dp[i][j] = dp[i - 1][j];
                 }
             }
         }
-        return dp[sum][nums.length];
+        return dp[nums.length][sum];
     }
 }
