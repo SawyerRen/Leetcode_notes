@@ -6,7 +6,7 @@ public class Q518 {
         dp[0] = 1;
         for (int coin : coins) {
             for (int i = 1; i < amount + 1; i++) {
-                if (i - coin >= 0) {
+                if (i >= coin) {
                     dp[i] += dp[i - coin];
                 }
             }
