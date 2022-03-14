@@ -5,24 +5,31 @@ import java.util.List;
 
 public class Q539 {
     public int findMinDifference(List<String> timePoints) {
-        timePoints.sort(this::timeDiff);
-        int res = Integer.MAX_VALUE;
-        for (int i = 0; i < timePoints.size() - 1; i++) {
-            int diff = timeDiff(timePoints.get(i + 1), timePoints.get(i));
-            if (diff < res) {
-                res = diff;
+        boolean[] marked = new boolean[24 * 60];
+        int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
+        for (String timePoint : timePoints) {
+            String[] split = timePoint.split(":");
+            int h = Integer.parseInt(split[0]);
+            int m = Integer.parseInt(split[1]);
+            int time = h * 60 + m;
+            min = Math.min(min, time);
+            max = Math.max(max, time);
+            if (marked[time]) return 0;
+            marked[time] = true;
+        }
+        int res = Integer.MAX_VALUE, pre = -1;
+        int first = Integer.MAX_VALUE, last = Integer.MIN_VALUE;
+        for (int i = min; i <= max; i++) {
+            if (marked[i]) {
+                if (pre != -1) {
+                    res = Math.min(res, i - pre);
+                }
+                pre = i;
+                first = Math.min(first, i);
+                last = Math.max(last, i);
             }
         }
-        res = Math.min(res, timeDiff(timePoints.get(0), timePoints.get(timePoints.size() - 1)) + 1440);
+        res = Math.min(res, first - last + 24 * 60);
         return res;
-    }
-
-    private int timeDiff(String a, String b) {
-        String[] split1 = a.split(":"), split2 = b.split(":");
-        int hour1 = Integer.parseInt(split1[0]);
-        int hour2 = Integer.parseInt(split2[0]);
-        int min1 = Integer.parseInt(split1[1]);
-        int min2 = Integer.parseInt(split2[1]);
-        return hour1 * 60 + min1 - (hour2 * 60 + min2);
     }
 }
