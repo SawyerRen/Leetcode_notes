@@ -3,8 +3,8 @@ package company.fbfinal;
 public class Q605 {
     public boolean canPlaceFlowers1(int[] flowerbed, int n) {
         int count = 0, cur = 1;
-        for (int i = 0; i < flowerbed.length; i++) {
-            if (flowerbed[i] == 0) {
+        for (int j : flowerbed) {
+            if (j == 0) {
                 cur++;
             } else {
                 count += (cur - 1) / 2;
