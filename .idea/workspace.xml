@@ -23,24 +23,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q581.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q582.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q588.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q500/Q593.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q605.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q609.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q611.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q616.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q617.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q621.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q622.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q628.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q636.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q637.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q642.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q647.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q652.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/company/fbfinal/Q605.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/company/fbfinal/Q605.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q653.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q658.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q662.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q669.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q670.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q671.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q678.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q680.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q692.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q694.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q695.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q696.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q697.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q701.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q703.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q706.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q600/Q698.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q600/Q698.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +154,19 @@
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="codes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -429,7 +441,7 @@
       <workItem from="1647357242403" duration="1440000" />
       <workItem from="1647360007523" duration="401000" />
       <workItem from="1647360634690" duration="9357000" />
-      <workItem from="1647391602592" duration="252000" />
+      <workItem from="1647391602592" duration="9557000" />
     </task>
     <servers />
   </component>
@@ -449,10 +461,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1647379653473">
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1647452341061">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647379653473" />
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647452341061" />
     <state x="1507" y="411" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1645286933577">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -481,18 +493,18 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1437" y="115" key="new project wizard/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1642553188942" />
-    <state x="1598" y="402" key="refactoring.ChangeSignatureDialog" timestamp="1647204252182">
+    <state x="1598" y="402" key="refactoring.ChangeSignatureDialog" timestamp="1647448932758">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1598" y="402" key="refactoring.ChangeSignatureDialog/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647204252182" />
+    <state x="1598" y="402" key="refactoring.ChangeSignatureDialog/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647448932758" />
     <state x="1417" y="316" key="run.anything.popup" timestamp="1647376409166">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1417" y="316" key="run.anything.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647376409166" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1647374094500">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1647444652005">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647374094500" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647444652005" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
