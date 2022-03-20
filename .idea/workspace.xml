@@ -23,14 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q778.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q785.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q787.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q791.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q792.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q794.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q796.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q700/Q797.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q814.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q815.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q827.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q828.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q833.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q836.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q844.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q845.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q849.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q852.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q856.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q865.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q800/Q863.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q863.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -433,7 +438,9 @@
       <workItem from="1647391602592" duration="9931000" />
       <workItem from="1647525782840" duration="5075000" />
       <workItem from="1647532947052" duration="8215000" />
-      <workItem from="1647615538072" duration="5926000" />
+      <workItem from="1647615538072" duration="6342000" />
+      <workItem from="1647704068250" duration="1341000" />
+      <workItem from="1647784279949" duration="7841000" />
     </task>
     <servers />
   </component>
@@ -493,10 +500,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1417" y="316" key="run.anything.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647376409166" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1647620503014">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1647794703481">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647620503014" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647794703481" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
