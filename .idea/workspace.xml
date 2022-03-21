@@ -23,19 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q814.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q815.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q827.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q828.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q833.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q836.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q844.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q845.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q849.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q852.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q856.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q865.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q800/Q863.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q863.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q871.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q875.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q876.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q881.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q886.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q894.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q895.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q800/Q896.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +49,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="cb1988d4-ff2d-429c-b021-0c69717de5b7" />
+  <component name="KotlinMultiplatform">
+    <allAvailableExecutables />
+  </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="jhayqlv0" />
   </component>
@@ -154,13 +152,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -440,7 +440,10 @@
       <workItem from="1647532947052" duration="8215000" />
       <workItem from="1647615538072" duration="6342000" />
       <workItem from="1647704068250" duration="1341000" />
-      <workItem from="1647784279949" duration="7841000" />
+      <workItem from="1647784279949" duration="8469000" />
+      <workItem from="1647873996030" duration="52000" />
+      <workItem from="1647887504123" duration="561000" />
+      <workItem from="1647896170077" duration="3744000" />
     </task>
     <servers />
   </component>
@@ -500,10 +503,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1417" y="316" key="run.anything.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647376409166" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1647794703481">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1647900033587">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647794703481" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647900033587" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
