@@ -8,17 +8,17 @@ public class Q901 {
 }
 
 class StockSpanner {
-    class PriceItem {
+    class Stock {
         int price;
         int span;
 
-        public PriceItem(int price, int span) {
+        public Stock(int price, int span) {
             this.price = price;
             this.span = span;
         }
     }
 
-    Stack<PriceItem> stack;
+    Stack<Stock> stack;
 
     public StockSpanner() {
         stack = new Stack<>();
@@ -29,7 +29,7 @@ class StockSpanner {
         while (!stack.isEmpty() && price >= stack.peek().price) {
             span += stack.pop().span;
         }
-        stack.push(new PriceItem(price, span));
+        stack.push(new Stock(price, span));
         return span;
     }
 }
