@@ -7,23 +7,23 @@ public class Q935 {
     int mod = 1000000000 + 7;
 
     public int knightDialer(int n) {
-        int res = 0;
         int[][] memo = new int[n + 1][10];
-        for (int i = 0; i < n + 1; i++) {
-            Arrays.fill(memo[i], -1);
+        for (int[] row : memo) {
+            Arrays.fill(row, -1);
         }
+        int res = 0;
         for (int i = 0; i < 10; i++) {
-            res = (res + helper(memo, i, n)) % mod;
+            res = (res + helper(memo, n, i)) % mod;
         }
         return res;
     }
 
-    private int helper(int[][] memo, int i, int n) {
-        if (memo[n][i] != -1) return memo[n][i];
+    private int helper(int[][] memo, int n, int i) {
         if (n == 1) return 1;
+        if (memo[n][i] != -1) return memo[n][i];
         int res = 0;
         for (int next : nums[i]) {
-            res = (res + helper(memo, next, n - 1)) % mod;
+            res = (res + helper(memo, n - 1, next)) % mod;
         }
         memo[n][i] = res;
         return res;

@@ -23,11 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q905.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q907.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q921.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q926.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q900/Q901.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q901.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q929.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q934.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q937.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q938.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q939.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q946.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q947.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q953.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q958.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q973.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q900/Q935.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q900/Q935.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +151,19 @@
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="codes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -429,7 +448,7 @@
       <workItem from="1647887504123" duration="561000" />
       <workItem from="1647896170077" duration="3868000" />
       <workItem from="1647960146059" duration="3967000" />
-      <workItem from="1647999924305" duration="346000" />
+      <workItem from="1647999924305" duration="5140000" />
     </task>
     <servers />
   </component>
@@ -449,10 +468,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1647960407985">
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1648053160472">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647960407985" />
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1648053160472" />
     <state x="1507" y="411" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1647532881252">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -489,10 +508,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1417" y="316" key="run.anything.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647376409166" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1647963312650">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1648053957239">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647963312650" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1648053957239" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
