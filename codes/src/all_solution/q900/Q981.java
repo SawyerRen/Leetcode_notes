@@ -6,52 +6,43 @@ import java.util.List;
 import java.util.Map;
 
 public class Q981 {
-}
+    class TimeMap {
+        class TimeNode {
+            String value;
+            int timestamp;
 
-class TimeMap {
-    class TimeNode {
-        String val;
-        int timestamp;
-
-        public TimeNode(String val, int timestamp) {
-            this.val = val;
-            this.timestamp = timestamp;
-        }
-    }
-
-    Map<String, List<TimeNode>> map = new HashMap<>();
-
-    /**
-     * Initialize your data structure here.
-     */
-    public TimeMap() {
-
-    }
-
-    public void set(String key, String value, int timestamp) {
-        TimeNode node = new TimeNode(value, timestamp);
-        if (!map.containsKey(key)) map.put(key, new ArrayList<>());
-        map.get(key).add(node);
-    }
-
-    public String get(String key, int timestamp) {
-        if (!map.containsKey(key)) return "";
-        return search(map.get(key), timestamp);
-    }
-
-    private String search(List<TimeNode> list, int timestamp) {
-        int left = 0, right = list.size();
-        while (left < right) {
-            int mid = left + (right - left) / 2;
-            if (list.get(mid).timestamp > timestamp) {
-                right = mid;
-            } else {
-                left = mid + 1;
+            public TimeNode(String value, int timestamp) {
+                this.value = value;
+                this.timestamp = timestamp;
             }
         }
-        left--;
-        if (left < 0) return "";
-        if (list.get(left).timestamp > timestamp) return "";
-        return list.get(left).val;
+
+        Map<String, List<TimeNode>> map = new HashMap<>();
+
+        public TimeMap() {
+
+        }
+
+        public void set(String key, String value, int timestamp) {
+            TimeNode timeNode = new TimeNode(value, timestamp);
+            map.putIfAbsent(key, new ArrayList<>());
+            map.get(key).add(timeNode);
+        }
+
+        public String get(String key, int timestamp) {
+            if (!map.containsKey(key)) return "";
+            List<TimeNode> list = map.get(key);
+            int left = 0, right = list.size();
+            while (left < right) {
+                int mid = left + (right - left) / 2;
+                if (list.get(mid).timestamp > timestamp) right = mid;
+                else left = mid + 1;
+            }
+            left--;
+            if (left < 0 || list.get(left).timestamp > timestamp) return "";
+            return list.get(left).value;
+        }
     }
 }
+
+
