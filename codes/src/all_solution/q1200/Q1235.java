@@ -16,13 +16,17 @@ public class Q1235 {
         for (int i = n - 2; i >= 0; i--) {
             int end = time[i][1];
             int nextJobIndex = search(time, end, i);
-            dp[i] = Math.max(dp[i + 1], time[i][2] + dp[nextJobIndex]);
+            if (nextJobIndex == -1) {
+                dp[i] = Math.max(dp[i + 1], time[i][2]);
+            } else {
+                dp[i] = Math.max(dp[i + 1], time[i][2] + dp[nextJobIndex]);
+            }
         }
         return dp[0];
     }
 
     private int search(int[][] time, int end, int start) {
-        int left = start, right = time.length;
+        int left = start + 1, right = time.length;
         while (left < right) {
             int mid = left + (right - left) / 2;
             if (time[mid][0] >= end) {
@@ -31,6 +35,6 @@ public class Q1235 {
                 left = mid + 1;
             }
         }
-        return left;
+        return left < time.length && time[left][0] >= end ? left : -1;
     }
 }
