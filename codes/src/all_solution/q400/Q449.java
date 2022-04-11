@@ -8,7 +8,7 @@ import java.util.LinkedList;
 public class Q449 {
 }
 
-public class Codec {
+class Codec {
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {

@@ -7,7 +7,7 @@ import java.util.Queue;
 public class Q281 {
 }
 
-public class ZigzagIterator {
+class ZigzagIterator {
     Queue<Integer> queue = new LinkedList<>();
 
     public ZigzagIterator(List<Integer> v1, List<Integer> v2) {

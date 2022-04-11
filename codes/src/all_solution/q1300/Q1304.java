@@ -1,4 +1,4 @@
-package all_solution.q1200;
+package all_solution.q1300;
 
 public class Q1304 {
     public int[] sumZero(int n) {
