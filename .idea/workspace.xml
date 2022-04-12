@@ -23,166 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1312.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1319.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1326.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1328.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1329.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1331.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1339.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1345.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q1200/Q1304.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1304.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q1200/Q1305.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1305.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q1200/Q1306.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1306.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q281.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q281.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q200/Q297.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q200/Q297.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q300/Q341.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q300/Q341.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q400/Q449.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q400/Q449.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/BSTIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/BSTIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/DoubleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/LRUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/MinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/MinStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q127.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q127.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q128.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q128.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q130.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q130.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q131.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q131.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q133.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q133.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q134.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q134.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q135.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q135.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q137.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q137.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q138.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q138.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q139.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q139.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q140.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q140.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q142.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q142.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q143.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q143.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q144.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q144.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q145.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q145.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q147.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q147.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q148.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q148.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q150.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q150.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q151.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q151.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q152.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q152.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q154.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q154.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q156.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q156.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q157.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q157.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q158.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q158.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q159.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q159.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q160.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q160.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q161.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q161.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q163.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q163.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q165.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q165.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q167.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q167.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q168.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q168.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q169.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q169.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q171.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q171.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q173.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q173.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q174.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q174.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q179.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q179.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q187.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q187.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q189.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q189.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q198.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q198.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q199.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q199.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/Q200.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q100/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q100/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q1000/Q1004.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q1000/Q1004.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q1100/Q1010.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q1200/Q1235.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q1200/Q1235.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q1200/Q1249.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q1200/Q1249.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Codec.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Codec.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/MyQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/MyStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q201.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q201.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q202.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q202.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q204.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q204.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q206.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q206.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q207.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q207.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q208.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q208.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q209.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q209.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q210.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q210.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q212$Trie$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q212$Trie$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q212$Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q212$Trie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q212.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q212.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q213.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q213.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q215.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q215.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q216.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q216.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q217.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q217.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q219.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q219.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q221.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q221.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q222.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q222.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q223.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q223.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q224.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q224.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q226.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q226.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q227.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q227.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q228.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q228.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q229.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q229.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q230.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q230.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q234.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q234.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q235.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q235.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q236.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q236.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q238.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q238.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q239.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q239.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q240.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q240.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q241.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q241.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q242.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q242.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q243.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q243.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q245.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q245.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q246.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q246.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q247.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q247.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q248.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q248.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q249.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q249.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q250.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q250.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q253.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q253.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q257.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q257.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q259.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q259.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q278.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q278.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q279.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q279.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q286.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q286.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q287.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q287.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q300.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Q300.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Trie$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/Trie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/WordDictionary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/WordDictionary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q200/WordDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q200/WordDistance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/NumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/NumArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/NumMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/NumMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q309.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q309.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q312.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q312.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q317.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q317.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q322.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q322.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q328.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q328.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q337.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q337.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q343.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q343.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q349.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q349.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q350.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q350.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q367.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q367.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q376.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q376.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q377.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q377.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q378.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q300/Q378.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q400/Q416.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q400/Q416.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q400/Q438.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q400/Q438.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q400/Q445.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q400/Q445.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q400/Q490.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q400/Q490.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q400/Q494.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q400/Q494.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q500/Q503.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q500/Q503.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q500/Q518.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q500/Q518.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q500/Q539.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q500/Q539.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q600/Q698.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q600/Q698.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q700/Q735.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q700/Q735.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q700/Q739.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q700/Q739.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q700/Q740.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q700/Q740.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q800/Q863.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q800/Q863.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q900/Q901.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q900/Q901.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q900/Q935.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q900/Q935.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q900/Q981.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q900/Q981.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q900/StockSpanner$PriceItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q900/StockSpanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q900/TimeMap$TimeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q900/TimeMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/company/fbfinal/Q605.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/company/fbfinal/Q605.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1351.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1352.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1353.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1353.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +84,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -610,7 +454,9 @@
       <workItem from="1649093753991" duration="282000" />
       <workItem from="1649170418968" duration="1005000" />
       <workItem from="1649256915599" duration="117000" />
-      <workItem from="1649686410734" duration="3187000" />
+      <workItem from="1649686410734" duration="3467000" />
+      <workItem from="1649696386703" duration="59000" />
+      <workItem from="1649771229311" duration="2834000" />
     </task>
     <servers />
   </component>
@@ -654,10 +500,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="1218" height="471" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1649094036117" />
-    <state x="962" y="80" key="SettingsEditor" timestamp="1649257032290">
+    <state x="962" y="80" key="SettingsEditor" timestamp="1649696425403">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="962" y="80" key="SettingsEditor/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1649257032290" />
+    <state x="962" y="80" key="SettingsEditor/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1649696425403" />
     <state x="1437" y="115" key="new project wizard" timestamp="1642553188942">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
