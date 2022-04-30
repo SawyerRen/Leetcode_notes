@@ -23,15 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1381.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1382.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1395.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1300/Q1396.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1400.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/huawei/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/company/huawei/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/cs411.cypher" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/codes/all_solution/q1300/Q1353.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codes/all_solution/q1300/Q1353.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1405.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1413.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1423.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1424.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1428.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1429.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/cs411.cypher" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/cs411.cypher" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +87,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -469,7 +467,11 @@
       <workItem from="1650481039445" duration="4193000" />
       <workItem from="1650558921107" duration="614000" />
       <workItem from="1650725845047" duration="6000" />
-      <workItem from="1650725853873" duration="2251000" />
+      <workItem from="1650725853873" duration="2497000" />
+      <workItem from="1650756750858" duration="28000" />
+      <workItem from="1650757810952" duration="17000" />
+      <workItem from="1650989859654" duration="1196000" />
+      <workItem from="1651328248419" duration="4046000" />
     </task>
     <servers />
   </component>
@@ -489,10 +491,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1650212517897">
+    <state x="1594" y="462" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650756767242">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1650212517897" />
+    <state x="1594" y="462" key="#com.intellij.fileTypes.FileTypeChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1650756767242" />
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1651328608368">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1651328608368" />
     <state x="1507" y="411" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1647532881252">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -513,14 +519,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="471" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1650467929913" />
-    <state x="962" y="80" key="SettingsEditor" timestamp="1650480845331">
+    <state x="962" y="80" key="SettingsEditor" timestamp="1650757826171">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="962" y="80" key="SettingsEditor/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1650480845331" />
-    <state x="1437" y="115" key="new project wizard" timestamp="1642553188942">
-      <screen x="0" y="25" width="2560" height="1330" />
-    </state>
-    <state x="1437" y="115" key="new project wizard/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1642553188942" />
+    <state x="962" y="80" key="SettingsEditor/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1650757826171" />
     <state x="1598" y="402" key="refactoring.ChangeSignatureDialog" timestamp="1647622382477">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>

@@ -45,3 +45,10 @@ RETURN length(path), p1.actor_name, p2.actor_name
   ORDER BY length(path);
 
 
+MATCH (movie: Movie)
+WHERE movie.movie_name IN ['Spider-Man', 'Eternals' ,'Ant-Man', 'Iron Man 1', 'Iron Man 2', 'Iron Man 3']
+SET movie.production_company = 'Marvel Studios'
+RETURN movie.movie_name, movie.ratings, movie.production_company
+ORDER BY movie.movie_name ASC;
+
+
