@@ -23,13 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1405.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1413.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1423.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1424.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1428.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1429.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/cs411.cypher" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/cs411.cypher" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1438.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1446.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1448.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1465.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1470.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1472.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1477.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1480.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1481.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1492.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1400/Q1498.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,17 +151,6 @@
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="codes" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -471,7 +464,8 @@
       <workItem from="1650756750858" duration="28000" />
       <workItem from="1650757810952" duration="17000" />
       <workItem from="1650989859654" duration="1196000" />
-      <workItem from="1651328248419" duration="4046000" />
+      <workItem from="1651328248419" duration="4237000" />
+      <workItem from="1651589561205" duration="8251000" />
     </task>
     <servers />
   </component>
