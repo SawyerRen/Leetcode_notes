@@ -23,11 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1800/Q1823.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1800/Q1832.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1800/Q1834.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1800/Q1836.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1800/Q1854.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1800/Q1859.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1800/Q1861.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1800/Q1868.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1800/Q1891.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q1900/Q1920.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q1800/Q1856.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,17 +146,6 @@
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="codes" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -482,7 +472,8 @@
       <workItem from="1652231252210" duration="359000" />
       <workItem from="1652624362913" duration="4556000" />
       <workItem from="1652631539546" duration="1160000" />
-      <workItem from="1652730014595" duration="4694000" />
+      <workItem from="1652730014595" duration="5494000" />
+      <workItem from="1652798615664" duration="5204000" />
     </task>
     <servers />
   </component>
@@ -530,6 +521,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state width="2498" height="471" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1650467929913" />
+    <state x="1592" y="256" key="RollbackChangesDialog" timestamp="1652803218047">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1592" y="256" key="RollbackChangesDialog/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1652803218047" />
     <state x="650" y="142" key="SettingsEditor" timestamp="1652628929955">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -542,10 +537,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1417" y="316" key="run.anything.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647376409166" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1652023058626">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1652803336845">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1652023058626" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1652803336845" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
