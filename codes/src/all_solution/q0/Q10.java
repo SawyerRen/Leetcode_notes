@@ -1,4 +1,4 @@
-package topics.dp;
+package all_solution.q0;
 
 public class Q10 {
     public boolean isMatch(String s, String p) {
