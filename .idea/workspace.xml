@@ -23,12 +23,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q2000/Q2096.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q2100/Q2103.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q2100/Q2104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q2100/Q2115.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q2100/Q2130.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q2100/Q2135.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q2100/Q2187.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q100.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q22.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q23.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q24.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q25.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q26.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q27.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q28.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q29.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q30.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q31.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q32.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q33.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q34.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q35.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q36.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q37.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q38.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q39.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q40.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q41.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q42.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q43.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q44.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q45.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q46.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q47.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q48.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q49.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q50.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q51.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q52.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q53.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q54.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q55.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q56.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q57.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q58.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q59.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q61.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q62.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q63.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q64.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q65.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q66.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q67.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q69.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q70.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q71.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q72.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q73.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q74.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q75.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q76.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q77.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q78.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q79.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q80.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q81.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q82.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q83.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q84.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q85.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q86.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q88.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q90.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q91.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q92.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q93.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q94.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q95.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q96.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q97.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q98.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q0/Q99.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/all_solution/q2100/Q2178.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/all_solution/q2100/Q2178.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,15 +248,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -498,7 +588,9 @@
       <workItem from="1652907491300" duration="69000" />
       <workItem from="1652969848620" duration="145000" />
       <workItem from="1652986626626" duration="3878000" />
-      <workItem from="1653056014920" duration="7964000" />
+      <workItem from="1653056014920" duration="8015000" />
+      <workItem from="1653239444134" duration="1265000" />
+      <workItem from="1653761046468" duration="1548000" />
     </task>
     <servers />
   </component>

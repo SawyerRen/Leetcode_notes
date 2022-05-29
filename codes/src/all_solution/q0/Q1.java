@@ -12,6 +12,6 @@ public class Q1 {
             }
             map.put(nums[i], i);
         }
-        return null;
+        return new int[2];
     }
 }
