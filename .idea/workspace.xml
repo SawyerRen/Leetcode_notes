@@ -23,19 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q24.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q0/Q37.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,15 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -510,7 +502,8 @@
       <workItem from="1653761046468" duration="1548000" />
       <workItem from="1653841224100" duration="1846000" />
       <workItem from="1653848864362" duration="3724000" />
-      <workItem from="1653928605279" duration="5237000" />
+      <workItem from="1653928605279" duration="5392000" />
+      <workItem from="1654059902826" duration="2379000" />
     </task>
     <servers />
   </component>
@@ -590,10 +583,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1417" y="316" key="run.anything.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647376409166" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1653934305730">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1653934661092">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1653934305730" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1653934661092" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
