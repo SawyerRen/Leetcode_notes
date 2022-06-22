@@ -2,12 +2,13 @@ package frequency.q100;
 
 public class Q121 {
     public int maxProfit(int[] prices) {
-        int res = 0, minPrice = Integer.MAX_VALUE;
+        int min = prices[0];
+        int res = 0;
         for (int price : prices) {
-            if (minPrice > price) {
-                minPrice = price;
+            if (min > price) {
+                min = price;
             }
-            res = Math.max(res, price - minPrice);
+            res = Math.max(res, price - min);
         }
         return res;
     }
