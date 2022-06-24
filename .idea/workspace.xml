@@ -23,51 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q100/Q114.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q100/Q116.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q100/Q117.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q100/Q118.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q122.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q124.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q125.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q127.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q15.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q20.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q22.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q23.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q31.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q41.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q42.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q50.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q53.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q0/Q56.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q100/Q121.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q121.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q100/Q134.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q100/Q146.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q1200/Q1235.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q1200/Q1249.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q1300/Q1396.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q1700/Q1762.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q200/Q200.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q200/Q212.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q200/Q215.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q200/Q227.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q200/Q236.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q200/Q239.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q200/Q253.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q300/Q380.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q500/Q528.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q500/Q560.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q600/Q680.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q800/Q811.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q800/Q815.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q800/Q828.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/frequency/q900/Q973.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q128.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q129.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q133.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q134.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q139.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q140.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,15 +158,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -548,7 +509,8 @@
       <workItem from="1654447890134" duration="3687000" />
       <workItem from="1655657467448" duration="6719000" />
       <workItem from="1655785684411" duration="4328000" />
-      <workItem from="1655873709937" duration="3063000" />
+      <workItem from="1655873709937" duration="3418000" />
+      <workItem from="1656047814261" duration="2009000" />
     </task>
     <servers />
   </component>
@@ -624,14 +586,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1598" y="402" key="refactoring.ChangeSignatureDialog/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647622382477" />
-    <state x="1417" y="316" key="run.anything.popup" timestamp="1647376409166">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1656049774083">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1417" y="316" key="run.anything.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647376409166" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1655875076488">
-      <screen x="0" y="25" width="2560" height="1330" />
-    </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1655875076488" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1656049774083" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
