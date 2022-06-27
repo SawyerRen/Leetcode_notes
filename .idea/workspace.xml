@@ -23,14 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q128.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q129.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q133.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q134.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q136.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q138.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q139.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q140.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q141.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q142.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q143.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q150.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q151.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q152.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q155.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q160.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q162.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q167.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q179.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q189.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q198.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,13 +166,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -510,7 +520,8 @@
       <workItem from="1655657467448" duration="6719000" />
       <workItem from="1655785684411" duration="4328000" />
       <workItem from="1655873709937" duration="3418000" />
-      <workItem from="1656047814261" duration="2009000" />
+      <workItem from="1656047814261" duration="2069000" />
+      <workItem from="1656287779260" duration="6756000" />
     </task>
     <servers />
   </component>
@@ -534,14 +545,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1594" y="462" key="#com.intellij.fileTypes.FileTypeChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1650756767242" />
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1652732297784">
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1656293442181">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1652732297784" />
-    <state x="1507" y="411" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1647532881252">
-      <screen x="0" y="25" width="2560" height="1330" />
-    </state>
-    <state x="1507" y="411" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647532881252" />
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1656293442181" />
     <state width="1214" height="436" key="GridCell.Tab.0.bottom" timestamp="1652991231648">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -582,14 +589,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="650" y="142" key="SettingsEditor/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1652907496940" />
-    <state x="1598" y="402" key="refactoring.ChangeSignatureDialog" timestamp="1647622382477">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1656294908184">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="1598" y="402" key="refactoring.ChangeSignatureDialog/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1647622382477" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1656049774083">
-      <screen x="0" y="25" width="2560" height="1330" />
-    </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1656049774083" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1656294908184" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
