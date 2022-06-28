@@ -23,22 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q141.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q142.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q143.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q146.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q150.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q151.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q152.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q153.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q155.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q160.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q162.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q167.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q169.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q179.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q189.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q100/Q198.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q200/Q202.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q200/Q204.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q200/Q205.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q200/Q206.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q200/Q207.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,15 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -521,7 +508,8 @@
       <workItem from="1655785684411" duration="4328000" />
       <workItem from="1655873709937" duration="3418000" />
       <workItem from="1656047814261" duration="2069000" />
-      <workItem from="1656287779260" duration="6756000" />
+      <workItem from="1656287779260" duration="7512000" />
+      <workItem from="1656388979249" duration="2393000" />
     </task>
     <servers />
   </component>
