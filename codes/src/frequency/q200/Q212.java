@@ -1,4 +1,4 @@
-package all_solution.q200;
+package frequency.q200;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -11,26 +11,26 @@ public class Q212 {
         for (String word : words) {
             trie.insert(word);
         }
-        Set<String> res = new HashSet<>();
         int m = board.length, n = board[0].length;
+        Set<String> res = new HashSet<>();
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                helper(res, board, trie, i, j, m, n, "", new boolean[m][n]);
+                helper(board, i, j, m, n, trie, res, "", new boolean[m][n]);
             }
         }
         return new ArrayList<>(res);
     }
 
-    int[][] dirs = {{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+    int[][] dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 
-    private void helper(Set<String> res, char[][] board, Trie trie, int i, int j, int m, int n, String s, boolean[][] visited) {
-        if (i < 0 || j < 0 || i >= m || j >= n || visited[i][j]) return;
+    private void helper(char[][] board, int i, int j, int m, int n, Trie trie, Set<String> res, String s, boolean[][] visited) {
+        if (i < 0 || i >= m || j < 0 || j >= n || visited[i][j]) return;
         s += board[i][j];
         if (!trie.startsWith(s)) return;
         if (trie.search(s)) res.add(s);
         visited[i][j] = true;
         for (int[] dir : dirs) {
-            helper(res, board, trie, i + dir[0], j + dir[1], m, n, s, visited);
+            helper(board, i + dir[0], j + dir[1], m, n, trie, res, s, visited);
         }
         visited[i][j] = false;
     }
@@ -41,32 +41,23 @@ public class Q212 {
             boolean isWord;
         }
 
-        Node head;
+        Node root = new Node();
 
-        /**
-         * Initialize your data structure here.
-         */
         public Trie() {
-            head = new Node();
+
         }
 
-        /**
-         * Inserts a word into the trie.
-         */
         public void insert(String word) {
-            Node cur = head;
+            Node cur = root;
             for (char c : word.toCharArray()) {
-                if (cur.children[c - 'a'] == null) cur.children[c - 'a'] = new Trie.Node();
+                if (cur.children[c - 'a'] == null) cur.children[c - 'a'] = new Node();
                 cur = cur.children[c - 'a'];
             }
             cur.isWord = true;
         }
 
-        /**
-         * Returns if the word is in the trie.
-         */
         public boolean search(String word) {
-            Node cur = head;
+            Node cur = root;
             for (char c : word.toCharArray()) {
                 if (cur.children[c - 'a'] == null) return false;
                 cur = cur.children[c - 'a'];
@@ -74,11 +65,8 @@ public class Q212 {
             return cur.isWord;
         }
 
-        /**
-         * Returns if there is any word in the trie that starts with the given prefix.
-         */
         public boolean startsWith(String prefix) {
-            Node cur = head;
+            Node cur = root;
             for (char c : prefix.toCharArray()) {
                 if (cur.children[c - 'a'] == null) return false;
                 cur = cur.children[c - 'a'];
