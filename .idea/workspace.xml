@@ -23,12 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q300/Q359.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q300/Q362.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q300/Q364.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q300/Q366.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q300/Q373.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/frequency/q300/Q380.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q125.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q226.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q242.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q700/Q704.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q700/Q733.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -83,7 +88,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -516,7 +521,9 @@
       <workItem from="1656984830580" duration="3469000" />
       <workItem from="1656995250436" duration="3890000" />
       <workItem from="1657079299076" duration="4531000" />
-      <workItem from="1657168875842" duration="3402000" />
+      <workItem from="1657168875842" duration="3445000" />
+      <workItem from="1657257017900" duration="1740000" />
+      <workItem from="1657343135953" duration="3090000" />
     </task>
     <servers />
   </component>
@@ -536,6 +543,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1024" y="64" key="#Project_Structure" timestamp="1657344387473">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1024" y="64" key="#Project_Structure/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1657344387473" />
     <state x="1594" y="462" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650756767242">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -584,6 +595,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="650" y="142" key="SettingsEditor/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1652907496940" />
+    <state x="1470" y="196" key="new project wizard" timestamp="1657259581640">
+      <screen x="0" y="25" width="2560" height="1330" />
+    </state>
+    <state x="1470" y="196" key="new project wizard/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1657259581640" />
     <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1657171558622">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -599,5 +614,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
