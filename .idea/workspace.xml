@@ -23,16 +23,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q125.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q226.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q242.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q700/Q704.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q700/Q733.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q67.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q108.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q141.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q190.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q191.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q206.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q217.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q232.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q234.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q235.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q252.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q268.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q278.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q283.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q300/Q338.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q300/Q383.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q400/Q409.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q500/Q543.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q500/Q572.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q800/Q844.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q800/Q876.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -523,7 +544,9 @@
       <workItem from="1657079299076" duration="4531000" />
       <workItem from="1657168875842" duration="3445000" />
       <workItem from="1657257017900" duration="1740000" />
-      <workItem from="1657343135953" duration="3090000" />
+      <workItem from="1657343135953" duration="3131000" />
+      <workItem from="1657392181199" duration="4830000" />
+      <workItem from="1657413230902" duration="10104000" />
     </task>
     <servers />
   </component>
@@ -599,10 +622,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1470" y="196" key="new project wizard/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1657259581640" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1657171558622">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1657414167065">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1657171558622" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1657414167065" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
