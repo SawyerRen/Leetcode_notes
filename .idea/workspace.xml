@@ -23,21 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q57.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q98.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q133.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q150.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q155.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q207.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q208.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q238.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q300/Q322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q500/Q542.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q900/Q973.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q900/Q994.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +153,17 @@
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="codes" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -521,6 +523,7 @@
       <workItem from="1657392181199" duration="4830000" />
       <workItem from="1657413230902" duration="10435000" />
       <workItem from="1657509633870" duration="8757000" />
+      <workItem from="1657600756014" duration="3503000" />
     </task>
     <servers />
   </component>
