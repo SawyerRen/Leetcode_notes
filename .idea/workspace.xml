@@ -23,16 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q54.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q75.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q78.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q139.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q199.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q900/Q981.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/all_solution/q2300/Q2341.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q79.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q300/Q310.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q400/Q438.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q600/Q621.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,15 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -530,7 +526,10 @@
       <workItem from="1657413230902" duration="10435000" />
       <workItem from="1657509633870" duration="8757000" />
       <workItem from="1657600756014" duration="4178000" />
-      <workItem from="1657683368080" duration="3345000" />
+      <workItem from="1657683368080" duration="3591000" />
+      <workItem from="1657767491079" duration="2585000" />
+      <workItem from="1657949300432" duration="1812000" />
+      <workItem from="1658037151525" duration="460000" />
     </task>
     <servers />
   </component>
@@ -558,10 +557,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1594" y="462" key="#com.intellij.fileTypes.FileTypeChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1650756767242" />
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1657683526528">
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1657950709677">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1657683526528" />
+    <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1657950709677" />
     <state width="1214" height="436" key="GridCell.Tab.0.bottom" timestamp="1652991231648">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -606,10 +605,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1470" y="196" key="new project wizard/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1657259581640" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1657511348762">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1657950155560">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1657511348762" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1657950155560" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -618,6 +617,11 @@
           <url>file://$PROJECT_DIR$/codes/src/company/fbr3/Q67.java</url>
           <line>10</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codes/src/ng2022/q100/Q146.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
