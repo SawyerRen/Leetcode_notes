@@ -23,9 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q287.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q300/Q300.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q600/Q692.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/CountMaximumTeams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/CutOffRank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/FreshPromotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/Q1010.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/Q1167.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/Q1335.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/Q138.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +98,33 @@
       <recent name="$PROJECT_DIR$/notes/topics/Math" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FriendCount">
+  <component name="RunManager" selected="Application.CountMaximumTeams">
+    <configuration name="CountMaximumTeams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ng2022.oa.amazon.CountMaximumTeams" />
+      <module name="codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ng2022.oa.amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FreshPromotion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ng2022.oa.amazon.FreshPromotion" />
+      <module name="codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ng2022.oa.amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FriendCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ng2022.oa.citadel.FriendCount" />
       <module name="codes" />
@@ -121,32 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2007" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="all_solution.q2000.Q2007" />
-      <module name="codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="all_solution.q2000.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="company.huawei.Q3" />
-      <module name="codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="company.huawei.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SprintTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ng2022.oa.citadel.SprintTraining" />
       <module name="codes" />
@@ -160,24 +164,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountMaximumTeams" />
+        <item itemvalue="Application.FreshPromotion" />
         <item itemvalue="Application.FriendCount" />
         <item itemvalue="Application.SprintTraining" />
         <item itemvalue="Application.OddStrings" />
-        <item itemvalue="Application.Q2007" />
-        <item itemvalue="Application.Q3" />
       </list>
     </recent_temporary>
   </component>
@@ -532,7 +538,8 @@
       <workItem from="1657949300432" duration="1812000" />
       <workItem from="1658037151525" duration="1010000" />
       <workItem from="1658102630824" duration="5274000" />
-      <workItem from="1658206978620" duration="2804000" />
+      <workItem from="1658206978620" duration="3250000" />
+      <workItem from="1658289602401" duration="7848000" />
     </task>
     <servers />
   </component>
@@ -564,22 +571,22 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658208462545" />
-    <state width="1214" height="471" key="GridCell.Tab.0.bottom" timestamp="1658192683195">
+    <state width="1212" height="471" key="GridCell.Tab.0.bottom" timestamp="1658296409639">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1214" height="471" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658192683195" />
-    <state width="1214" height="471" key="GridCell.Tab.0.center" timestamp="1658192683194">
+    <state width="1212" height="471" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658296409639" />
+    <state width="1212" height="471" key="GridCell.Tab.0.center" timestamp="1658296409638">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1214" height="471" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658192683194" />
-    <state width="1214" height="471" key="GridCell.Tab.0.left" timestamp="1658192683194">
+    <state width="1212" height="471" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658296409638" />
+    <state width="1212" height="471" key="GridCell.Tab.0.left" timestamp="1658296409637">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1214" height="471" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658192683194" />
-    <state width="1214" height="471" key="GridCell.Tab.0.right" timestamp="1658192683195">
+    <state width="1212" height="471" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658296409637" />
+    <state width="1212" height="471" key="GridCell.Tab.0.right" timestamp="1658296409638">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1214" height="471" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658192683195" />
+    <state width="1212" height="471" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658296409638" />
     <state width="1214" height="436" key="GridCell.Tab.1.bottom" timestamp="1652991231648">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
