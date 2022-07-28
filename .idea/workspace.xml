@@ -23,12 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q84.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q124.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q224.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q300/Q329.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q300/Q347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q700/Q703.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q800/Q875.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,13 +162,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -541,7 +542,8 @@
       <workItem from="1658461928680" duration="6843000" />
       <workItem from="1658721925835" duration="5269000" />
       <workItem from="1658808887747" duration="4431000" />
-      <workItem from="1658896987731" duration="3032000" />
+      <workItem from="1658896987731" duration="3313000" />
+      <workItem from="1658984365427" duration="3105000" />
     </task>
     <servers />
   </component>
@@ -617,10 +619,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1470" y="196" key="new project wizard/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1657259581640" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1658900499921">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1658986901702">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658900499921" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658986901702" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
