@@ -23,11 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q239.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q300/Q347.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q700/Q703.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q800/Q875.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/imc/NumberOfMoves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/imc/Stack2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q51.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q695.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q100/Q131.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q200/Q286.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +98,7 @@
       <recent name="$PROJECT_DIR$/notes/topics/Math" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountMaximumTeams">
+  <component name="RunManager" selected="Application.Stack2">
     <configuration name="CountMaximumTeams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ng2022.oa.amazon.CountMaximumTeams" />
       <module name="codes" />
@@ -136,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ng2022.oa.citadel.OddStrings" />
+    <configuration name="SprintTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ng2022.oa.citadel.SprintTraining" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
@@ -149,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SprintTraining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ng2022.oa.citadel.SprintTraining" />
+    <configuration name="Stack2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ng2022.oa.imc.Stack2" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ng2022.oa.citadel.*" />
+          <option name="PATTERN" value="ng2022.oa.imc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stack2" />
         <item itemvalue="Application.CountMaximumTeams" />
         <item itemvalue="Application.FreshPromotion" />
         <item itemvalue="Application.FriendCount" />
         <item itemvalue="Application.SprintTraining" />
-        <item itemvalue="Application.OddStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -543,7 +545,11 @@
       <workItem from="1658721925835" duration="5269000" />
       <workItem from="1658808887747" duration="4431000" />
       <workItem from="1658896987731" duration="3313000" />
-      <workItem from="1658984365427" duration="3105000" />
+      <workItem from="1658984365427" duration="3543000" />
+      <workItem from="1659072056423" duration="820000" />
+      <workItem from="1659325295963" duration="320000" />
+      <workItem from="1659332119935" duration="1150000" />
+      <workItem from="1659410978125" duration="3241000" />
     </task>
     <servers />
   </component>
@@ -567,30 +573,26 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1024" y="64" key="#Project_Structure/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1657344387473" />
-    <state x="1594" y="462" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650756767242">
-      <screen x="0" y="25" width="2560" height="1330" />
-    </state>
-    <state x="1594" y="462" key="#com.intellij.fileTypes.FileTypeChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1650756767242" />
     <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1658208462545">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658208462545" />
-    <state width="1212" height="471" key="GridCell.Tab.0.bottom" timestamp="1658368827258">
+    <state width="1212" height="471" key="GridCell.Tab.0.bottom" timestamp="1659417073872">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1212" height="471" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658368827258" />
-    <state width="1212" height="471" key="GridCell.Tab.0.center" timestamp="1658368827257">
+    <state width="1212" height="471" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1659417073872" />
+    <state width="1212" height="471" key="GridCell.Tab.0.center" timestamp="1659417073871">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1212" height="471" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658368827257" />
-    <state width="1212" height="471" key="GridCell.Tab.0.left" timestamp="1658368827257">
+    <state width="1212" height="471" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1659417073871" />
+    <state width="1212" height="471" key="GridCell.Tab.0.left" timestamp="1659417073871">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1212" height="471" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658368827257" />
-    <state width="1212" height="471" key="GridCell.Tab.0.right" timestamp="1658368827258">
+    <state width="1212" height="471" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1659417073871" />
+    <state width="1212" height="471" key="GridCell.Tab.0.right" timestamp="1659417073871">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1212" height="471" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658368827258" />
+    <state width="1212" height="471" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1659417073871" />
     <state width="1214" height="436" key="GridCell.Tab.1.bottom" timestamp="1652991231648">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
@@ -619,10 +621,10 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="1470" y="196" key="new project wizard/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1657259581640" />
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1658986901702">
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup" timestamp="1659332945834">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1658986901702" />
+    <state x="777" y="25" width="1005" height="1466" key="search.everywhere.popup/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1659332945834" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
