@@ -1,8 +1,8 @@
-package ng2022.oa.amazon;
+package ng2022.oa.amazon.all;
 
 import java.util.PriorityQueue;
 
-public class Q1167 {
+public class AmazonFulfillmentBuilder {
     public int connectSticks(int[] sticks) {
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         for (int stick : sticks) {

@@ -1,10 +1,10 @@
-package ng2022.oa.amazon;
+package ng2022.oa.amazon.all;
 
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Q138 {
+public class CopyListWithRandomPointer {
     class Node {
         int val;
         Node next;

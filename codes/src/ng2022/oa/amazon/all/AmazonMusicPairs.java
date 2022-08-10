@@ -1,9 +1,9 @@
-package ng2022.oa.amazon;
+package ng2022.oa.amazon.all;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class Q1010 {
+public class AmazonMusicPairs {
     public int numPairsDivisibleBy60(int[] time) {
         Map<Integer, Integer> map = new HashMap<>();
         int res = 0;

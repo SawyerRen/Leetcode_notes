@@ -1,4 +1,4 @@
-package ng2022.oa.amazon;
+package ng2022.oa.amazon.all;
 
 import java.util.Arrays;
 import java.util.Comparator;

@@ -1,8 +1,8 @@
-package ng2022.oa.amazon;
+package ng2022.oa.amazon.all;
 
 import java.util.Arrays;
 
-public class Q1335 {
+public class BetaTesting {
     public int minDifficulty(int[] jobDifficulty, int d) {
         int n = jobDifficulty.length;
         if (jobDifficulty.length < d) return -1;
