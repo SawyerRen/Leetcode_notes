@@ -23,45 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5083d304-9d01-4ac0-9658-b21d911450f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/AmazonFreshDeliveries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/BreakAPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/DiskSpaceAnalysis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/DistanceBetweenNodesInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/DivisibilityOfStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/FetchItemsToDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/FillTheTruck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/FindTheHighestProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/FiveStarSeller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/FriendCircle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/ItemsInContainers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/KeywordSuggestions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/LabelingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/high/ApplicationPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/high/ChooseFleet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/high/DesignLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/high/FindEarlistMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/high/FindMiddleMaximumCapacity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/high/FindUniqueValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/high/MakePowerNonDecreasing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/high/MaxStockPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/high/MinHealth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/high/MinKeypadClickCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/high/SplitStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q43.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q0/Q72.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q700/Q746.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codes/src/ng2022/q700/Q778.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/amazon oa/Max stock price.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/amazon oa/Search word and result word.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes/amazon oa/九宫格键盘.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/CountMaximumTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/CountMaximumTeams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/CutOffRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/CutOffRank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/FreshPromotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/FreshPromotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/Q1010.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/AmazonMusicPairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/Q1167.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/AmazonFulfillmentBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/Q1335.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/BetaTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/Q138.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/all/CopyListWithRandomPointer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/high/SplitStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/codes/src/ng2022/oa/amazon/high/SplitStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,22 +92,9 @@
       <recent name="$PROJECT_DIR$/notes/topics/Math" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxStockPrice">
+  <component name="RunManager" selected="Application.SplitStrings">
     <configuration name="DiskSpaceAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ng2022.oa.amazon.all.DiskSpaceAnalysis" />
-      <module name="codes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ng2022.oa.amazon.high.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindMiddleMaximumCapacity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ng2022.oa.amazon.high.FindMiddleMaximumCapacity" />
       <module name="codes" />
       <extension name="coverage">
         <pattern>
@@ -196,26 +145,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="SplitStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ng2022.oa.amazon.high.SplitStrings" />
+      <module name="codes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ng2022.oa.amazon.high.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SplitStrings" />
         <item itemvalue="Application.MaxStockPrice" />
         <item itemvalue="Application.MakePowerNonDecreasing" />
         <item itemvalue="Application.DiskSpaceAnalysis" />
         <item itemvalue="Application.FindUniqueValues" />
-        <item itemvalue="Application.FindMiddleMaximumCapacity" />
       </list>
     </recent_temporary>
   </component>
@@ -586,6 +546,8 @@
       <workItem from="1659990195693" duration="7688000" />
       <workItem from="1660010298541" duration="7045000" />
       <workItem from="1660094518882" duration="2731000" />
+      <workItem from="1660100768151" duration="14000" />
+      <workItem from="1660102339265" duration="869000" />
     </task>
     <servers />
   </component>
@@ -613,22 +575,22 @@
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
     <state x="999" y="276" key="#com.intellij.ide.util.MemberChooser/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660024317844" />
-    <state width="1212" height="471" key="GridCell.Tab.0.bottom" timestamp="1660100752088">
+    <state width="1212" height="471" key="GridCell.Tab.0.bottom" timestamp="1660154890176">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1212" height="471" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660100752088" />
-    <state width="1212" height="471" key="GridCell.Tab.0.center" timestamp="1660100752088">
+    <state width="1212" height="471" key="GridCell.Tab.0.bottom/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660154890176" />
+    <state width="1212" height="471" key="GridCell.Tab.0.center" timestamp="1660154890175">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1212" height="471" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660100752088" />
-    <state width="1212" height="471" key="GridCell.Tab.0.left" timestamp="1660100752088">
+    <state width="1212" height="471" key="GridCell.Tab.0.center/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660154890175" />
+    <state width="1212" height="471" key="GridCell.Tab.0.left" timestamp="1660154890175">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1212" height="471" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660100752088" />
-    <state width="1212" height="471" key="GridCell.Tab.0.right" timestamp="1660100752088">
+    <state width="1212" height="471" key="GridCell.Tab.0.left/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660154890175" />
+    <state width="1212" height="471" key="GridCell.Tab.0.right" timestamp="1660154890175">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
-    <state width="1212" height="471" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660100752088" />
+    <state width="1212" height="471" key="GridCell.Tab.0.right/-1792.155.1792.1095/0.25.2560.1330@0.25.2560.1330" timestamp="1660154890175" />
     <state width="1212" height="436" key="GridCell.Tab.1.bottom" timestamp="1660001575072">
       <screen x="0" y="25" width="2560" height="1330" />
     </state>
